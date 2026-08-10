@@ -1,0 +1,87 @@
+{
+  "id": "c1",
+  "nombre": "Simulacro parcial · Sistema Político Mexicano",
+  "reactivos": [
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Cuál de los siguientes ejes describe correctamente el federalismo mexicano?",
+      "opciones": [
+        "La división vertical de competencias entre Federación, entidades federativas y municipios",
+        "La separación de funciones entre los poderes Ejecutivo, Legislativo y Judicial",
+        "La alternancia periódica de los partidos políticos en el gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "El federalismo (art. 40 CPEUM) es la división vertical del poder entre distintos niveles de gobierno. La separación de poderes (opción B) es el eje horizontal, y ninguno de los dos se refiere a la alternancia partidista."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Qué órgano del Poder Judicial de la Federación es la máxima autoridad jurisdiccional en materia electoral?",
+      "opciones": [
+        "La Suprema Corte de Justicia de la Nación",
+        "El Tribunal Electoral del Poder Judicial de la Federación",
+        "El Consejo de la Judicatura Federal"
+      ],
+      "correcta": 1,
+      "explicacion": "El TEPJF es la máxima autoridad jurisdiccional en la materia, salvo en las acciones de inconstitucionalidad contra leyes electorales, que competen a la SCJN."
+    },
+    {
+      "formato": "Completamiento",
+      "base": "Son ciudadanos de la República quienes, siendo mexicanos, hayan cumplido 18 años y tengan un ______.",
+      "opciones": [
+        "modo honesto de vivir",
+        "título profesional vigente",
+        "domicilio fijo comprobable"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 34 constitucional fija dos requisitos: ser mexicano y mayor de 18 años, y tener un modo honesto de vivir; no exige título profesional ni domicilio fijo."
+    },
+    {
+      "formato": "Completamiento",
+      "base": "Las ______ son formas de asociación ciudadana que coadyuvan al desarrollo de la vida democrática y de la cultura política, así como a la creación de una opinión pública mejor informada.",
+      "opciones": [
+        "mesas directivas de casilla",
+        "organizaciones no gubernamentales",
+        "agrupaciones políticas nacionales"
+      ],
+      "correcta": 2,
+      "explicacion": "Definición tomada de la Ley General de Partidos Políticos. Es un reactivo de ejemplo de la propia guía oficial de CENEVAL — apréndelo tal cual."
+    },
+    {
+      "formato": "Relación de elementos",
+      "base": "Relacione el derecho político-electoral con su descripción.",
+      "tabla": {
+        "izquierda": ["1. Votar", "2. Ser votado", "3. Asociación política"],
+        "derecha": ["a) Afiliarse libre e individualmente a un partido", "b) Elegir a las personas que ocuparán cargos de elección popular", "c) Ser postulado a un cargo de elección popular cumpliendo los requisitos de ley"]
+      },
+      "opciones": [
+        "1b, 2c, 3a",
+        "1a, 2b, 3c",
+        "1c, 2a, 3b"
+      ],
+      "correcta": 0,
+      "explicacion": "Votar es elegir (1b); ser votado es poder ser postulado y electo (2c); la asociación política es el derecho a afiliarse a un partido (3a)."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Un partido político registrado únicamente ante el Organismo Público Local de una entidad federativa se clasifica como:",
+      "opciones": [
+        "Partido político nacional",
+        "Partido político local",
+        "Agrupación política nacional"
+      ],
+      "correcta": 1,
+      "explicacion": "Los partidos locales solo participan en elecciones de la entidad que los registró; los nacionales se registran ante el INE y pueden participar en elecciones federales y locales."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Qué autoridad jurisdiccional resuelve, en el ámbito estatal, los medios de impugnación en materia electoral?",
+      "opciones": [
+        "El Tribunal Electoral local (p. ej. el Tribunal Estatal Electoral)",
+        "El Consejo General del OPL",
+        "La Suprema Corte de Justicia de la Nación"
+      ],
+      "correcta": 0,
+      "explicacion": "El Consejo General del OPL es una autoridad administrativa, no jurisdiccional. La SCJN solo conoce acciones de inconstitucionalidad. Los medios de impugnación locales los resuelve el tribunal electoral de la entidad."
+    }
+  ]
+}

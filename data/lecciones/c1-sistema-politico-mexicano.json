@@ -1,0 +1,70 @@
+{
+  "id": "c1",
+  "modulo": "c",
+  "nombre": "Sistema Político Mexicano",
+  "intro": "Conocimiento fundamental de las principales características de las instituciones políticas del país. Este tema aporta 13 de los 40 reactivos del módulo C.",
+  "subareas": [
+    {
+      "titulo": "1.1 Modelo constitucional",
+      "reactivos": 3,
+      "bloques": [
+        { "tipo": "p", "texto": "México es una república representativa, democrática, laica y federal, compuesta por estados libres y soberanos en lo que toca a su régimen interior, unidos en una federación (art. 40 CPEUM). Este modelo reparte el poder en dos ejes que conviene distinguir con claridad para el examen:" },
+        { "tipo": "tabla", "encabezados": ["Eje de división", "Qué reparte", "Resultado"],
+          "filas": [
+            ["Vertical (federalismo)", "Competencias entre niveles de gobierno", "Federación, 32 entidades federativas y municipios"],
+            ["Horizontal (separación de poderes)", "Funciones del Estado", "Poder Ejecutivo, Legislativo y Judicial"]
+          ]
+        },
+        { "tipo": "callout", "clase": "legal", "etiqueta": "Base normativa", "texto": "Arts. 39, 40 y 41 de la Constitución Política de los Estados Unidos Mexicanos (CPEUM)." },
+        { "tipo": "p", "texto": "El artículo 41 es la puerta de entrada al derecho electoral: establece que el pueblo ejerce su soberanía por medio de los Poderes de la Unión y de los poderes de los estados, y que la renovación de los poderes Legislativo y Ejecutivo se realiza mediante elecciones libres, auténticas y periódicas. De ese mismo artículo derivan la organización de las elecciones a cargo de autoridades administrativas (INE y OPL) y jurisdiccionales (Tribunales Electorales)." },
+        { "tipo": "diagrama", "id": "diagrama-division-poderes" }
+      ]
+    },
+    {
+      "titulo": "1.2 Poder Judicial",
+      "reactivos": 4,
+      "bloques": [
+        { "tipo": "p", "texto": "El Poder Judicial de la Federación tiene a su cargo la función jurisdiccional del Estado: interpretar y aplicar las leyes, resolver controversias y ejercer el control de constitucionalidad. Para el examen conviene ubicar su integración general y, en especial, dónde queda insertado el órgano encargado de resolver los conflictos electorales." },
+        { "tipo": "lista", "items": [
+          "Suprema Corte de Justicia de la Nación (SCJN) — máximo tribunal constitucional del país.",
+          "Tribunal Electoral del Poder Judicial de la Federación (TEPJF) — máxima autoridad jurisdiccional en materia electoral, salvo las acciones de inconstitucionalidad, que corresponden a la SCJN.",
+          "Tribunales Colegiados y Unitarios de Circuito.",
+          "Juzgados de Distrito."
+        ]},
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "El TEPJF resuelve las impugnaciones de los procesos electorales locales y federales, mientras que la SCJN conoce de las acciones de inconstitucionalidad contra leyes electorales. No los confundas: uno revisa actos y resoluciones, el otro revisa la constitucionalidad de las leyes." },
+        { "tipo": "p", "texto": "A nivel local, cada entidad cuenta con un Tribunal Electoral local (órgano jurisdiccional especializado), que en Guanajuato es el Tribunal Estatal Electoral, encargado de resolver los medios de impugnación en la materia dentro del ámbito estatal." }
+      ]
+    },
+    {
+      "titulo": "1.3 Ciudadanía",
+      "reactivos": 3,
+      "bloques": [
+        { "tipo": "p", "texto": "Según el artículo 34 constitucional, son ciudadanos de la República quienes, teniendo la calidad de mexicanos, hayan cumplido 18 años y tengan un modo honesto de vivir. La ciudadanía es la base subjetiva de los derechos político-electorales." },
+        { "tipo": "lista", "items": [
+          "Votar en las elecciones populares.",
+          "Ser votado para todos los cargos de elección popular, cumpliendo las calidades que establece la ley.",
+          "Asociarse individual y libremente para tomar parte en los asuntos políticos del país.",
+          "Iniciativa ciudadana y participación en consultas populares.",
+          "Afiliarse libre e individualmente a los partidos políticos."
+        ]},
+        { "tipo": "callout", "clase": "legal", "etiqueta": "Base normativa", "texto": "Arts. 34, 35 y 36 CPEUM." }
+      ]
+    },
+    {
+      "titulo": "1.4 Sistema de partidos en México",
+      "reactivos": 3,
+      "bloques": [
+        { "tipo": "p", "texto": "Los partidos políticos son entidades de interés público con el fin de promover la participación del pueblo en la vida democrática, contribuir a la integración de los órganos de representación política y, como organizaciones ciudadanas, hacer posible el acceso de estos al ejercicio del poder público." },
+        { "tipo": "tabla", "encabezados": ["Figura", "Naturaleza", "Ejemplo de función"],
+          "filas": [
+            ["Partido político nacional", "Registro ante el INE", "Participa en elecciones federales y, si lo decide, en locales"],
+            ["Partido político local", "Registro ante el OPL", "Participa solo en elecciones de la entidad que lo registró"],
+            ["Agrupación política nacional", "Forma de asociación ciudadana", "Coadyuva al desarrollo de la vida democrática y la cultura política"],
+            ["Coalición", "Alianza temporal de partidos", "Postulan candidaturas comunes en un proceso electoral"]
+          ]
+        },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Reactivo tipo guía CENEVAL", "texto": "Recuerda el ejemplo oficial: «Las ______ son formas de asociación ciudadana que coadyuvan al desarrollo de la vida democrática...» La respuesta es agrupaciones políticas nacionales, no organizaciones no gubernamentales ni mesas directivas de casilla. Es un distractor clásico." }
+      ]
+    }
+  ]
+}
