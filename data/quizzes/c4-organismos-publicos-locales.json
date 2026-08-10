@@ -1,0 +1,88 @@
+{
+  "id": "c4",
+  "nombre": "Simulacro parcial · Organismos Públicos Locales",
+  "reactivos": [
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Antes de la reforma electoral de 2014, los actuales Organismos Públicos Locales se denominaban:",
+      "opciones": ["Institutos electorales estatales", "Consejos distritales", "Juntas locales ejecutivas"],
+      "correcta": 0,
+      "explicacion": "Con la reforma de 2014 se homologó su denominación a Organismos Públicos Locales (OPL), en sustitución de los antiguos institutos electorales estatales."
+    },
+    {
+      "formato": "Completamiento",
+      "base": "Los OPL son organismos públicos dotados de personalidad jurídica y patrimonio propios, que gozan de ______ en su funcionamiento e independencia en sus decisiones.",
+      "opciones": ["autonomía", "subordinación jerárquica", "representación sindical"],
+      "correcta": 0,
+      "explicacion": "El art. 41, base V, apartado C, CPEUM reconoce a los OPL autonomía en su funcionamiento e independencia en sus decisiones, dentro de la coordinación del Sistema Electoral Nacional."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Cuál de las siguientes NO es una atribución típica de un OPL?",
+      "opciones": [
+        "Preparación de la jornada electoral local",
+        "Organización de las elecciones federales de diputaciones",
+        "Escrutinios y cómputos de las elecciones locales"
+      ],
+      "correcta": 1,
+      "explicacion": "Las elecciones federales las organiza el INE; los OPL organizan las elecciones locales (gubernatura, diputaciones locales y ayuntamientos)."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "El órgano superior de dirección de un OPL, encargado de vigilar el cumplimiento de las disposiciones constitucionales y legales en materia electoral, es:",
+      "opciones": ["El Consejo General del OPL", "La Junta General Ejecutiva del INE", "El Tribunal Electoral local"],
+      "correcta": 0,
+      "explicacion": "El Consejo General es el órgano superior de dirección del propio OPL. La Junta General Ejecutiva es del INE, y el Tribunal Electoral local es un órgano jurisdiccional distinto."
+    },
+    {
+      "formato": "Completamiento",
+      "base": "El Consejo General de un OPL se integra por una consejera o consejero Presidente y ______ consejerías electorales, con derecho a voz y voto.",
+      "opciones": ["seis", "diez", "tres"],
+      "correcta": 0,
+      "explicacion": "El Consejo General de un OPL se integra por 7 personas con voz y voto: la presidencia y seis consejerías electorales, todas designadas por el Consejo General del INE."
+    },
+    {
+      "formato": "Relación de elementos",
+      "base": "Relacione el tipo de elección con la autoridad que realiza su cómputo.",
+      "tabla": {
+        "izquierda": ["1. Diputación local", "2. Gubernatura", "3. Ayuntamiento"],
+        "derecha": ["a) Consejo General del OPL", "b) Consejo distrital", "c) Consejo municipal o distrital, según la legislación local"]
+      },
+      "opciones": ["1b, 2a, 3c", "1a, 2b, 3c", "1c, 2b, 3a"],
+      "correcta": 0,
+      "explicacion": "El cómputo de diputaciones locales lo hace el consejo distrital correspondiente; el de gubernatura (elección estatal) lo hace el Consejo General del OPL, sumando los cómputos distritales; el de ayuntamientos, el consejo municipal o distrital según la legislación de cada entidad."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Quién designa a las personas integrantes del Consejo General de un OPL?",
+      "opciones": ["El Consejo General del INE", "El Congreso local de la entidad", "La gubernatura en turno"],
+      "correcta": 0,
+      "explicacion": "Desde la reforma de 2014, la designación de las consejerías de los OPL corresponde al Consejo General del INE, no a las autoridades locales."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Cuando el INE asume, atrae o delega funciones respecto de un proceso electoral local, esto ocurre en el marco de:",
+      "opciones": [
+        "La coordinación del Sistema Electoral Nacional entre el INE y los OPL",
+        "Una sanción administrativa impuesta al OPL",
+        "Un procedimiento penal por delitos electorales"
+      ],
+      "correcta": 0,
+      "explicacion": "La asunción, atracción y delegación son mecanismos de coordinación previstos en la ley entre el INE y los OPL, no sanciones ni procedimientos penales."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Las estructuras desconcentradas de un OPL para operar la jornada electoral en el ámbito territorial de la entidad son, típicamente:",
+      "opciones": ["Los consejos distritales y/o municipales", "Las Direcciones Ejecutivas del INE", "Las Salas Regionales del TEPJF"],
+      "correcta": 0,
+      "explicacion": "Los OPL cuentan con consejos distritales y/o municipales como órganos desconcentrados, análogos a las Juntas y Consejos Distritales del INE."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Las impugnaciones contra los resultados de una elección local organizada por un OPL se resuelven, en primera instancia, ante:",
+      "opciones": ["El Tribunal Electoral local", "La Fiscalía Especializada en Delitos Electorales", "El Consejo General del INE"],
+      "correcta": 0,
+      "explicacion": "Los medios de impugnación en materia electoral local se resuelven, en primera instancia, ante el Tribunal Electoral de la entidad; solo en ciertos casos escalan a Salas Regionales o a la Sala Superior del TEPJF."
+    }
+  ]
+}

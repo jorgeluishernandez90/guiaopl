@@ -1,0 +1,55 @@
+{
+  "id": "c3",
+  "modulo": "c",
+  "nombre": "Instituto Nacional Electoral",
+  "intro": "Conocimiento fundamental de la estructura del Instituto y de sus atribuciones. Este tema aporta 6 de los 40 reactivos del módulo C — pocos reactivos, pero muy precisos: te piden identificar órganos y atribuciones exactas.",
+  "subareas": [
+    {
+      "titulo": "3.1 Conocimientos fundamentales del Instituto Nacional Electoral",
+      "reactivos": 1,
+      "bloques": [
+        { "tipo": "p", "texto": "El INE es un organismo público autónomo, dotado de personalidad jurídica y patrimonio propios, responsable de la función estatal de organizar las elecciones federales y, en coordinación con los OPL, las elecciones locales. Su naturaleza autónoma es clave: no depende de ninguno de los tres poderes de la Unión." },
+        { "tipo": "tabla", "encabezados": ["Característica", "Descripción"],
+          "filas": [
+            ["Naturaleza", "Organismo público autónomo, con personalidad jurídica y patrimonio propios"],
+            ["Rectoría", "Principios de certeza, legalidad, independencia, imparcialidad, máxima publicidad y objetividad"],
+            ["Función", "Organizar elecciones federales; coordinar y supervisar a los OPL en las elecciones locales"]
+          ]
+        },
+        { "tipo": "callout", "clase": "legal", "etiqueta": "Base normativa", "texto": "Art. 41, base V, párrafo primero, CPEUM." }
+      ]
+    },
+    {
+      "titulo": "3.2 Órganos del Instituto Nacional Electoral",
+      "reactivos": 3,
+      "bloques": [
+        { "tipo": "p", "texto": "El INE se organiza en órganos centrales y órganos desconcentrados. Esta distinción es especialmente relevante para ti, porque la plaza que buscas — Titular de Órgano Desconcentrado — se ubica precisamente en la segunda categoría." },
+        { "tipo": "diagrama", "id": "diagrama-organos-ine" },
+        { "tipo": "tabla", "encabezados": ["Tipo", "Órgano", "Función esencial"],
+          "filas": [
+            ["Central", "Consejo General", "Máximo órgano de dirección; se integra por consejeras y consejeros electorales, representaciones de partidos y del Poder Legislativo"],
+            ["Central", "Junta General Ejecutiva", "Órgano ejecutivo central, presidido por la persona titular de la Presidencia del Consejo General"],
+            ["Central", "Direcciones Ejecutivas", "Áreas técnicas especializadas (Prerrogativas y Partidos, Organización Electoral, Servicio Profesional Electoral Nacional, entre otras)"],
+            ["Desconcentrado", "Juntas y Consejos Locales (32 entidades)", "Ejecutan y vigilan la función electoral en el ámbito estatal"],
+            ["Desconcentrado", "Juntas y Consejos Distritales (300 distritos)", "Ejecutan y vigilan la función electoral en el ámbito distrital"]
+          ]
+        },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "Un órgano desconcentrado conserva la personalidad jurídica del INE (no tiene una propia, a diferencia de un organismo descentralizado), pero cuenta con autonomía técnica y de gestión para operar en su ámbito territorial." }
+      ]
+    },
+    {
+      "titulo": "3.3 Servicio Profesional Electoral Nacional",
+      "reactivos": 2,
+      "bloques": [
+        { "tipo": "p", "texto": "El Servicio Profesional Electoral Nacional (SPEN) es el sistema que regula el ingreso, la formación, la promoción, la evaluación del desempeño, la permanencia y la disciplina del personal de las áreas ejecutivas y técnicas del INE y de los OPL. Es, precisamente, el sistema al que tú estás concursando ingresar." },
+        { "tipo": "lista", "items": [
+          "Está compuesto por dos sistemas: el del INE y el de los OPL (en el que se ubica la plaza que buscas).",
+          "Su objetivo es profesionalizar la función electoral con base en el mérito, mediante concursos públicos y evaluaciones periódicas.",
+          "El ingreso se realiza mediante concurso público, como el que estás preparando con esta guía.",
+          "Se rige por el Estatuto del Servicio Profesional Electoral Nacional y del personal de la rama administrativa."
+        ]},
+        { "tipo": "callout", "clase": "legal", "etiqueta": "Base normativa", "texto": "Art. 41, base V, apartado D, CPEUM; Estatuto del Servicio Profesional Electoral Nacional y del personal de la rama administrativa (INE, 2024)." }
+      ]
+    }
+  ]
+}

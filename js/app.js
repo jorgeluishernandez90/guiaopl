@@ -314,13 +314,13 @@ function paintQuiz() {
   const yaRespondida = quizState.respuestas[idx] != null;
   const seleccion = quizState.respuestas[idx];
 
-  const tablaRelacion = r.tabla ? `
+  const tablaRelacion = (r.tabla && r.tabla.derecha && r.tabla.derecha.length) ? `
     <div class="table-wrap" style="margin-bottom:var(--sp-4)">
       <table class="study"><tbody>
         <tr>${r.tabla.izquierda.map(x => `<td>${x}</td>`).join('')}</tr>
         <tr>${r.tabla.derecha.map(x => `<td>${x}</td>`).join('')}</tr>
       </tbody></table>
-    </div>` : '';
+    </div>` : (r.tabla ? `<ol style="margin-bottom:var(--sp-4)">${r.tabla.izquierda.map(x => `<li>${x.replace(/^\d+\.\s*/, '')}</li>`).join('')}</ol>` : '');
 
   const opciones = r.opciones.map((op, i) => {
     let cls = '';
@@ -338,9 +338,11 @@ function paintQuiz() {
   const timerHtml = quizState.segundosRestantes != null
     ? `<span class="timer" id="quiz-timer">${Math.floor(quizState.segundosRestantes/60)}:${String(quizState.segundosRestantes%60).padStart(2,'0')}</span>` : '';
 
+  const breadcrumbHref = quizState.modo === 'simulacro-modulo' ? `#/modulo/${quizState.modId}` : `#/leccion/${quizState.temaId}`;
+
   $app.innerHTML = `
     <div class="quiz-shell">
-      <div class="breadcrumb"><a href="#/leccion/${quizState.temaId}">${quizState.nombre}</a></div>
+      <div class="breadcrumb"><a href="${breadcrumbHref}">${quizState.nombre}</a></div>
       <div class="quiz-progress">
         <div class="track"><i style="width:${(idx/reactivos.length)*100}%"></i></div>
         ${timerHtml}
@@ -365,7 +367,7 @@ function paintQuiz() {
   document.getElementById('btn-siguiente').onclick = nextQuestion;
   document.getElementById('btn-salir').onclick = () => {
     if (quizState.timerInterval) clearInterval(quizState.timerInterval);
-    location.hash = `#/leccion/${quizState.temaId}`;
+    location.hash = quizState.modo === 'simulacro-modulo' ? `#/modulo/${quizState.modId}` : `#/leccion/${quizState.temaId}`;
   };
 }
 
@@ -402,6 +404,9 @@ function finishQuiz() {
     </li>`;
   }).join('');
 
+  const repetirHref = quizState.modo === 'simulacro-modulo' ? `#/simulacro-modulo/${quizState.modId}` : `#/quiz/${temaId}`;
+  const salirHref = quizState.modo === 'simulacro-modulo' ? `#/modulo/${quizState.modId}` : `#/leccion/${temaId}`;
+
   $app.innerHTML = `
     <div class="quiz-shell" style="text-align:center;">
       <div class="result-ring">
@@ -409,8 +414,8 @@ function finishQuiz() {
       </div>
       <p>${aciertos} de ${total} reactivos correctos.</p>
       <div style="display:flex;gap:var(--sp-3);justify-content:center;margin:var(--sp-5) 0;">
-        <a class="btn btn-primary" href="#/quiz/${temaId}">Repetir simulacro</a>
-        <a class="btn btn-ghost" href="#/modulo/${quizState.modId}">Volver al módulo</a>
+        <a class="btn btn-primary" href="${repetirHref}">Repetir simulacro</a>
+        <a class="btn btn-ghost" href="${salirHref}">Volver</a>
       </div>
     </div>
     <div class="quiz-shell" style="text-align:left;margin-top:var(--sp-6);">
@@ -418,6 +423,27 @@ function finishQuiz() {
       <ol>${revision}</ol>
     </div>
   `;
+}
+
+async function renderQuizModulo(modId) {
+  const mod = state.modules.modulos.find(m => m.id === modId);
+  if (!mod) return renderNotFound();
+  const temasConQuiz = mod.temas.filter(t => t.quiz);
+  if (!temasConQuiz.length) return renderNotFound();
+
+  $app.innerHTML = `<p>Cargando simulacro del módulo ${mod.letra}…</p>`;
+  const bloques = await Promise.all(temasConQuiz.map(t => loadJSON(t.quiz)));
+  const reactivos = bloques.flatMap(b => b.reactivos);
+
+  quizState = {
+    temaId: `modulo-${modId}`, modId: mod.id, nombre: `Simulacro parcial · Módulo ${mod.letra}`,
+    reactivos, idx: 0, respuestas: new Array(reactivos.length).fill(null),
+    aciertos: 0, modo: 'simulacro-modulo',
+    timerInterval: null, segundosRestantes: reactivos.length * 75,
+  };
+  renderSidebar(null);
+  paintQuiz();
+  startTimer();
 }
 
 /* ---------------- Router ---------------- */
@@ -434,7 +460,7 @@ function renderRoute() {
   if (view === 'modulo') return renderModulo(id);
   if (view === 'leccion') return renderLeccion(id);
   if (view === 'quiz') return renderQuiz(id, 'parcial');
-  if (view === 'simulacro-modulo') return renderNotFound();
+  if (view === 'simulacro-modulo') return renderQuizModulo(id);
   if (view === 'simulacro' && id === 'final') return renderNotFound();
   return renderNotFound();
 }

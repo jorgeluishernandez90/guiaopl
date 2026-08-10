@@ -37,5 +37,83 @@ const DIAGRAMS = {
 
       <line x1="350" y1="208" x2="350" y2="222" stroke="#D6127F" stroke-width="2"/>
     </svg>`
+  },
+
+  "diagrama-etapas-proceso-electoral": {
+    caption: "Etapas del proceso electoral federal",
+    svg: `
+    <svg viewBox="0 0 760 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Línea de tiempo con las cuatro etapas del proceso electoral federal">
+      <style>
+        .n-lbl { font: 700 13px 'Space Grotesk', sans-serif; fill: #1C1420; }
+        .n-sub { font: 400 11px 'Inter', sans-serif; fill: #55414C; }
+        .n-num { font: 700 15px 'IBM Plex Mono', monospace; fill: #FFFFFF; }
+      </style>
+      <line x1="60" y1="40" x2="700" y2="40" stroke="#EBDCE4" stroke-width="4"/>
+      <line x1="60" y1="40" x2="700" y2="40" stroke="#D6127F" stroke-width="4" stroke-dasharray="2 10" stroke-linecap="round"/>
+
+      <g>
+        <circle cx="90" cy="40" r="20" fill="#921257"/>
+        <text x="90" y="45" text-anchor="middle" class="n-num">1</text>
+        <text x="90" y="82" text-anchor="middle" class="n-lbl">Preparación</text>
+        <text x="90" y="98" text-anchor="middle" class="n-sub">de la elección</text>
+      </g>
+      <g>
+        <circle cx="290" cy="40" r="20" fill="#C4177A"/>
+        <text x="290" y="45" text-anchor="middle" class="n-num">2</text>
+        <text x="290" y="82" text-anchor="middle" class="n-lbl">Jornada</text>
+        <text x="290" y="98" text-anchor="middle" class="n-sub">electoral</text>
+      </g>
+      <g>
+        <circle cx="490" cy="40" r="20" fill="#D6127F"/>
+        <text x="490" y="45" text-anchor="middle" class="n-num">3</text>
+        <text x="490" y="82" text-anchor="middle" class="n-lbl">Resultados y</text>
+        <text x="490" y="98" text-anchor="middle" class="n-sub">declaraciones de validez</text>
+      </g>
+      <g>
+        <circle cx="690" cy="40" r="20" fill="#EA4FA0"/>
+        <text x="690" y="45" text-anchor="middle" class="n-num">4</text>
+        <text x="690" y="82" text-anchor="middle" class="n-lbl">Constancias</text>
+        <text x="690" y="98" text-anchor="middle" class="n-sub">de mayoría / RP</text>
+      </g>
+    </svg>`
+  },
+
+  "diagrama-organos-ine": {
+    caption: "Órganos centrales y órganos desconcentrados del INE",
+    svg: `
+    <svg viewBox="0 0 720 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagrama de los órganos centrales y desconcentrados del Instituto Nacional Electoral">
+      <style>
+        .o-lbl { font: 700 13px 'Space Grotesk', sans-serif; fill: #1C1420; }
+        .o-sub { font: 400 10.5px 'Inter', sans-serif; fill: #55414C; }
+        .o-tag { font: 700 10px 'IBM Plex Mono', monospace; fill: #921257; letter-spacing:.04em; text-transform:uppercase; }
+        .o-central { fill: #FFE3F0; stroke: #D6127F; stroke-width: 1.5; }
+        .o-desc { fill: #FFFFFF; stroke: #1C1420; stroke-width: 1.5; stroke-dasharray: 5 4; }
+      </style>
+      <text x="20" y="22" class="o-tag">Órganos centrales</text>
+      <rect x="20" y="34" width="210" height="60" rx="10" class="o-central"/>
+      <text x="125" y="60" text-anchor="middle" class="o-lbl">Consejo General</text>
+      <text x="125" y="78" text-anchor="middle" class="o-sub">Máximo órgano de dirección</text>
+
+      <rect x="255" y="34" width="210" height="60" rx="10" class="o-central"/>
+      <text x="360" y="60" text-anchor="middle" class="o-lbl">Junta General Ejecutiva</text>
+      <text x="360" y="78" text-anchor="middle" class="o-sub">Órgano ejecutivo central</text>
+
+      <rect x="490" y="34" width="210" height="60" rx="10" class="o-central"/>
+      <text x="595" y="60" text-anchor="middle" class="o-lbl">Direcciones Ejecutivas</text>
+      <text x="595" y="78" text-anchor="middle" class="o-sub">Áreas técnicas especializadas</text>
+
+      <line x1="360" y1="94" x2="360" y2="130" stroke="#D6127F" stroke-width="2"/>
+
+      <text x="20" y="150" class="o-tag">Órganos desconcentrados</text>
+      <rect x="120" y="162" width="230" height="66" rx="10" class="o-desc"/>
+      <text x="235" y="188" text-anchor="middle" class="o-lbl">Juntas y Consejos Locales</text>
+      <text x="235" y="204" text-anchor="middle" class="o-sub">32 entidades federativas</text>
+      <text x="235" y="220" text-anchor="middle" class="o-sub">Ámbito estatal</text>
+
+      <rect x="370" y="162" width="230" height="66" rx="10" class="o-desc"/>
+      <text x="485" y="188" text-anchor="middle" class="o-lbl">Juntas y Consejos Distritales</text>
+      <text x="485" y="204" text-anchor="middle" class="o-sub">300 distritos electorales</text>
+      <text x="485" y="220" text-anchor="middle" class="o-sub">Ámbito distrital</text>
+    </svg>`
   }
 };

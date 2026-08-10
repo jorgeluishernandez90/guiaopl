@@ -1,0 +1,100 @@
+{
+  "id": "c2",
+  "modulo": "c",
+  "nombre": "Sistema Electoral Mexicano",
+  "intro": "Conocimiento fundamental de las principales características de las autoridades electorales administrativas y jurisdiccionales, la integración de la representación política y los procesos básicos electorales. Este tema aporta 11 de los 40 reactivos del módulo C.",
+  "subareas": [
+    {
+      "titulo": "2.1 Principios del sistema electoral",
+      "reactivos": 1,
+      "bloques": [
+        { "tipo": "p", "texto": "Toda la función electoral se rige por principios rectores que deben observar tanto las autoridades administrativas como las jurisdiccionales. Son la primera línea de defensa frente a cualquier reactivo que te pregunte \"¿qué principio se está violando/aplicando en este caso?\"." },
+        { "tipo": "tabla", "encabezados": ["Principio", "En qué consiste"],
+          "filas": [
+            ["Certeza", "Que todas las acciones estén dotadas de veracidad, certidumbre y apego a los hechos"],
+            ["Legalidad", "Sujeción de todas las acciones a lo previsto en la ley"],
+            ["Independencia", "Actuación libre de injerencias de otros poderes o actores"],
+            ["Imparcialidad", "Ausencia de designios anticipados o prejuicios en favor o en contra de alguien"],
+            ["Máxima publicidad", "Transparencia de la información y actuación de las autoridades"],
+            ["Objetividad", "Obligación de dejar de lado juicios personales y ceñirse a los hechos"]
+          ]
+        },
+        { "tipo": "callout", "clase": "legal", "etiqueta": "Base normativa", "texto": "Art. 41, base V, párrafo primero, CPEUM; art. 30, párrafo 1, inciso a) LGIPE." }
+      ]
+    },
+    {
+      "titulo": "2.2 Tipos de sistemas electorales",
+      "reactivos": 1,
+      "bloques": [
+        { "tipo": "p", "texto": "Un sistema electoral es el mecanismo mediante el cual los votos se convierten en escaños o cargos. México combina dos lógicas distintas para integrar sus órganos de representación:" },
+        { "tipo": "tabla", "encabezados": ["Sistema", "Lógica", "Ejemplo en México"],
+          "filas": [
+            ["Mayoría relativa (MR)", "Gana quien obtiene más votos en un distrito uninominal, sin necesidad de mayoría absoluta", "300 diputaciones federales, 64 senadurías (3 por entidad, 2 de MR + 1 de primera minoría)"],
+            ["Representación proporcional (RP)", "Los escaños se reparten según el porcentaje de votos obtenido por cada partido, mediante listas plurinominales", "200 diputaciones federales (5 circunscripciones), 32 senadurías"],
+            ["Sistema mixto", "Combina MR y RP en un mismo órgano", "Cámara de Diputados (300 MR + 200 RP) y Senado (64 MR/primera minoría + 32 RP)"]
+          ]
+        },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "El sistema mixto no reparte 50/50 por casualidad: es una fórmula de diseño constitucional para equilibrar la gobernabilidad (que favorece la MR) con la pluralidad (que favorece la RP)." }
+      ]
+    },
+    {
+      "titulo": "2.3 Autoridades electorales en el Sistema Electoral Nacional",
+      "reactivos": 3,
+      "bloques": [
+        { "tipo": "p", "texto": "El Sistema Electoral Nacional (creado con la reforma de 2014) articula a las autoridades administrativas y jurisdiccionales de los ámbitos federal y local. Ubicar el tipo de autoridad, su ámbito y su función es uno de los contenidos más preguntados en toda la guía." },
+        { "tipo": "tabla", "encabezados": ["Autoridad", "Tipo", "Ámbito"],
+          "filas": [
+            ["Instituto Nacional Electoral (INE)", "Administrativa", "Nacional (organiza elecciones federales y coordina con los OPL)"],
+            ["Organismos Públicos Locales (OPL)", "Administrativa", "Estatal (organiza elecciones locales, bajo la coordinación del INE)"],
+            ["Tribunal Electoral del Poder Judicial de la Federación (TEPJF)", "Jurisdiccional", "Nacional (Sala Superior y Salas Regionales)"],
+            ["Tribunales Electorales locales", "Jurisdiccional", "Estatal"],
+            ["Fiscalía Especializada en Delitos Electorales (FEDE)", "Ministerio Público especializado", "Nacional"]
+          ]
+        },
+        { "tipo": "callout", "clase": "legal", "etiqueta": "Base normativa", "texto": "Art. 41, base V, CPEUM; Libro Tercero LGIPE." }
+      ]
+    },
+    {
+      "titulo": "2.4 Delitos electorales",
+      "reactivos": 1,
+      "bloques": [
+        { "tipo": "p", "texto": "Los delitos electorales están tipificados en la Ley General en Materia de Delitos Electorales (LGMDE) y son perseguidos por la Fiscalía Especializada en Delitos Electorales (FEDE), dependiente de la Fiscalía General de la República. Se distinguen de las faltas administrativas (que resuelven las autoridades electorales) porque implican responsabilidad penal." },
+        { "tipo": "lista", "items": [
+          "Ejemplos: coacción o presión al electorado, compra o coacción del voto, alteración de resultados, uso indebido de recursos públicos con fines electorales.",
+          "Sujetos activos: pueden ser servidores públicos, funcionarios de casilla, ministros de culto, particulares, entre otros — cada uno con conductas y agravantes distintos en la ley."
+        ]},
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Distractor frecuente", "texto": "No confundas un delito electoral (sanción penal, lo conoce la FEDE/un juez penal) con una falta administrativa electoral (sanción administrativa, la conoce el INE/OPL o el Tribunal Electoral)." }
+      ]
+    },
+    {
+      "titulo": "2.5 Candidaturas independientes",
+      "reactivos": 1,
+      "bloques": [
+        { "tipo": "p", "texto": "Desde la reforma de 2014, la Constitución reconoce el derecho de la ciudadanía a ser votada para cargos de elección popular sin necesidad de postulación por un partido político, cumpliendo los requisitos, condiciones y términos que determine la legislación." },
+        { "tipo": "lista", "items": [
+          "Deben obtener un porcentaje de apoyo ciudadano (respaldo verificado mediante firmas) para acceder al registro.",
+          "Tienen derecho a financiamiento público y acceso a radio y televisión en condiciones de equidad con los partidos.",
+          "Aplica para todos los cargos de elección popular: presidencia, senadurías, diputaciones, gubernaturas, ayuntamientos, entre otros."
+        ]},
+        { "tipo": "callout", "clase": "legal", "etiqueta": "Base normativa", "texto": "Art. 35, fracción II, CPEUM; Título Segundo, Capítulo I, LGIPE." }
+      ]
+    },
+    {
+      "titulo": "2.6 Proceso Electoral Federal",
+      "reactivos": 4,
+      "bloques": [
+        { "tipo": "p", "texto": "El proceso electoral es el conjunto de actos ordenados por la Constitución y la ley, realizados por las autoridades electorales, los partidos políticos y la ciudadanía, que tiene por objeto la renovación periódica de quienes integran los Poderes Legislativo y Ejecutivo. Se divide en etapas sucesivas y ordenadas:" },
+        { "tipo": "diagrama", "id": "diagrama-etapas-proceso-electoral" },
+        { "tipo": "tabla", "encabezados": ["Etapa", "Qué comprende"],
+          "filas": [
+            ["1. Preparación de la elección", "Instalación de consejos, precampañas, registro de candidaturas, campañas, ubicación de casillas e insaculación de funcionarios de mesas directivas"],
+            ["2. Jornada electoral", "Instalación de casillas, votación, escrutinio y cómputo en cada casilla"],
+            ["3. Resultados y declaraciones de validez", "Cómputos distritales/municipales/estatales, calificación de la elección y declaración de validez"],
+            ["4. Dictamen y declaraciones de validez de la elección y otorgamiento de constancias", "Entrega de constancias de mayoría o de asignación proporcional"]
+          ]
+        },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "El proceso electoral ordinario inicia en septiembre del año previo a la elección (con la sesión que da inicio al proceso) y concluye con los cómputos y declaraciones de validez, o, en su caso, hasta que las resoluciones de los medios de impugnación queden firmes." }
+      ]
+    }
+  ]
+}

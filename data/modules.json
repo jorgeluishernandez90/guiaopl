@@ -7,48 +7,6 @@
   },
   "modulos": [
     {
-      "id": "c",
-      "letra": "C",
-      "nombre": "Sistema Político y Electoral Mexicano",
-      "subtitulo": "de los Organismos Públicos Locales",
-      "reactivos": 40,
-      "color": "magenta-700",
-      "temas": [
-        {
-          "id": "c1",
-          "nombre": "Sistema Político Mexicano",
-          "subareas": ["Modelo constitucional", "Poder Judicial", "Ciudadanía", "Sistema de partidos en México"],
-          "reactivos": 13,
-          "leccion": "data/lecciones/c1-sistema-politico-mexicano.json",
-          "quiz": "data/quizzes/c1-sistema-politico-mexicano.json"
-        },
-        {
-          "id": "c2",
-          "nombre": "Sistema Electoral Mexicano",
-          "subareas": ["Principios del sistema electoral", "Tipos de sistemas electorales", "Autoridades electorales en el Sistema Electoral Nacional", "Delitos electorales", "Candidaturas independientes", "Proceso Electoral Federal"],
-          "reactivos": 11,
-          "leccion": null,
-          "quiz": null
-        },
-        {
-          "id": "c3",
-          "nombre": "Instituto Nacional Electoral",
-          "subareas": ["Conocimientos fundamentales del INE", "Órganos del INE", "Servicio Profesional Electoral Nacional"],
-          "reactivos": 6,
-          "leccion": null,
-          "quiz": null
-        },
-        {
-          "id": "c4",
-          "nombre": "Organismos Públicos Locales",
-          "subareas": ["Conocimientos fundamentales de los OPL", "Consejo General de los OPL", "Proceso electoral"],
-          "reactivos": 10,
-          "leccion": null,
-          "quiz": null
-        }
-      ]
-    },
-    {
       "id": "a",
       "letra": "A",
       "nombre": "Habilidades transversales de lenguaje y comunicación",
@@ -56,11 +14,46 @@
       "reactivos": 60,
       "color": "magenta-600",
       "temas": [
-        { "id": "a1-1", "nombre": "Comprensión lectora · Ámbito de estudio", "subareas": [], "reactivos": 12, "leccion": null, "quiz": null },
-        { "id": "a1-2", "nombre": "Comprensión lectora · Ámbito literario", "subareas": [], "reactivos": 12, "leccion": null, "quiz": null },
-        { "id": "a1-3", "nombre": "Comprensión lectora · Ámbito de participación social", "subareas": [], "reactivos": 6, "leccion": null, "quiz": null },
-        { "id": "a2-1", "nombre": "Redacción indirecta · Ámbito de estudio", "subareas": [], "reactivos": 15, "leccion": null, "quiz": null },
-        { "id": "a2-2", "nombre": "Redacción indirecta · Ámbito de participación social", "subareas": [], "reactivos": 15, "leccion": null, "quiz": null }
+        {
+          "id": "a1-1",
+          "nombre": "Comprensión lectora · Ámbito de estudio",
+          "subareas": [],
+          "reactivos": 12,
+          "leccion": null,
+          "quiz": null
+        },
+        {
+          "id": "a1-2",
+          "nombre": "Comprensión lectora · Ámbito literario",
+          "subareas": [],
+          "reactivos": 12,
+          "leccion": null,
+          "quiz": null
+        },
+        {
+          "id": "a1-3",
+          "nombre": "Comprensión lectora · Ámbito de participación social",
+          "subareas": [],
+          "reactivos": 6,
+          "leccion": null,
+          "quiz": null
+        },
+        {
+          "id": "a2-1",
+          "nombre": "Redacción indirecta · Ámbito de estudio",
+          "subareas": [],
+          "reactivos": 15,
+          "leccion": null,
+          "quiz": null
+        },
+        {
+          "id": "a2-2",
+          "nombre": "Redacción indirecta · Ámbito de participación social",
+          "subareas": [],
+          "reactivos": 15,
+          "leccion": null,
+          "quiz": null
+        }
       ]
     },
     {
@@ -71,12 +64,116 @@
       "reactivos": 30,
       "color": "ink",
       "temas": [
-        { "id": "b1", "nombre": "Teoría de conjuntos", "subareas": [], "reactivos": 5, "leccion": null, "quiz": null },
-        { "id": "b2", "nombre": "Aritmética", "subareas": [], "reactivos": 5, "leccion": null, "quiz": null },
-        { "id": "b3", "nombre": "Álgebra", "subareas": [], "reactivos": 7, "leccion": null, "quiz": null },
-        { "id": "b4", "nombre": "Probabilidad", "subareas": [], "reactivos": 4, "leccion": null, "quiz": null },
-        { "id": "b5", "nombre": "Estadística", "subareas": [], "reactivos": 6, "leccion": null, "quiz": null },
-        { "id": "b6", "nombre": "Gráficos y tablas", "subareas": [], "reactivos": 3, "leccion": null, "quiz": null }
+        {
+          "id": "b1",
+          "nombre": "Teoría de conjuntos",
+          "subareas": [],
+          "reactivos": 5,
+          "leccion": null,
+          "quiz": null
+        },
+        {
+          "id": "b2",
+          "nombre": "Aritmética",
+          "subareas": [],
+          "reactivos": 5,
+          "leccion": null,
+          "quiz": null
+        },
+        {
+          "id": "b3",
+          "nombre": "Álgebra",
+          "subareas": [],
+          "reactivos": 7,
+          "leccion": null,
+          "quiz": null
+        },
+        {
+          "id": "b4",
+          "nombre": "Probabilidad",
+          "subareas": [],
+          "reactivos": 4,
+          "leccion": null,
+          "quiz": null
+        },
+        {
+          "id": "b5",
+          "nombre": "Estadística",
+          "subareas": [],
+          "reactivos": 6,
+          "leccion": null,
+          "quiz": null
+        },
+        {
+          "id": "b6",
+          "nombre": "Gráficos y tablas",
+          "subareas": [],
+          "reactivos": 3,
+          "leccion": null,
+          "quiz": null
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "letra": "C",
+      "nombre": "Sistema Político y Electoral Mexicano",
+      "subtitulo": "de los Organismos Públicos Locales",
+      "reactivos": 40,
+      "color": "magenta-700",
+      "temas": [
+        {
+          "id": "c1",
+          "nombre": "Sistema Político Mexicano",
+          "subareas": [
+            "Modelo constitucional",
+            "Poder Judicial",
+            "Ciudadanía",
+            "Sistema de partidos en México"
+          ],
+          "reactivos": 13,
+          "leccion": "data/lecciones/c1-sistema-politico-mexicano.json",
+          "quiz": "data/quizzes/c1-sistema-politico-mexicano.json"
+        },
+        {
+          "id": "c2",
+          "nombre": "Sistema Electoral Mexicano",
+          "subareas": [
+            "Principios del sistema electoral",
+            "Tipos de sistemas electorales",
+            "Autoridades electorales en el Sistema Electoral Nacional",
+            "Delitos electorales",
+            "Candidaturas independientes",
+            "Proceso Electoral Federal"
+          ],
+          "reactivos": 11,
+          "leccion": "data/lecciones/c2-sistema-electoral-mexicano.json",
+          "quiz": "data/quizzes/c2-sistema-electoral-mexicano.json"
+        },
+        {
+          "id": "c3",
+          "nombre": "Instituto Nacional Electoral",
+          "subareas": [
+            "Conocimientos fundamentales del INE",
+            "Órganos del INE",
+            "Servicio Profesional Electoral Nacional"
+          ],
+          "reactivos": 6,
+          "leccion": "data/lecciones/c3-instituto-nacional-electoral.json",
+          "quiz": "data/quizzes/c3-instituto-nacional-electoral.json"
+        },
+        {
+          "id": "c4",
+          "nombre": "Organismos Públicos Locales",
+          "subareas": [
+            "Conocimientos fundamentales de los OPL",
+            "Consejo General de los OPL",
+            "Proceso electoral"
+          ],
+          "reactivos": 10,
+          "leccion": "data/lecciones/c4-organismos-publicos-locales.json",
+          "quiz": "data/quizzes/c4-organismos-publicos-locales.json"
+        }
       ]
     }
   ]

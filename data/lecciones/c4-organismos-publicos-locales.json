@@ -1,0 +1,57 @@
+{
+  "id": "c4",
+  "modulo": "c",
+  "nombre": "Organismos Públicos Locales",
+  "intro": "Conocimiento fundamental de la estructura de los OPL y sus atribuciones. Este tema aporta 10 de los 40 reactivos del módulo C — y es, junto con el Servicio Profesional Electoral Nacional, el más directamente relacionado con la plaza a la que aspiras.",
+  "subareas": [
+    {
+      "titulo": "4.1 Conocimientos fundamentales de los OPL",
+      "reactivos": 4,
+      "bloques": [
+        { "tipo": "p", "texto": "Los Organismos Públicos Locales (OPL) son las autoridades administrativas electorales de cada entidad federativa. Antes de la reforma de 2014 se llamaban institutos electorales estatales; hoy son organismos públicos locales, dotados de personalidad jurídica y patrimonio propios, y gozan de autonomía en su funcionamiento, así como independencia en sus decisiones." },
+        { "tipo": "tabla", "encabezados": ["Característica", "Descripción"],
+          "filas": [
+            ["Naturaleza", "Organismo público local, con personalidad jurídica y patrimonio propios"],
+            ["Autonomía", "Funciona con autonomía e independencia en sus decisiones, dentro de la coordinación del Sistema Electoral Nacional"],
+            ["Ámbito", "Organiza las elecciones locales (gubernatura, diputaciones locales, ayuntamientos) de su entidad"],
+            ["Relación con el INE", "Coordinado y supervisado por el INE; algunas funciones pueden ser asumidas por el INE (asunción, atracción o delegación)"]
+          ]
+        },
+        { "tipo": "lista", "items": [
+          "Atribuciones típicas: derechos y accesos a prerrogativas de partidos locales, educación cívica, preparación de la jornada electoral, impresión de documentos y producción de materiales electorales, escrutinios y cómputos, declaración de validez y otorgamiento de constancias en las elecciones locales, cómputo de la elección de gubernatura.",
+          "Cuentan también con órganos desconcentrados: consejos distritales y/o municipales, según lo determine la legislación de cada entidad."
+        ]},
+        { "tipo": "callout", "clase": "legal", "etiqueta": "Base normativa", "texto": "Art. 41, base V, apartado C, CPEUM; art. 98 LGIPE." }
+      ]
+    },
+    {
+      "titulo": "4.2 Consejo General de los OPL",
+      "reactivos": 1,
+      "bloques": [
+        { "tipo": "p", "texto": "El Consejo General es el órgano superior de dirección del OPL, responsable de vigilar el cumplimiento de las disposiciones constitucionales y legales en materia electoral, así como de velar por que los principios rectores de la función electoral guíen todas las actividades del organismo." },
+        { "tipo": "lista", "items": [
+          "Se integra por una consejera o consejero Presidente y seis consejerías electorales, con derecho a voz y voto.",
+          "Concurren también, con voz pero sin voto: representaciones de los partidos políticos, una persona Secretaria Ejecutiva y, cuando corresponda, representaciones legislativas.",
+          "Las personas integrantes del Consejo General son designadas por el Consejo General del INE."
+        ]},
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "No confundas la integración del Consejo General del INE (11 consejerías) con la del Consejo General de un OPL (7 consejerías: presidencia + 6 consejerías electorales)." }
+      ]
+    },
+    {
+      "titulo": "4.3 Proceso electoral",
+      "reactivos": 5,
+      "bloques": [
+        { "tipo": "p", "texto": "El proceso electoral local sigue la misma lógica de etapas que el federal (preparación, jornada, resultados y declaraciones de validez, dictamen y constancias), pero corresponde a los OPL organizarlo para los cargos de la entidad, bajo la coordinación del INE." },
+        { "tipo": "tabla", "encabezados": ["Elemento", "Autoridad responsable en el ámbito local"],
+          "filas": [
+            ["Instalación de casillas y capacitación electoral", "OPL, con apoyo de las estructuras desconcentradas (consejos distritales/municipales)"],
+            ["Cómputos distritales/municipales", "Consejos distritales o municipales del OPL"],
+            ["Cómputo de la elección de gubernatura", "Consejo General del OPL"],
+            ["Resolución de impugnaciones", "Tribunal Electoral local, y en su caso, Salas Regionales o Sala Superior del TEPJF"]
+          ]
+        },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Distractor frecuente", "texto": "El cómputo de una elección de diputación local lo hace el consejo distrital correspondiente; el cómputo de la elección de gubernatura (que es una elección de ámbito estatal, no distrital) lo realiza el Consejo General del OPL, sumando los resultados de todos los cómputos distritales de la entidad." }
+      ]
+    }
+  ]
+}

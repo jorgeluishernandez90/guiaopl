@@ -1,0 +1,95 @@
+{
+  "id": "c2",
+  "nombre": "Simulacro parcial · Sistema Electoral Mexicano",
+  "reactivos": [
+    {
+      "formato": "Completamiento",
+      "base": "El principio conforme al cual todas las acciones de las autoridades electorales deben estar dotadas de veracidad, certidumbre y apego a los hechos se denomina ______.",
+      "opciones": ["certeza", "independencia", "máxima publicidad"],
+      "correcta": 0,
+      "explicacion": "La certeza exige veracidad y apego a los hechos en toda actuación electoral; la independencia se refiere a actuar libre de injerencias, y la máxima publicidad, a la transparencia de la información."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Cuál es la diferencia esencial entre un sistema de mayoría relativa y uno de representación proporcional?",
+      "opciones": [
+        "En mayoría relativa gana quien obtiene más votos en un distrito; en representación proporcional los escaños se reparten según el porcentaje de votación de cada partido",
+        "En mayoría relativa se vota por partido y en representación proporcional se vota por persona",
+        "Son sinónimos y ambos términos designan el mismo mecanismo de asignación de escaños"
+      ],
+      "correcta": 0,
+      "explicacion": "La MR asigna el triunfo a quien obtiene más votos en su distrito uninominal; la RP reparte escaños proporcionalmente a la votación de cada partido mediante listas."
+    },
+    {
+      "formato": "Relación de elementos",
+      "base": "Relacione la autoridad electoral con su tipo.",
+      "tabla": {
+        "izquierda": ["1. INE", "2. TEPJF", "3. Fiscalía Especializada en Delitos Electorales"],
+        "derecha": ["a) Autoridad jurisdiccional", "b) Ministerio Público especializado", "c) Autoridad administrativa"]
+      },
+      "opciones": ["1c, 2a, 3b", "1a, 2b, 3c", "1b, 2c, 3a"],
+      "correcta": 0,
+      "explicacion": "El INE es una autoridad administrativa; el TEPJF es jurisdiccional; la FEDE es un Ministerio Público especializado que persigue delitos electorales."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Un Organismo Público Local (OPL) organiza las elecciones locales bajo la coordinación de:",
+      "opciones": ["El Tribunal Electoral del Poder Judicial de la Federación", "El Instituto Nacional Electoral", "La Fiscalía General de la República"],
+      "correcta": 1,
+      "explicacion": "El INE coordina al Sistema Electoral Nacional y, en particular, la actuación de los OPL en las elecciones locales, conforme al art. 41, base V, CPEUM."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "La compra o coacción del voto es un ejemplo de:",
+      "opciones": ["Falta administrativa electoral", "Delito electoral", "Sanción disciplinaria interna de un partido"],
+      "correcta": 1,
+      "explicacion": "La compra o coacción del voto está tipificada como delito en la Ley General en Materia de Delitos Electorales y la persigue la FEDE, a diferencia de una falta administrativa que resuelve el INE/OPL."
+    },
+    {
+      "formato": "Completamiento",
+      "base": "Para acceder al registro, una candidatura independiente debe acreditar un porcentaje de ______ verificado mediante firmas de la ciudadanía.",
+      "opciones": ["apoyo ciudadano", "afiliación partidista", "financiamiento privado"],
+      "correcta": 0,
+      "explicacion": "El requisito distintivo de las candidaturas independientes es el respaldo o apoyo ciudadano verificado con firmas, no la afiliación a un partido ni un monto de financiamiento privado."
+    },
+    {
+      "formato": "Ordenamiento",
+      "base": "¿Cuál es el orden correcto de las etapas del proceso electoral federal?",
+      "tabla": {
+        "izquierda": ["1. Jornada electoral", "2. Preparación de la elección", "3. Resultados y declaraciones de validez", "4. Dictamen y entrega de constancias"],
+        "derecha": []
+      },
+      "opciones": ["2, 1, 3, 4", "1, 2, 3, 4", "2, 3, 1, 4"],
+      "correcta": 0,
+      "explicacion": "El orden correcto es: preparación de la elección (2) → jornada electoral (1) → resultados y declaraciones de validez (3) → dictamen y entrega de constancias (4)."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "El escrutinio y cómputo realizado en cada casilla el día de la jornada electoral forma parte de la etapa de:",
+      "opciones": ["Preparación de la elección", "Jornada electoral", "Resultados y declaraciones de validez"],
+      "correcta": 1,
+      "explicacion": "La instalación de casillas, la votación y el escrutinio y cómputo en cada casilla ocurren durante la jornada electoral; los cómputos distritales/municipales/estatales corresponden ya a la siguiente etapa."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Qué tipo de sistema electoral integra la Cámara de Diputados de México (300 + 200 curules)?",
+      "opciones": ["Sistema exclusivamente de mayoría relativa", "Sistema exclusivamente de representación proporcional", "Sistema mixto: mayoría relativa y representación proporcional"],
+      "correcta": 2,
+      "explicacion": "La Cámara de Diputados combina 300 diputaciones de mayoría relativa y 200 de representación proporcional, por lo que es un sistema mixto."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Cuál de los siguientes NO es un principio rector de la función electoral?",
+      "opciones": ["Legalidad", "Objetividad", "Discrecionalidad"],
+      "correcta": 2,
+      "explicacion": "Los principios rectores son certeza, legalidad, independencia, imparcialidad, máxima publicidad y objetividad; la discrecionalidad no es uno de ellos, ya que la función electoral debe sujetarse siempre a la legalidad y a la objetividad."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Las candidaturas independientes tienen derecho a financiamiento público y acceso a radio y televisión:",
+      "opciones": ["En condiciones de equidad con los partidos políticos", "Únicamente si son postuladas por una coalición", "Solo para cargos del ámbito municipal"],
+      "correcta": 0,
+      "explicacion": "La Constitución y la LGIPE garantizan a las candidaturas independientes condiciones de equidad frente a los partidos en financiamiento público y acceso a medios, y aplica para todos los cargos de elección popular, no solo municipales."
+    }
+  ]
+}
