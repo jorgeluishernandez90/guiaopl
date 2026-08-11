@@ -269,6 +269,24 @@ async function renderLeccion(temaId) {
   markLessonSeen(temaId);
 }
 
+function shuffleArray(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function shuffleReactivo(r) {
+  const idx = shuffleArray(r.opciones.map((_, i) => i));
+  return { ...r, opciones: idx.map(i => r.opciones[i]), correcta: idx.indexOf(r.correcta) };
+}
+
+function shuffleQuizSet(reactivos) {
+  return shuffleArray(reactivos).map(shuffleReactivo);
+}
+
 /* ---------------- Vista: quiz ---------------- */
 let quizState = null;
 
@@ -281,7 +299,7 @@ async function renderQuiz(temaId, modo = 'parcial') {
   const data = await loadJSON(tema.quiz);
 
   quizState = {
-    temaId, modId: mod.id, nombre: data.nombre, reactivos: data.reactivos,
+    temaId, modId: mod.id, nombre: data.nombre, reactivos: shuffleQuizSet(data.reactivos),
     idx: 0, respuestas: new Array(data.reactivos.length).fill(null),
     aciertos: 0, modo,
     timerInterval: null, segundosRestantes: modo === 'parcial' ? null : data.reactivos.length * 75,
@@ -444,7 +462,7 @@ async function renderQuizModulo(modId) {
 
   $app.innerHTML = `<p>Cargando simulacro del módulo ${mod.letra}…</p>`;
   const bloques = await Promise.all(temasConQuiz.map(t => loadJSON(t.quiz)));
-  const reactivos = bloques.flatMap(b => b.reactivos);
+  const reactivos = shuffleQuizSet(bloques.flatMap(b => b.reactivos));
 
   quizState = {
     temaId: `modulo-${modId}`, modId: mod.id, nombre: `Simulacro parcial · Módulo ${mod.letra}`,
