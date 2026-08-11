@@ -1,0 +1,60 @@
+{
+  "id": "a1-1",
+  "modulo": "a",
+  "nombre": "Comprensión lectora · Ámbito de estudio",
+  "intro": "Habilidad para identificar, interpretar y evaluar la forma y el contenido de textos del ámbito de estudio: artículos de divulgación, textos científicos, ensayos académicos e informes. Este subtema aporta 12 de los 60 reactivos del módulo A.",
+  "subareas": [
+    {
+      "titulo": "Cómo se construye un texto expositivo",
+      "reactivos": 0,
+      "bloques": [
+        { "tipo": "p", "texto": "Un texto del ámbito de estudio (artículo de divulgación, texto científico, ensayo académico) casi siempre organiza su información en tres bloques con funciones distintas. Reconocer esa arquitectura es la mitad del trabajo antes de leer una sola pregunta." },
+        { "tipo": "diagrama", "id": "diagrama-estructura-texto-expositivo" },
+        { "tipo": "tabla", "encabezados": ["Bloque", "Qué buscar ahí"],
+          "filas": [
+            ["Introducción", "El tema y, casi siempre, la tesis o idea principal del texto — la pregunta \"¿de qué trata el texto?\" casi siempre se responde aquí"],
+            ["Desarrollo", "Los argumentos, datos, ejemplos o evidencias que sostienen la tesis — aquí viven las preguntas de detalle y de inferencia"],
+            ["Conclusión", "El cierre: una síntesis, una consecuencia o una postura del autor — aquí suelen aparecer las preguntas sobre el propósito o la intención comunicativa"]
+          ]
+        },
+        { "tipo": "p", "texto": "Además de la estructura, los textos expositivos usan marcadores textuales (conectores) que señalan la relación lógica entre una idea y la siguiente. CENEVAL pregunta con frecuencia \"¿qué función cumple la palabra subrayada?\" — por eso conviene tenerlos clasificados:" },
+        { "tipo": "tabla", "encabezados": ["Tipo de relación", "Conectores frecuentes", "Función"],
+          "filas": [
+            ["Causa-efecto", "porque, debido a, por lo tanto, en consecuencia", "Unen una razón con su resultado"],
+            ["Contraste u oposición", "sin embargo, no obstante, aunque, en cambio", "Introducen una idea que matiza o contradice la anterior"],
+            ["Adición", "además, asimismo, también, del mismo modo", "Suman una idea nueva del mismo peso que la anterior"],
+            ["Ejemplificación", "por ejemplo, es decir, en otras palabras", "Aclaran o concretan una idea abstracta"],
+            ["Secuencia u orden", "en primer lugar, posteriormente, finalmente", "Organizan pasos o etapas dentro del texto"]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Las cinco preguntas típicas y cómo resolverlas",
+      "reactivos": 0,
+      "bloques": [
+        { "tipo": "p", "texto": "Casi cualquier reactivo de comprensión lectora del ámbito de estudio se puede clasificar en uno de estos cinco tipos. Identificar cuál te están pidiendo, antes de leer las opciones, evita que un distractor bien escrito te confunda." },
+        { "tipo": "tabla", "encabezados": ["Tipo de pregunta", "Qué te pide", "Dónde buscar la respuesta"],
+          "filas": [
+            ["Idea principal", "La tesis o el asunto central de todo el texto (no de un párrafo aislado)", "Introducción y, a veces, conclusión — nunca un dato suelto del desarrollo"],
+            ["Detalle o dato explícito", "Un dato que el texto menciona literalmente", "Localízalo palabra por palabra en el párrafo correspondiente"],
+            ["Inferencia", "Algo que el texto no dice literalmente, pero que se deduce con la información dada", "Combina dos datos explícitos del texto; nunca uses información externa que no esté en el texto"],
+            ["Vocabulario en contexto", "El significado de una palabra según cómo se usa ahí, no su significado de diccionario", "Relee la oración completa donde aparece la palabra, no solo la palabra sola"],
+            ["Función textual", "Para qué sirve una palabra, oración o párrafo dentro de la estructura del texto", "Observa qué idea viene antes y qué idea viene después de ese fragmento"]
+          ]
+        },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Regla de oro", "texto": "En una inferencia, la respuesta correcta siempre puede sostenerse solo con lo que el texto dice, combinando dos ideas. Si una opción suena razonable pero requiere un dato que el texto nunca menciona, es un distractor, por más lógica que parezca." }
+      ]
+    },
+    {
+      "titulo": "Ejemplo resuelto paso a paso",
+      "reactivos": 12,
+      "bloques": [
+        { "tipo": "lectura", "etiqueta": "Texto de práctica", "texto": "La domesticación del maíz\n\nHace unos nueve mil años, en el valle del río Balsas, al suroeste de lo que hoy es México, comunidades humanas comenzaron a seleccionar semillas de una gramínea silvestre llamada teocintle. Esta planta tenía muy poco parecido con el maíz actual: sus mazorcas medían apenas unos centímetros y contenían no más de una docena de granos, cada uno protegido por una cubierta dura casi imposible de masticar.\n\nEl proceso de domesticación no fue un solo hallazgo afortunado, sino miles de decisiones repetidas durante generaciones. Cada comunidad conservaba las semillas de las plantas con mazorcas más grandes, granos más blandos o mayor resistencia a las plagas, y las sembraba de nuevo al año siguiente. Esta selección artificial, sostenida durante milenios, transformó gradualmente al teocintle en un cultivo con mazorcas mucho más grandes y granos comestibles sin necesidad de un procesamiento extremo.\n\nLo notable de este proceso es que ocurrió sin que nadie comprendiera los mecanismos genéticos involucrados. Quienes domesticaron el maíz no conocían el concepto de gen ni de herencia en el sentido biológico moderno; actuaban guiados por la observación práctica de qué plantas convenía volver a sembrar. En consecuencia, la domesticación del maíz es, ante todo, un testimonio de conocimiento empírico acumulado, transmitido de una generación a otra mucho antes de que existiera la genética como disciplina científica." },
+        { "tipo": "p", "texto": "Antes de ver las preguntas del simulacro, resolvamos juntos un ejemplo con el mismo texto:" },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Pregunta ejemplo", "texto": "«Según el texto, ¿por qué se dice que la domesticación del maíz es un testimonio de conocimiento empírico?» — A) Porque los pueblos antiguos ya conocían la genética moderna. B) Porque el proceso se sostuvo en la observación práctica, sin que existiera aún la disciplina de la genética. C) Porque el teocintle era genéticamente idéntico al maíz actual." },
+        { "tipo": "p", "texto": "Paso 1 — identifica el tipo de pregunta: pide una razón explicada en el texto (\"¿por qué se dice...?\"), así que es una pregunta de detalle/relación causal, no de inferencia pura. Paso 2 — localiza el fragmento: el último párrafo dice literalmente que actuaban \"guiados por la observación práctica\" y que esto ocurrió \"mucho antes de que existiera la genética como disciplina científica\". Paso 3 — descarta distractores: la opción A contradice el texto (dice justo lo contrario); la opción C nunca se afirma en el texto — de hecho el texto dice que el teocintle era muy distinto al maíz actual. La respuesta correcta es la B, porque reproduce exactamente la idea del texto sin agregar ni contradecir información." }
+      ]
+    }
+  ]
+}

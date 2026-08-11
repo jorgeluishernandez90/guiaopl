@@ -83,6 +83,31 @@
       "opciones": ["El Tribunal Electoral local", "La Fiscalía Especializada en Delitos Electorales", "El Consejo General del INE"],
       "correcta": 0,
       "explicacion": "Los medios de impugnación en materia electoral local se resuelven, en primera instancia, ante el Tribunal Electoral de la entidad; solo en ciertos casos escalan a Salas Regionales o a la Sala Superior del TEPJF."
+    },
+    {
+      "formato": "Relación de elementos",
+      "base": "Relacione la facultad de coordinación INE-OPL con su definición.",
+      "tabla": {
+        "izquierda": ["1. Asunción", "2. Atracción", "3. Delegación"],
+        "derecha": ["a) El INE delega en el OPL una función que originalmente le corresponde a él", "b) El INE asume total o parcialmente una función del OPL, de oficio o a petición", "c) El INE ejerce de forma directa una función específica del OPL, a petición fundada de este"]
+      },
+      "opciones": ["1b, 2c, 3a", "1a, 2b, 3c", "1c, 2a, 3b"],
+      "correcta": 0,
+      "explicacion": "Asunción: el INE toma total o parcialmente una función del OPL (1b). Atracción: el INE ejerce una función específica del OPL a petición de este (2c). Delegación: el INE entrega al OPL una función que originalmente era suya (3a)."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Cuál es la duración del encargo de una consejería electoral de un OPL?",
+      "opciones": ["7 años", "3 años, sin posibilidad de continuidad", "Indefinida, mientras dure el cargo de quien la designó"],
+      "correcta": 0,
+      "explicacion": "Las consejerías electorales de los OPL duran en su encargo 7 años, conforme a la LGIPE."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "El proceso de designación de las consejerías de un OPL inicia formalmente con:",
+      "opciones": ["Una convocatoria pública emitida por el Consejo General del INE", "Una propuesta directa del Congreso local de la entidad", "Un decreto de la persona titular de la gubernatura"],
+      "correcta": 0,
+      "explicacion": "El proceso inicia con una convocatoria pública del Consejo General del INE, que fija requisitos de elegibilidad y calendario; el Congreso local y la gubernatura no intervienen en esta designación."
     }
   ]
 }

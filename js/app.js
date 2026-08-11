@@ -227,6 +227,10 @@ function renderBlock(b) {
         <tbody>${b.filas.map(f => `<tr>${f.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}</tbody>
       </table></div>`;
     case 'callout': return `<div class="callout ${b.clase}"><span class="label">${b.etiqueta}</span>${b.texto}</div>`;
+    case 'lectura': return `<div class="callout legal" style="border-left:4px solid var(--ink);">
+        <span class="label" style="color:var(--ink)">${b.etiqueta || 'Texto de práctica'}</span>
+        ${b.texto.split('\n\n').map(p => `<p style="margin-bottom:10px;">${p}</p>`).join('')}
+      </div>`;
     case 'diagrama': {
       const d = DIAGRAMS[b.id];
       if (!d) return '';
@@ -314,6 +318,12 @@ function paintQuiz() {
   const yaRespondida = quizState.respuestas[idx] != null;
   const seleccion = quizState.respuestas[idx];
 
+  const lecturaHtml = r.lectura ? `
+    <div class="callout" style="border-left:4px solid var(--ink);background:var(--bg-alt);margin-bottom:var(--sp-5);">
+      <span class="label" style="color:var(--ink)">${r.lecturaTitulo || 'Lectura'}</span>
+      ${r.lectura.split('\n\n').map(p => `<p style="margin-bottom:10px;">${p}</p>`).join('')}
+    </div>` : '';
+
   const tablaRelacion = (r.tabla && r.tabla.derecha && r.tabla.derecha.length) ? `
     <div class="table-wrap" style="margin-bottom:var(--sp-4)">
       <table class="study"><tbody>
@@ -349,6 +359,7 @@ function paintQuiz() {
       </div>
       <div class="q-card">
         <div class="q-meta">Reactivo ${idx + 1} de ${reactivos.length} · Formato: ${r.formato}</div>
+        ${lecturaHtml}
         <div class="q-stem">${r.base}</div>
         ${tablaRelacion}
         <div class="options">${opciones}</div>

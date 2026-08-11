@@ -90,6 +90,50 @@
       "opciones": ["En condiciones de equidad con los partidos políticos", "Únicamente si son postuladas por una coalición", "Solo para cargos del ámbito municipal"],
       "correcta": 0,
       "explicacion": "La Constitución y la LGIPE garantizan a las candidaturas independientes condiciones de equidad frente a los partidos en financiamiento público y acceso a medios, y aplica para todos los cargos de elección popular, no solo municipales."
+    },
+    {
+      "formato": "Relación de elementos",
+      "base": "Relacione la reforma electoral con el avance en materia jurisdiccional correspondiente.",
+      "tabla": {
+        "izquierda": ["1. 1977", "2. 1993", "3. 1996"],
+        "derecha": ["a) La creación del Tribunal Federal Electoral como órgano jurisdiccional autónomo", "b) La introducción del recurso de reclamación ante la SCJN contra resoluciones del Colegio Electoral", "c) Competencia constitucional y jurisdiccional al TEPJF"]
+      },
+      "opciones": ["1b, 2a, 3c", "1a, 2c, 3b", "1c, 2b, 3a"],
+      "correcta": 0,
+      "explicacion": "1977: recurso de reclamación ante la SCJN (1b). 1993: surge el Tribunal Federal Electoral como órgano autónomo (2a). 1996: se otorga competencia constitucional y jurisdiccional al TEPJF (3c). Es el ejemplo textual de la guía oficial de CENEVAL."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "La transformación del IFE en Instituto Nacional Electoral, con la creación del Sistema Electoral Nacional, ocurrió con la reforma de:",
+      "opciones": ["1996", "2014", "1990"],
+      "correcta": 1,
+      "explicacion": "La reforma de 2014 transformó al IFE en INE y creó el Sistema Electoral Nacional, que articula al INE con los OPL. La de 1996 ciudadanizó al IFE y dio competencia plena al TEPJF; la de 1990 creó al propio IFE."
+    },
+    {
+      "formato": "Ordenamiento",
+      "base": "¿Cuál es la secuencia correcta del procedimiento para integrar las mesas directivas de casilla?",
+      "tabla": {
+        "izquierda": [
+          "1. Insaculación del 13% de la lista nominal de cada sección",
+          "2. Integración de la mesa y asignación de funciones según escolaridad",
+          "3. Notificación del nombramiento",
+          "4. Capacitación y selección de personas aptas",
+          "5. Segunda insaculación de personas capacitadas sin impedimento",
+          "6. Sorteo de las 26 letras del alfabeto",
+          "7. Sorteo del mes del calendario, base de la insaculación"
+        ],
+        "derecha": []
+      },
+      "opciones": ["7, 1, 4, 6, 5, 2, 3", "1, 4, 7, 6, 5, 2, 3", "7, 1, 4, 5, 6, 2, 3"],
+      "correcta": 0,
+      "explicacion": "El orden oficial es: sorteo del mes (7) → insaculación del 13% (1) → capacitación y selección de aptos (4) → sorteo de las 26 letras (6) → segunda insaculación (5) → integración y asignación de funciones (2) → notificación (3)."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿A qué órgano corresponde determinar la ubicación de las casillas, a propuesta de las juntas distritales ejecutivas?",
+      "opciones": ["A los consejos distritales", "A la Junta General Ejecutiva del INE", "Al Tribunal Electoral local"],
+      "correcta": 0,
+      "explicacion": "La determinación del número y la ubicación de las casillas es una atribución de los consejos distritales, a propuesta de las juntas distritales ejecutivas."
     }
   ]
 }

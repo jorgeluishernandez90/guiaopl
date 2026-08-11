@@ -47,7 +47,24 @@
           "Iniciativa ciudadana y participación en consultas populares.",
           "Afiliarse libre e individualmente a los partidos políticos."
         ]},
-        { "tipo": "callout", "clase": "legal", "etiqueta": "Base normativa", "texto": "Arts. 34, 35 y 36 CPEUM." }
+        { "tipo": "callout", "clase": "legal", "etiqueta": "Base normativa", "texto": "Arts. 34, 35 y 36 CPEUM." },
+        { "tipo": "p", "texto": "Detrás de estos derechos hay una pregunta de fondo que el examen puede plantear en abstracto: ¿cómo participa el pueblo en el poder? Conviene distinguir tres modelos de democracia, y no como categorías excluyentes, sino como ingredientes que el sistema mexicano combina:" },
+        { "tipo": "tabla", "encabezados": ["Tipo de democracia", "Cómo se ejerce el poder"],
+          "filas": [
+            ["Representativa", "La ciudadanía elige representantes (diputaciones, senadurías, gubernaturas) que deciden en su nombre; es la regla general del sistema mexicano"],
+            ["Directa", "La ciudadanía decide de manera inmediata, sin intermediación de representantes, sobre un asunto público concreto (p. ej. una consulta popular)"],
+            ["Participativa", "Combina la representación con mecanismos que abren espacios de intervención ciudadana continua entre una elección y otra (p. ej. presupuesto participativo, contraloría social)"]
+          ]
+        },
+        { "tipo": "p", "texto": "México es, en su diseño constitucional, una democracia representativa que incorpora mecanismos de democracia directa. Los tres principales, todos con su propia ley reglamentaria federal, son:" },
+        { "tipo": "tabla", "encabezados": ["Mecanismo", "En qué consiste", "Ley que lo regula"],
+          "filas": [
+            ["Consulta popular", "La ciudadanía se pronuncia sobre temas de trascendencia nacional; puede ser convocada por el Congreso, la Presidencia (con aval del Congreso) o la ciudadanía misma (con firma de al menos el 2% de la lista nominal)", "Ley Federal de Consulta Popular"],
+            ["Revocación de mandato", "La ciudadanía decide si la persona titular del Poder Ejecutivo Federal debe concluir o no su mandato antes del término para el que fue electa", "Ley Federal de Revocación de Mandato"],
+            ["Iniciativa ciudadana", "La ciudadanía presenta iniciativas de ley o decreto ante el Congreso, con un porcentaje mínimo de firmas de apoyo", "Ley Orgánica del Congreso / CPEUM art. 71"]
+          ]
+        },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "Es al INE a quien corresponde organizar tanto la consulta popular como la revocación de mandato, en su carácter de autoridad electoral nacional — otro punto de conexión entre 'ciudadanía' y 'sistema electoral' que el examen puede combinar en un mismo reactivo." }
       ]
     },
     {

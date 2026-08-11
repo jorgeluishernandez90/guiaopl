@@ -19,8 +19,8 @@
           "nombre": "Comprensión lectora · Ámbito de estudio",
           "subareas": [],
           "reactivos": 12,
-          "leccion": null,
-          "quiz": null
+          "leccion": "data/lecciones/a1-1-comprension-ambito-estudio.json",
+          "quiz": "data/quizzes/a1-1-comprension-ambito-estudio.json"
         },
         {
           "id": "a1-2",

@@ -51,7 +51,18 @@
             ["Fiscalía Especializada en Delitos Electorales (FEDE)", "Ministerio Público especializado", "Nacional"]
           ]
         },
-        { "tipo": "callout", "clase": "legal", "etiqueta": "Base normativa", "texto": "Art. 41, base V, CPEUM; Libro Tercero LGIPE." }
+        { "tipo": "callout", "clase": "legal", "etiqueta": "Base normativa", "texto": "Art. 41, base V, CPEUM; Libro Tercero LGIPE." },
+        { "tipo": "p", "texto": "Estas autoridades no surgieron de una sola vez: son el resultado de sucesivas reformas electorales que fueron construyendo, poco a poco, la autonomía e imparcialidad del sistema. Es exactamente el contenido del reactivo de \"relación de elementos\" que trae la guía oficial como ejemplo, así que conviene tenerlo muy claro:" },
+        { "tipo": "tabla", "encabezados": ["Año", "Reforma / hito"],
+          "filas": [
+            ["1977", "Reforma Política: se introduce el recurso de reclamación ante la Suprema Corte de Justicia de la Nación contra las resoluciones del Colegio Electoral"],
+            ["1990", "Se crea el Instituto Federal Electoral (IFE) y el Tribunal Federal Electoral, como primer tribunal especializado en la materia"],
+            ["1993", "Se fortalece al Tribunal Federal Electoral como órgano jurisdiccional autónomo"],
+            ["1996", "Reforma definitiva: el IFE se ciudadaniza por completo y se otorga competencia constitucional y jurisdiccional al Tribunal Electoral del Poder Judicial de la Federación (TEPJF)"],
+            ["2014", "El IFE se transforma en el Instituto Nacional Electoral (INE); nace el Sistema Electoral Nacional y el Servicio Profesional Electoral Nacional se extiende a los OPL"]
+          ]
+        },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Reactivo tipo guía CENEVAL", "texto": "El ejemplo oficial de \"relación de elementos\" pide vincular 1977 con la introducción del recurso de reclamación ante la SCJN, 1993 con el surgimiento del Tribunal Federal Electoral como órgano autónomo, y 1996 con el otorgamiento de competencia constitucional y jurisdiccional al TEPJF. Apréndetelo en ese orden — es literal en la guía." }
       ]
     },
     {
@@ -93,6 +104,19 @@
             ["4. Dictamen y declaraciones de validez de la elección y otorgamiento de constancias", "Entrega de constancias de mayoría o de asignación proporcional"]
           ]
         },
+        { "tipo": "p", "texto": "Dentro de la etapa de preparación, dos procedimientos son especialmente frecuentes en los reactivos de examen porque tienen una secuencia fija y verificable: la integración de las mesas directivas de casilla y la ubicación de las casillas." },
+        { "tipo": "p", "texto": "La integración de las mesas directivas de casilla sigue un procedimiento de \"doble insaculación\" (sorteo) que garantiza imparcialidad en la selección de la ciudadanía que fungirá como funcionariado de casilla:" },
+        { "tipo": "lista", "items": [
+          "1. Sorteo de un mes del calendario (y el que le sigue) — lo realiza el Consejo General, en diciembre del año previo a la elección.",
+          "2. Insaculación del 13% de la lista nominal de cada sección electoral (nunca menos de 50 personas), tomando como base ese mes sorteado.",
+          "3. Capacitación de las personas insaculadas y selección de quienes resulten aptas, priorizando mayor escolaridad.",
+          "4. Sorteo de las 26 letras del alfabeto, para obtener la letra a partir de la cual (según el apellido paterno) se hará la segunda insaculación.",
+          "5. Segunda insaculación: de entre las personas ya capacitadas y sin impedimento legal, se elige a quienes integrarán cada mesa directiva.",
+          "6. Integración de la mesa directiva y asignación de funciones (presidencia, secretaría, escrutinio) según la escolaridad de cada persona.",
+          "7. Notificación personal del nombramiento a cada integrante."
+        ]},
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Reactivo tipo guía CENEVAL", "texto": "Este procedimiento es, literalmente, el ejemplo de reactivo de \"ordenamiento\" de la guía oficial de CENEVAL. El orden correcto que ahí se marca como correcto es: sorteo del mes (7) → insaculación del 13% (1) → capacitación y selección de aptos (4) → sorteo de las 26 letras (5) → segunda insaculación (6) → integración y asignación de funciones (2) → notificación del nombramiento (3). Practícalo hasta que la secuencia te salga de memoria." },
+        { "tipo": "p", "texto": "La ubicación de las casillas, por su parte, corresponde determinarla a los consejos distritales (a propuesta de las juntas distritales ejecutivas), atendiendo a criterios como accesibilidad para las personas votantes, fácil acceso y condiciones que garanticen el secreto del voto, entre otros previstos en la ley." },
         { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "El proceso electoral ordinario inicia en septiembre del año previo a la elección (con la sesión que da inicio al proceso) y concluye con los cómputos y declaraciones de validez, o, en su caso, hasta que las resoluciones de los medios de impugnación queden firmes." }
       ]
     }

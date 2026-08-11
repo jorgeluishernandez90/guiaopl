@@ -115,5 +115,46 @@ const DIAGRAMS = {
       <text x="485" y="204" text-anchor="middle" class="o-sub">300 distritos electorales</text>
       <text x="485" y="220" text-anchor="middle" class="o-sub">Ámbito distrital</text>
     </svg>`
+  },
+
+  "diagrama-estructura-texto-expositivo": {
+    caption: "Arquitectura de un texto expositivo (ámbito de estudio)",
+    svg: `
+    <svg viewBox="0 0 720 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagrama de la estructura de un texto expositivo: introducción, desarrollo y conclusión">
+      <style>
+        .t-lbl { font: 700 15px 'Space Grotesk', sans-serif; fill: #FFFFFF; }
+        .t-sub { font: 400 11px 'Inter', sans-serif; fill: #55414C; }
+        .t-box { stroke-width: 1.5; }
+      </style>
+      <rect x="20" y="20" width="200" height="52" rx="10" fill="#921257"/>
+      <text x="120" y="52" text-anchor="middle" class="t-lbl">Introducción</text>
+      <rect x="20" y="80" width="200" height="70" rx="10" fill="#FFFFFF" stroke="#EBDCE4" class="t-box"/>
+      <text x="120" y="105" text-anchor="middle" font-size="11" fill="#1C1420" font-weight="700">Contiene:</text>
+      <text x="120" y="122" text-anchor="middle" class="t-sub">Tema del texto</text>
+      <text x="120" y="138" text-anchor="middle" class="t-sub">Tesis / idea principal</text>
+
+      <rect x="260" y="20" width="200" height="52" rx="10" fill="#C4177A"/>
+      <text x="360" y="52" text-anchor="middle" class="t-lbl">Desarrollo</text>
+      <rect x="260" y="80" width="200" height="70" rx="10" fill="#FFFFFF" stroke="#EBDCE4" class="t-box"/>
+      <text x="360" y="105" text-anchor="middle" font-size="11" fill="#1C1420" font-weight="700">Contiene:</text>
+      <text x="360" y="122" text-anchor="middle" class="t-sub">Argumentos y datos</text>
+      <text x="360" y="138" text-anchor="middle" class="t-sub">Ejemplos, evidencias</text>
+
+      <rect x="500" y="20" width="200" height="52" rx="10" fill="#D6127F"/>
+      <text x="600" y="52" text-anchor="middle" class="t-lbl">Conclusión</text>
+      <rect x="500" y="80" width="200" height="70" rx="10" fill="#FFFFFF" stroke="#EBDCE4" class="t-box"/>
+      <text x="600" y="105" text-anchor="middle" font-size="11" fill="#1C1420" font-weight="700">Contiene:</text>
+      <text x="600" y="122" text-anchor="middle" class="t-sub">Síntesis o cierre</text>
+      <text x="600" y="138" text-anchor="middle" class="t-sub">Postura del autor</text>
+
+      <path d="M 220 46 L 258 46" stroke="#921257" stroke-width="2" marker-end="url(#arrow)"/>
+      <path d="M 460 46 L 498 46" stroke="#C4177A" stroke-width="2" marker-end="url(#arrow)"/>
+      <defs>
+        <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+          <path d="M0,0 L6,3 L0,6 Z" fill="#55414C"/>
+        </marker>
+      </defs>
+      <text x="360" y="185" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#921257">Idea principal → argumentos → cierre</text>
+    </svg>`
   }
 };

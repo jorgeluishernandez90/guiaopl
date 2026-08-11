@@ -21,7 +21,16 @@
           "Atribuciones típicas: derechos y accesos a prerrogativas de partidos locales, educación cívica, preparación de la jornada electoral, impresión de documentos y producción de materiales electorales, escrutinios y cómputos, declaración de validez y otorgamiento de constancias en las elecciones locales, cómputo de la elección de gubernatura.",
           "Cuentan también con órganos desconcentrados: consejos distritales y/o municipales, según lo determine la legislación de cada entidad."
         ]},
-        { "tipo": "callout", "clase": "legal", "etiqueta": "Base normativa", "texto": "Art. 41, base V, apartado C, CPEUM; art. 98 LGIPE." }
+        { "tipo": "callout", "clase": "legal", "etiqueta": "Base normativa", "texto": "Art. 41, base V, apartado C, CPEUM; art. 98 LGIPE." },
+        { "tipo": "p", "texto": "La coordinación entre el INE y los OPL no es solo de supervisión general: la ley prevé tres facultades específicas mediante las cuales el INE puede intervenir directamente en funciones que, en principio, corresponden al OPL. Distinguirlas con precisión es un contenido clásico de examen:" },
+        { "tipo": "tabla", "encabezados": ["Facultad", "Quién la activa", "En qué consiste"],
+          "filas": [
+            ["Asunción", "El Consejo General del INE, de oficio o a petición del OPL", "El INE asume total o parcialmente una función que originalmente corresponde al OPL"],
+            ["Atracción", "El Consejo General del INE, a petición fundada del OPL", "El INE ejerce, de manera directa, una función específica que originalmente corresponde al OPL"],
+            ["Delegación", "El Consejo General del INE", "El INE delega en el OPL una función que originalmente le corresponde a él mismo"]
+          ]
+        },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "Asunción y atracción van en el mismo sentido: el INE toma para sí una función del OPL (la diferencia está en si es total/parcial y de oficio, o específica y a petición). La delegación va en sentido inverso: el INE le da al OPL una función que era suya." }
       ]
     },
     {
@@ -34,7 +43,16 @@
           "Concurren también, con voz pero sin voto: representaciones de los partidos políticos, una persona Secretaria Ejecutiva y, cuando corresponda, representaciones legislativas.",
           "Las personas integrantes del Consejo General son designadas por el Consejo General del INE."
         ]},
-        { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "No confundas la integración del Consejo General del INE (11 consejerías) con la del Consejo General de un OPL (7 consejerías: presidencia + 6 consejerías electorales)." }
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "No confundas la integración del Consejo General del INE (11 consejerías) con la del Consejo General de un OPL (7 consejerías: presidencia + 6 consejerías electorales)." },
+        { "tipo": "p", "texto": "El proceso mediante el cual el INE designa a estas consejerías sigue, a grandes rasgos, la misma lógica de mérito y transparencia que el concurso público al que tú mismo te presentas:" },
+        { "tipo": "lista", "items": [
+          "Convocatoria pública emitida por el Consejo General del INE, con los requisitos de elegibilidad (edad, residencia, no militancia partidista reciente, entre otros) y el calendario del proceso.",
+          "Registro de aspirantes y verificación de requisitos.",
+          "Evaluación de conocimientos y comparecencias ante la Comisión de Vinculación con los OPL (o instancia equivalente) del INE.",
+          "Integración de una lista de personas mejor evaluadas y designación final por el Consejo General del INE, con mayoría calificada.",
+          "Duración del encargo: 7 años, con posibilidad de que la persona presidenta sea reelecta por un periodo adicional (según los criterios que fije la convocatoria)."
+        ]},
+        { "tipo": "callout", "clase": "legal", "etiqueta": "Base normativa", "texto": "Art. 41, base V, apartado C, párrafos 4 a 10, CPEUM; arts. 100 a 102 LGIPE." }
       ]
     },
     {

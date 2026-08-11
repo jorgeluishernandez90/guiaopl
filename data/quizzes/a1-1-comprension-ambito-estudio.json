@@ -1,0 +1,76 @@
+{
+  "id": "a1-1",
+  "nombre": "Simulacro parcial · Comprensión lectora, ámbito de estudio",
+  "reactivos": [
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 1",
+      "lectura": "La domesticación del maíz\n\nHace unos nueve mil años, en el valle del río Balsas, al suroeste de lo que hoy es México, comunidades humanas comenzaron a seleccionar semillas de una gramínea silvestre llamada teocintle. Esta planta tenía muy poco parecido con el maíz actual: sus mazorcas medían apenas unos centímetros y contenían no más de una docena de granos, cada uno protegido por una cubierta dura casi imposible de masticar.\n\nEl proceso de domesticación no fue un solo hallazgo afortunado, sino miles de decisiones repetidas durante generaciones. Cada comunidad conservaba las semillas de las plantas con mazorcas más grandes, granos más blandos o mayor resistencia a las plagas, y las sembraba de nuevo al año siguiente. Esta selección artificial, sostenida durante milenios, transformó gradualmente al teocintle en un cultivo con mazorcas mucho más grandes y granos comestibles sin necesidad de un procesamiento extremo.\n\nLo notable de este proceso es que ocurrió sin que nadie comprendiera los mecanismos genéticos involucrados. Quienes domesticaron el maíz no conocían el concepto de gen ni de herencia en el sentido biológico moderno; actuaban guiados por la observación práctica de qué plantas convenía volver a sembrar. En consecuencia, la domesticación del maíz es, ante todo, un testimonio de conocimiento empírico acumulado, transmitido de una generación a otra mucho antes de que existiera la genética como disciplina científica.",
+      "base": "¿Cuál es la idea principal del texto?",
+      "opciones": [
+        "El teocintle silvestre era, desde su origen, prácticamente idéntico al maíz que consumimos hoy",
+        "La domesticación del maíz fue un proceso de selección artificial sostenido por generaciones, guiado por la observación práctica y no por conocimiento genético formal",
+        "El valle del río Balsas es la única región de México donde puede cultivarse maíz en la actualidad"
+      ],
+      "correcta": 1,
+      "explicacion": "La idea principal aparece distribuida entre la introducción y la conclusión: el texto explica un proceso de selección artificial sostenido durante milenios, basado en observación práctica. La opción A contradice el primer párrafo; la opción C no se menciona en ninguna parte del texto."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 1",
+      "lectura": "La domesticación del maíz\n\nHace unos nueve mil años, en el valle del río Balsas, al suroeste de lo que hoy es México, comunidades humanas comenzaron a seleccionar semillas de una gramínea silvestre llamada teocintle. Esta planta tenía muy poco parecido con el maíz actual: sus mazorcas medían apenas unos centímetros y contenían no más de una docena de granos, cada uno protegido por una cubierta dura casi imposible de masticar.\n\nEl proceso de domesticación no fue un solo hallazgo afortunado, sino miles de decisiones repetidas durante generaciones. Cada comunidad conservaba las semillas de las plantas con mazorcas más grandes, granos más blandos o mayor resistencia a las plagas, y las sembraba de nuevo al año siguiente. Esta selección artificial, sostenida durante milenios, transformó gradualmente al teocintle en un cultivo con mazorcas mucho más grandes y granos comestibles sin necesidad de un procesamiento extremo.\n\nLo notable de este proceso es que ocurrió sin que nadie comprendiera los mecanismos genéticos involucrados. Quienes domesticaron el maíz no conocían el concepto de gen ni de herencia en el sentido biológico moderno; actuaban guiados por la observación práctica de qué plantas convenía volver a sembrar. En consecuencia, la domesticación del maíz es, ante todo, un testimonio de conocimiento empírico acumulado, transmitido de una generación a otra mucho antes de que existiera la genética como disciplina científica.",
+      "base": "Según el primer párrafo, ¿cuántos granos contenían, como máximo, las mazorcas del teocintle silvestre?",
+      "opciones": ["Alrededor de una docena", "Varios cientos", "El texto no lo menciona"],
+      "correcta": 0,
+      "explicacion": "Es un dato explícito: el texto dice literalmente que las mazorcas \"contenían no más de una docena de granos\"."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 1",
+      "lectura": "La domesticación del maíz\n\nHace unos nueve mil años, en el valle del río Balsas, al suroeste de lo que hoy es México, comunidades humanas comenzaron a seleccionar semillas de una gramínea silvestre llamada teocintle. Esta planta tenía muy poco parecido con el maíz actual: sus mazorcas medían apenas unos centímetros y contenían no más de una docena de granos, cada uno protegido por una cubierta dura casi imposible de masticar.\n\nEl proceso de domesticación no fue un solo hallazgo afortunado, sino miles de decisiones repetidas durante generaciones. Cada comunidad conservaba las semillas de las plantas con mazorcas más grandes, granos más blandos o mayor resistencia a las plagas, y las sembraba de nuevo al año siguiente. Esta selección artificial, sostenida durante milenios, transformó gradualmente al teocintle en un cultivo con mazorcas mucho más grandes y granos comestibles sin necesidad de un procesamiento extremo.\n\nLo notable de este proceso es que ocurrió sin que nadie comprendiera los mecanismos genéticos involucrados. Quienes domesticaron el maíz no conocían el concepto de gen ni de herencia en el sentido biológico moderno; actuaban guiados por la observación práctica de qué plantas convenía volver a sembrar. En consecuencia, la domesticación del maíz es, ante todo, un testimonio de conocimiento empírico acumulado, transmitido de una generación a otra mucho antes de que existiera la genética como disciplina científica.",
+      "base": "¿Qué se puede inferir sobre las comunidades que domesticaron el maíz, aunque el texto no lo diga literalmente?",
+      "opciones": [
+        "Que poseían conocimientos formales de biología comparables a los actuales",
+        "Que fueron capaces de transmitir de generación en generación un criterio práctico de selección, sin necesidad de una teoría científica formal",
+        "Que preferían el teocintle silvestre sobre cualquier variedad domesticada"
+      ],
+      "correcta": 1,
+      "explicacion": "Es una inferencia válida porque combina dos datos explícitos: que el proceso se sostuvo \"durante generaciones\" y que actuaban \"guiados por la observación práctica\" sin conocer la genética. La opción A contradice esto último; la opción C nunca se sugiere en el texto."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 1",
+      "lectura": "La domesticación del maíz\n\nHace unos nueve mil años, en el valle del río Balsas, al suroeste de lo que hoy es México, comunidades humanas comenzaron a seleccionar semillas de una gramínea silvestre llamada teocintle. Esta planta tenía muy poco parecido con el maíz actual: sus mazorcas medían apenas unos centímetros y contenían no más de una docena de granos, cada uno protegido por una cubierta dura casi imposible de masticar.\n\nEl proceso de domesticación no fue un solo hallazgo afortunado, sino miles de decisiones repetidas durante generaciones. Cada comunidad conservaba las semillas de las plantas con mazorcas más grandes, granos más blandos o mayor resistencia a las plagas, y las sembraba de nuevo al año siguiente. Esta selección artificial, sostenida durante milenios, transformó gradualmente al teocintle en un cultivo con mazorcas mucho más grandes y granos comestibles sin necesidad de un procesamiento extremo.\n\nLo notable de este proceso es que ocurrió sin que nadie comprendiera los mecanismos genéticos involucrados. Quienes domesticaron el maíz no conocían el concepto de gen ni de herencia en el sentido biológico moderno; actuaban guiados por la observación práctica de qué plantas convenía volver a sembrar. En consecuencia, la domesticación del maíz es, ante todo, un testimonio de conocimiento empírico acumulado, transmitido de una generación a otra mucho antes de que existiera la genética como disciplina científica.",
+      "base": "En el segundo párrafo, la palabra \"gradualmente\" tiene, en el contexto del texto, un significado más cercano a:",
+      "opciones": ["De manera súbita e inesperada", "De manera progresiva y lenta", "De manera aleatoria y sin ningún criterio"],
+      "correcta": 1,
+      "explicacion": "El párrafo describe un proceso sostenido \"durante milenios\" mediante decisiones repetidas cada año; \"gradualmente\" refuerza esa idea de progresión lenta, no de algo súbito ni azaroso."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 1",
+      "lectura": "La domesticación del maíz\n\nHace unos nueve mil años, en el valle del río Balsas, al suroeste de lo que hoy es México, comunidades humanas comenzaron a seleccionar semillas de una gramínea silvestre llamada teocintle. Esta planta tenía muy poco parecido con el maíz actual: sus mazorcas medían apenas unos centímetros y contenían no más de una docena de granos, cada uno protegido por una cubierta dura casi imposible de masticar.\n\nEl proceso de domesticación no fue un solo hallazgo afortunado, sino miles de decisiones repetidas durante generaciones. Cada comunidad conservaba las semillas de las plantas con mazorcas más grandes, granos más blandos o mayor resistencia a las plagas, y las sembraba de nuevo al año siguiente. Esta selección artificial, sostenida durante milenios, transformó gradualmente al teocintle en un cultivo con mazorcas mucho más grandes y granos comestibles sin necesidad de un procesamiento extremo.\n\nLo notable de este proceso es que ocurrió sin que nadie comprendiera los mecanismos genéticos involucrados. Quienes domesticaron el maíz no conocían el concepto de gen ni de herencia en el sentido biológico moderno; actuaban guiados por la observación práctica de qué plantas convenía volver a sembrar. En consecuencia, la domesticación del maíz es, ante todo, un testimonio de conocimiento empírico acumulado, transmitido de una generación a otra mucho antes de que existiera la genética como disciplina científica.",
+      "base": "¿Qué función cumple la expresión \"En consecuencia\", al inicio de la última oración del texto?",
+      "opciones": [
+        "Introduce un ejemplo concreto de lo dicho antes",
+        "Señala una conclusión que se desprende de lo expuesto en el párrafo",
+        "Contrasta la idea anterior con una opinión distinta"
+      ],
+      "correcta": 1,
+      "explicacion": "\"En consecuencia\" es un conector consecutivo: marca que lo que sigue es una conclusión lógica derivada de las ideas anteriores del párrafo, no un ejemplo ni un contraste."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 2",
+      "lectura": "El reloj interno\n\nCasi todos los seres vivos, desde las bacterias hasta los seres humanos, poseen un mecanismo biológico capaz de anticipar el ciclo de veinticuatro horas del día y la noche. A este mecanismo se le llama ritmo circadiano, y su nombre proviene del latín circa diem, que significa \"alrededor de un día\".\n\nEn los seres humanos, este reloj interno se localiza en una pequeña región del cerebro llamada núcleo supraquiasmático. Aunque el reloj funciona de manera relativamente autónoma, recibe señales externas —la más importante de ellas es la luz— que le permiten ajustarse con precisión al ciclo real del entorno. Por eso, cuando una persona viaja a una zona horaria distinta, su reloj interno tarda varios días en sincronizarse con la nueva hora local, un fenómeno que coloquialmente se conoce como jet lag.\n\nLo que resulta más sorprendente es que este mecanismo no solo regula el sueño: también influye en la temperatura corporal, la liberación de ciertas hormonas y hasta en la eficacia con la que el cuerpo metaboliza algunos medicamentos. Por ello, entender el ritmo circadiano ha dejado de ser un tema exclusivo de la biología básica para convertirse también en un asunto relevante para la medicina clínica.",
+      "base": "¿Cuál es el propósito comunicativo principal del texto?",
+      "opciones": [
+        "Persuadir al lector de que evite viajar entre zonas horarias distintas",
+        "Explicar, de manera divulgativa, qué es el ritmo circadiano y por qué es relevante más allá de la biología básica",
+        "Narrar una anécdota personal sobre las consecuencias del jet lag"
+      ],
+      "correcta": 1,
+      "explicacion": "El texto tiene una estructura explicativa clásica: define un concepto, describe su funcionamiento y cierra señalando su relevancia más amplia. No busca persuadir ni narrar una experiencia personal."
+    }
+  ]
+}

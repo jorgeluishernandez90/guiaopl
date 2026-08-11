@@ -82,6 +82,24 @@
       ],
       "correcta": 0,
       "explicacion": "El Consejo General del OPL es una autoridad administrativa, no jurisdiccional. La SCJN solo conoce acciones de inconstitucionalidad. Los medios de impugnación locales los resuelve el tribunal electoral de la entidad."
+    },
+    {
+      "formato": "Relación de elementos",
+      "base": "Relacione el tipo de democracia con su descripción.",
+      "tabla": {
+        "izquierda": ["1. Representativa", "2. Directa", "3. Participativa"],
+        "derecha": ["a) Mecanismos de intervención ciudadana continua entre elecciones", "b) La ciudadanía elige representantes que deciden en su nombre", "c) La ciudadanía decide de manera inmediata sobre un asunto concreto"]
+      },
+      "opciones": ["1b, 2c, 3a", "1a, 2b, 3c", "1c, 2a, 3b"],
+      "correcta": 0,
+      "explicacion": "México es, en diseño constitucional, una democracia representativa (1b) que incorpora mecanismos de democracia directa como la consulta popular (2c); la democracia participativa (3a) abre espacios de intervención ciudadana continua."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Qué autoridad tiene a su cargo la organización de la consulta popular y de la revocación de mandato en el ámbito federal?",
+      "opciones": ["El Instituto Nacional Electoral", "La Suprema Corte de Justicia de la Nación", "El Instituto Nacional de Estadística y Geografía"],
+      "correcta": 0,
+      "explicacion": "El INE, como autoridad electoral nacional, organiza ambos mecanismos de democracia directa, conforme a la Ley Federal de Consulta Popular y la Ley Federal de Revocación de Mandato."
     }
   ]
 }
