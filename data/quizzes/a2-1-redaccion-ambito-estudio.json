@@ -1,0 +1,83 @@
+{
+  "id": "a2-1",
+  "nombre": "Simulacro parcial · Redacción indirecta, ámbito de estudio",
+  "reactivos": [
+    {
+      "formato": "Completamiento",
+      "base": "El aprendizaje distribuido es una estrategia de estudio que consiste en repartir el repaso de un tema en varias sesiones cortas a lo largo del tiempo, en lugar de concentrarlo en una sola sesión prolongada. ______ numerosos estudios de psicología cognitiva muestran que esta estrategia mejora significativamente la retención a largo plazo en comparación con el estudio concentrado.",
+      "opciones": ["Sin embargo,", "De hecho,", "Aunque"],
+      "correcta": 1,
+      "explicacion": "La segunda oración refuerza y confirma la idea de la primera (no la contradice), así que corresponde un conector de adición/confirmación como \"de hecho\", no uno de contraste."
+    },
+    {
+      "formato": "Completamiento",
+      "base": "La fotosíntesis es el proceso mediante el cual las plantas convierten la energía luminosa en energía química. ______, este proceso libera oxígeno como subproducto, un elemento esencial para la mayoría de las formas de vida en el planeta.",
+      "opciones": ["Además", "No obstante", "Por el contrario"],
+      "correcta": 0,
+      "explicacion": "La segunda oración añade información adicional sobre el mismo proceso, sin contradecir la primera; \"además\" es el conector de adición adecuado, mientras que \"no obstante\" y \"por el contrario\" implican una oposición inexistente."
+    },
+    {
+      "formato": "Ordenamiento",
+      "base": "Ordene los siguientes fragmentos para formar un párrafo coherente sobre el método científico.",
+      "tabla": {
+        "izquierda": [
+          "1. Finalmente, se analizan los resultados obtenidos para confirmar o refutar la hipótesis inicial.",
+          "2. El método científico comienza con la observación cuidadosa de un fenómeno.",
+          "3. A partir de esa observación, se formula una hipótesis que intenta explicarlo.",
+          "4. Después, se diseña un experimento capaz de poner a prueba dicha hipótesis."
+        ],
+        "derecha": []
+      },
+      "opciones": ["2, 3, 4, 1", "1, 2, 3, 4", "3, 2, 4, 1"],
+      "correcta": 0,
+      "explicacion": "El orden lógico es: observación (2) → hipótesis (3) → diseño experimental (4) → análisis de resultados (1). El conector \"finalmente\" en el fragmento 1 confirma que va al final, y \"después\" en el fragmento 4 confirma que va antes del cierre."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "En el párrafo: «El comité de investigación entregó su informe final el jueves pasado. Este documento incluye recomendaciones sobre el uso de los recursos disponibles.», la palabra subrayada \"Este\" cumple la función de:",
+      "opciones": ["Sustituir, mediante un pronombre, al sustantivo \"informe\" mencionado antes", "Introducir un ejemplo del informe mencionado", "Marcar una relación de contraste con la oración anterior"],
+      "correcta": 0,
+      "explicacion": "\"Este\" es un mecanismo de referencia: sustituye a \"informe final\" para evitar repetirlo, y así logra la cohesión entre ambas oraciones."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "«El ecosistema de un arrecife de coral depende del equilibrio entre múltiples especies. Los peces herbívoros controlan el crecimiento de las algas, mientras que los corales ofrecen refugio y alimento a decenas de organismos marinos. Ayer compré un boleto de avión para visitar la costa. Cuando este equilibrio se rompe, todo el sistema puede colapsar en pocos años.» ¿Cuál oración NO corresponde al tema central del párrafo?",
+      "opciones": ["\"Los peces herbívoros controlan el crecimiento de las algas...\"", "\"Ayer compré un boleto de avión para visitar la costa.\"", "\"Cuando este equilibrio se rompe, todo el sistema puede colapsar en pocos años.\""],
+      "correcta": 1,
+      "explicacion": "El párrafo trata sobre el equilibrio ecológico de un arrecife de coral; la oración sobre comprar un boleto de avión introduce un tema personal ajeno al hilo argumentativo, rompiendo la unidad temática."
+    },
+    {
+      "formato": "Completamiento",
+      "base": "Un resumen académico debe conservar las ideas principales del texto original sin incluir opiniones del autor del resumen. ______, es común que quienes están aprendiendo a resumir mezclen, sin darse cuenta, sus propias valoraciones con las ideas del texto fuente.",
+      "opciones": ["Por ejemplo,", "Sin embargo,", "Es decir,"],
+      "correcta": 1,
+      "explicacion": "La segunda oración contrasta con la norma establecida en la primera (lo que \"debe\" hacerse frente a lo que ocurre \"en la práctica\"), por lo que corresponde un conector de contraste como \"sin embargo\"."
+    },
+    {
+      "formato": "Ordenamiento",
+      "base": "Ordene los fragmentos para reconstruir la estructura de un párrafo introductorio de un ensayo académico.",
+      "tabla": {
+        "izquierda": [
+          "1. Por ello, este ensayo analizará tres factores que explican dicho fenómeno.",
+          "2. Sin embargo, las causas detrás de este cambio siguen siendo objeto de debate académico.",
+          "3. En las últimas décadas, los hábitos de lectura de la población joven han cambiado radicalmente."
+        ],
+        "derecha": []
+      },
+      "opciones": ["3, 2, 1", "1, 3, 2", "2, 1, 3"],
+      "correcta": 0,
+      "explicacion": "El orden lógico presenta primero el fenómeno general (3), luego un matiz o problema sobre ese fenómeno (2, con \"sin embargo\"), y finalmente el propósito del ensayo (1, con \"por ello\"), que cierra la introducción."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Cuál de las siguientes oraciones presenta un ejemplo de elipsis?",
+      "opciones": [
+        "\"Juan estudió biología; Ana, química.\"",
+        "\"Juan estudió biología y Ana también estudió biología.\"",
+        "\"Juan, quien estudió biología, obtuvo una beca.\""
+      ],
+      "correcta": 0,
+      "explicacion": "En \"Ana, química\" se omite el verbo \"estudió\" porque ya quedó claro por el contexto de la primera parte de la oración — eso es elipsis. Las otras dos opciones no omiten ningún elemento."
+    }
+  ]
+}

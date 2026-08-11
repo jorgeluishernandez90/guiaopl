@@ -1,0 +1,54 @@
+{
+  "id": "a2-1",
+  "modulo": "a",
+  "nombre": "Redacción indirecta · Ámbito de estudio",
+  "intro": "Habilidad para seleccionar textos coherentes y cohesionados, que cumplan con las convenciones de la lengua, a partir de un propósito de comunicación — sin escribir directamente, sino eligiendo la opción que mejor arma o completa un texto académico. Este subtema aporta 15 de los 60 reactivos del módulo A: el que más pesa de todo el módulo.",
+  "subareas": [
+    {
+      "titulo": "Coherencia y cohesión: la diferencia que lo explica todo",
+      "reactivos": 0,
+      "bloques": [
+        { "tipo": "p", "texto": "Casi todos los reactivos de redacción indirecta evalúan una de estas dos propiedades de un texto bien construido, y conviene no confundirlas:" },
+        { "tipo": "tabla", "encabezados": ["Propiedad", "Qué es", "Si falla, el texto..."],
+          "filas": [
+            ["Coherencia", "Unidad de sentido: todas las ideas del texto giran alrededor del mismo tema y siguen un orden lógico", "...tiene ideas sueltas, contradictorias o que no vienen al caso"],
+            ["Cohesión", "Los mecanismos gramaticales y léxicos que enlazan una oración con la siguiente", "...se lee 'a saltos', con vacíos o repeticiones torpes, aunque las ideas de fondo sean correctas"]
+          ]
+        },
+        { "tipo": "p", "texto": "La cohesión se logra, sobre todo, con estos cuatro recursos:" },
+        { "tipo": "tabla", "encabezados": ["Recurso de cohesión", "Cómo funciona", "Ejemplo"],
+          "filas": [
+            ["Referencia (pronombres)", "Un pronombre sustituye a algo ya mencionado, evitando repetirlo", "\"El comité presentó su informe. Este incluía...\""],
+            ["Sustitución léxica", "Se reemplaza una palabra por un sinónimo o un término más general", "\"...la ballena azul... el cetáceo...\""],
+            ["Elipsis", "Se omite un elemento que ya quedó claro por el contexto, sin perder sentido", "\"Juan estudió biología; Ana, [estudió] química.\""],
+            ["Conectores", "Palabras que marcan explícitamente la relación lógica entre ideas", "\"...por lo tanto...\", \"...sin embargo...\""]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Los formatos de reactivo más frecuentes",
+      "reactivos": 0,
+      "bloques": [
+        { "tipo": "diagrama", "id": "diagrama-formatos-redaccion" },
+        { "tipo": "tabla", "encabezados": ["Formato", "Qué te pide", "Estrategia"],
+          "filas": [
+            ["Completamiento de párrafo", "Elegir la oración que completa un hueco en el texto manteniendo el sentido", "Lee todo el párrafo primero; la respuesta debe encajar con lo que viene antes Y después del hueco, no solo con una parte"],
+            ["Ordenamiento de oraciones/párrafos", "Reconstruir el orden lógico de fragmentos desordenados", "Busca la oración que presenta el tema (va primero) y las pistas de cohesión (pronombres, conectores) que delatan qué fragmento sigue a cuál"],
+            ["Selección del conector adecuado", "Elegir la palabra que enlaza correctamente dos ideas", "Primero identifica la relación lógica entre las ideas (¿causa?, ¿contraste?, ¿ejemplo?) y luego busca el conector que exprese justo esa relación"],
+            ["Oración que no corresponde", "Detectar la oración que rompe la unidad temática del párrafo", "Identifica el tema central del párrafo; la oración correcta es la que se aleja de ese tema, aunque esté bien escrita"]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Ejemplo resuelto paso a paso",
+      "reactivos": 15,
+      "bloques": [
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Reactivo ejemplo · Completamiento", "texto": "«El aprendizaje distribuido es una estrategia de estudio que consiste en repartir el repaso de un tema en varias sesiones cortas a lo largo del tiempo, en lugar de concentrarlo en una sola sesión prolongada. ______ numerosos estudios de psicología cognitiva muestran que esta estrategia mejora significativamente la retención a largo plazo en comparación con el estudio concentrado.» ¿Qué opción completa mejor el espacio? A) Sin embargo, B) De hecho, C) Aunque" },
+        { "tipo": "p", "texto": "Paso 1 — identifica la relación lógica entre las dos oraciones: la primera define el aprendizaje distribuido; la segunda aporta evidencia que refuerza esa misma idea (no la contradice). Paso 2 — descarta los conectores de contraste: tanto \"sin embargo\" como \"aunque\" indican una oposición que no existe aquí, así que ambos son distractores. Paso 3 — confirma con \"de hecho\", que introduce precisamente un dato que confirma y refuerza lo dicho antes. La respuesta correcta es la B." },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "Antes de mirar las opciones, intenta predecir tú mismo qué tipo de conector necesita el espacio (¿de causa?, ¿de contraste?, ¿de adición?). Si una opción no corresponde a ese tipo, puedes descartarla sin ni siquiera leerla completa." }
+      ]
+    }
+  ]
+}

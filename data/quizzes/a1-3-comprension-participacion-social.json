@@ -1,0 +1,72 @@
+{
+  "id": "a1-3",
+  "nombre": "Simulacro parcial · Comprensión lectora, ámbito de participación social",
+  "reactivos": [
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 1 · Artículo de opinión",
+      "lectura": "El silencio que nos hace falta\n\nVivimos rodeados de pantallas que reclaman nuestra atención cada pocos minutos. Basta con revisar cuántas veces al día desbloqueamos el teléfono para notar un patrón preocupante: hemos perdido la capacidad de estar, simplemente, sin hacer nada. Y sin embargo, cada vez más estudios sugieren que esos momentos de aparente ocio son indispensables para que el cerebro consolide ideas, resuelva problemas de forma creativa y descanse de verdad.\n\nNo se trata de satanizar la tecnología, sino de recuperar un espacio que hemos cedido casi sin darnos cuenta. Es necesario que, como sociedad, empecemos a valorar el aburrimiento productivo tanto como valoramos la productividad misma. Una caminata sin audífonos, una comida sin el teléfono sobre la mesa, diez minutos mirando por la ventana: pequeños gestos que, sumados, podrían devolvernos algo que hemos ido perdiendo poco a poco.\n\nQuienes insisten en que la tecnología no tiene por qué representar un problema tienen, hasta cierto punto, razón. El problema no es el dispositivo, sino el uso que hacemos de él cuando nunca lo soltamos. Por eso resulta urgente que cada persona, y no solo las instituciones, se haga responsable de recuperar esos espacios de silencio.",
+      "base": "¿Cuál es la tesis del autor?",
+      "opciones": [
+        "La tecnología es perjudicial en cualquier circunstancia y debería evitarse por completo",
+        "Es necesario recuperar espacios de silencio y desconexión frente al uso constante de la tecnología",
+        "Los estudios científicos sobre el cerebro citados en el texto carecen de validez"
+      ],
+      "correcta": 1,
+      "explicacion": "El propio texto aclara \"no se trata de satanizar la tecnología\", lo que descarta la postura extrema de la opción A; la opción C nunca se plantea. El cierre resume la tesis real: recuperar espacios de silencio es responsabilidad individual y urgente."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 1 · Artículo de opinión",
+      "lectura": "El silencio que nos hace falta\n\nVivimos rodeados de pantallas que reclaman nuestra atención cada pocos minutos. Basta con revisar cuántas veces al día desbloqueamos el teléfono para notar un patrón preocupante: hemos perdido la capacidad de estar, simplemente, sin hacer nada. Y sin embargo, cada vez más estudios sugieren que esos momentos de aparente ocio son indispensables para que el cerebro consolide ideas, resuelva problemas de forma creativa y descanse de verdad.\n\nNo se trata de satanizar la tecnología, sino de recuperar un espacio que hemos cedido casi sin darnos cuenta. Es necesario que, como sociedad, empecemos a valorar el aburrimiento productivo tanto como valoramos la productividad misma. Una caminata sin audífonos, una comida sin el teléfono sobre la mesa, diez minutos mirando por la ventana: pequeños gestos que, sumados, podrían devolvernos algo que hemos ido perdiendo poco a poco.\n\nQuienes insisten en que la tecnología no tiene por qué representar un problema tienen, hasta cierto punto, razón. El problema no es el dispositivo, sino el uso que hacemos de él cuando nunca lo soltamos. Por eso resulta urgente que cada persona, y no solo las instituciones, se haga responsable de recuperar esos espacios de silencio.",
+      "base": "El tercer párrafo, que reconoce parcialmente la razón de quienes defienden la tecnología antes de matizar esa idea, funciona en el texto como:",
+      "opciones": ["La tesis principal del artículo", "Un contraargumento que el autor reconoce antes de reforzar su propia postura", "Un dato estadístico que respalda la tesis"],
+      "correcta": 1,
+      "explicacion": "Es un recurso argumentativo típico: reconocer parcialmente la postura opuesta (\"tienen, hasta cierto punto, razón\") para luego matizarla y reforzar la propia tesis, sin que eso signifique abandonar su argumento central."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 1 · Artículo de opinión",
+      "lectura": "El silencio que nos hace falta\n\nVivimos rodeados de pantallas que reclaman nuestra atención cada pocos minutos. Basta con revisar cuántas veces al día desbloqueamos el teléfono para notar un patrón preocupante: hemos perdido la capacidad de estar, simplemente, sin hacer nada. Y sin embargo, cada vez más estudios sugieren que esos momentos de aparente ocio son indispensables para que el cerebro consolide ideas, resuelva problemas de forma creativa y descanse de verdad.\n\nNo se trata de satanizar la tecnología, sino de recuperar un espacio que hemos cedido casi sin darnos cuenta. Es necesario que, como sociedad, empecemos a valorar el aburrimiento productivo tanto como valoramos la productividad misma. Una caminata sin audífonos, una comida sin el teléfono sobre la mesa, diez minutos mirando por la ventana: pequeños gestos que, sumados, podrían devolvernos algo que hemos ido perdiendo poco a poco.\n\nQuienes insisten en que la tecnología no tiene por qué representar un problema tienen, hasta cierto punto, razón. El problema no es el dispositivo, sino el uso que hacemos de él cuando nunca lo soltamos. Por eso resulta urgente que cada persona, y no solo las instituciones, se haga responsable de recuperar esos espacios de silencio.",
+      "base": "La expresión \"resulta urgente\", en el último párrafo, cumple la función de:",
+      "opciones": [
+        "Describir un dato objetivo y verificable",
+        "Marcar una relación de ejemplificación con la idea anterior",
+        "Reforzar, mediante lenguaje valorativo, la postura persuasiva del autor"
+      ],
+      "correcta": 2,
+      "explicacion": "\"Resulta urgente\" no describe un hecho neutral: es una valoración del autor que busca persuadir al lector de actuar, característica típica del lenguaje de opinión."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 2 · Aviso comunitario",
+      "lectura": "AVISO A LOS RESIDENTES\n\nSe informa a todos los habitantes del conjunto habitacional que, a partir del próximo lunes, entrará en vigor el nuevo sistema de separación de residuos. Se solicita depositar los desechos orgánicos en los contenedores verdes, y los residuos reciclables (papel, cartón, plástico y vidrio) en los contenedores azules, ubicados en el área común de cada sección.\n\nEs importante destacar que el incumplimiento reiterado de esta disposición podrá derivar en un llamado de atención por parte de la administración, conforme a lo establecido en el reglamento interno. Se agradece de antemano la colaboración de todos los residentes, ya que esta medida busca reducir el volumen de basura enviado a relleno sanitario y fomentar una cultura de reciclaje dentro del conjunto.\n\nCualquier duda sobre el nuevo sistema podrá canalizarse a la oficina de administración en un horario de 9:00 a 15:00 horas, de lunes a viernes.",
+      "base": "¿Cuál es el propósito comunicativo principal de este texto?",
+      "opciones": [
+        "Persuadir a los residentes de que el reciclaje es moralmente superior a no reciclar",
+        "Informar de una nueva disposición y solicitar una conducta específica de los residentes",
+        "Narrar una experiencia previa relacionada con el manejo de residuos en el conjunto"
+      ],
+      "correcta": 1,
+      "explicacion": "Es un texto de tipo aviso/comunicado: informa una disposición nueva (\"entrará en vigor...\") y solicita una conducta concreta (\"se solicita depositar...\"), sin desarrollar una argumentación persuasiva extensa como sí ocurre en un artículo de opinión."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 2 · Aviso comunitario",
+      "lectura": "AVISO A LOS RESIDENTES\n\nSe informa a todos los habitantes del conjunto habitacional que, a partir del próximo lunes, entrará en vigor el nuevo sistema de separación de residuos. Se solicita depositar los desechos orgánicos en los contenedores verdes, y los residuos reciclables (papel, cartón, plástico y vidrio) en los contenedores azules, ubicados en el área común de cada sección.\n\nEs importante destacar que el incumplimiento reiterado de esta disposición podrá derivar en un llamado de atención por parte de la administración, conforme a lo establecido en el reglamento interno. Se agradece de antemano la colaboración de todos los residentes, ya que esta medida busca reducir el volumen de basura enviado a relleno sanitario y fomentar una cultura de reciclaje dentro del conjunto.\n\nCualquier duda sobre el nuevo sistema podrá canalizarse a la oficina de administración en un horario de 9:00 a 15:00 horas, de lunes a viernes.",
+      "base": "Según el texto, ¿dónde deben depositarse los residuos reciclables como papel y cartón?",
+      "opciones": ["En los contenedores verdes", "En los contenedores azules", "El texto no lo especifica"],
+      "correcta": 1,
+      "explicacion": "Es un dato explícito: el texto indica que \"los residuos reciclables (papel, cartón, plástico y vidrio)\" van en los contenedores azules; los orgánicos van en los verdes."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 2 · Aviso comunitario",
+      "lectura": "AVISO A LOS RESIDENTES\n\nSe informa a todos los habitantes del conjunto habitacional que, a partir del próximo lunes, entrará en vigor el nuevo sistema de separación de residuos. Se solicita depositar los desechos orgánicos en los contenedores verdes, y los residuos reciclables (papel, cartón, plástico y vidrio) en los contenedores azules, ubicados en el área común de cada sección.\n\nEs importante destacar que el incumplimiento reiterado de esta disposición podrá derivar en un llamado de atención por parte de la administración, conforme a lo establecido en el reglamento interno. Se agradece de antemano la colaboración de todos los residentes, ya que esta medida busca reducir el volumen de basura enviado a relleno sanitario y fomentar una cultura de reciclaje dentro del conjunto.\n\nCualquier duda sobre el nuevo sistema podrá canalizarse a la oficina de administración en un horario de 9:00 a 15:00 horas, de lunes a viernes.",
+      "base": "El registro (nivel de formalidad) que predomina en este aviso es:",
+      "opciones": ["Coloquial y cercano, como el de una conversación entre amigos", "Formal e impersonal, propio de una comunicación institucional", "Literario, con abundantes recursos estilísticos"],
+      "correcta": 1,
+      "explicacion": "Expresiones como \"se informa\", \"se solicita\", \"conforme a lo establecido en el reglamento interno\" son marcas de un registro formal e impersonal, típico de la comunicación institucional, no coloquial ni literario."
+    }
+  ]
+}

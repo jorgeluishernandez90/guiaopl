@@ -1,0 +1,50 @@
+{
+  "id": "a1-3",
+  "modulo": "a",
+  "nombre": "Comprensión lectora · Ámbito de participación social",
+  "intro": "Habilidad para identificar, interpretar y evaluar textos que circulan en la vida cotidiana y comunitaria: avisos, cartas, folletos, reglamentos breves y artículos de opinión. Este subtema aporta 6 de los 60 reactivos del módulo A — pocos reactivos, pero con un enfoque muy distinto al de los otros dos ámbitos.",
+  "subareas": [
+    {
+      "titulo": "Qué caracteriza a estos textos",
+      "reactivos": 0,
+      "bloques": [
+        { "tipo": "p", "texto": "A diferencia de los textos de estudio (que informan) o los literarios (que buscan un efecto estético), los textos de participación social buscan casi siempre regular una conducta, informar de un trámite o convencer al lector de adoptar una postura. Por eso las preguntas se centran menos en 'qué dice el texto' y más en quién lo dice, para quién, y con qué intención." },
+        { "tipo": "tabla", "encabezados": ["Tipo de texto", "Propósito típico", "Rasgo distintivo"],
+          "filas": [
+            ["Aviso o comunicado", "Informar de una disposición, cambio o instrucción a un grupo", "Lenguaje breve, directo, a veces imperativo (\"favor de...\", \"se solicita...\")"],
+            ["Carta formal", "Solicitar, agradecer, quejarse o notificar algo a una persona o institución específica", "Fórmulas de cortesía, estructura fija (saludo, cuerpo, despedida)"],
+            ["Folleto o díptico informativo", "Explicar un servicio, trámite o recomendación a un público amplio", "Apoyo en listas, subtítulos y llamados a la acción"],
+            ["Artículo de opinión", "Persuadir al lector de una postura sobre un tema de interés público", "Tesis explícita, argumentos, lenguaje valorativo"]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Cómo identificar la postura del emisor",
+      "reactivos": 0,
+      "bloques": [
+        { "tipo": "p", "texto": "El artículo de opinión es, de los cuatro, el más parecido a un texto argumentativo clásico. Vale la pena reconocer su esqueleto, porque de ahí salen la mayoría de las preguntas sobre \"postura\" o \"tesis del autor\"." },
+        { "tipo": "diagrama", "id": "diagrama-estructura-argumentativa" },
+        { "tipo": "p", "texto": "Además de la estructura, el lenguaje persuasivo deja huellas específicas que puedes rastrear en el texto:" },
+        { "tipo": "tabla", "encabezados": ["Marca de lenguaje", "Ejemplo", "Qué revela"],
+          "filas": [
+            ["Adjetivos valorativos", "\"una medida urgente\", \"un problema alarmante\"", "El autor está calificando, no solo describiendo — señal de postura"],
+            ["Verbos modales de obligación o necesidad", "\"debe\", \"es necesario\", \"hay que\"", "El autor está recomendando una acción, no solo informando"],
+            ["Preguntas retóricas", "\"¿Acaso podemos seguir ignorando esto?\"", "Buscan involucrar emocionalmente al lector, no obtener una respuesta literal"],
+            ["Datos o cifras seleccionadas", "\"el 80% de los casos...\"", "Refuerzan la tesis con apariencia de objetividad — pero fueron elegidos por el autor para apoyar su argumento"]
+          ]
+        },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Regla de oro", "texto": "No confundas 'de qué habla el texto' (el tema) con 'qué opina el autor sobre ese tema' (la tesis o postura). Dos personas pueden escribir sobre el mismo tema con posturas completamente opuestas." }
+      ]
+    },
+    {
+      "titulo": "Ejemplo resuelto paso a paso",
+      "reactivos": 6,
+      "bloques": [
+        { "tipo": "lectura", "etiqueta": "Texto de práctica · Artículo de opinión", "texto": "El silencio que nos hace falta\n\nVivimos rodeados de pantallas que reclaman nuestra atención cada pocos minutos. Basta con revisar cuántas veces al día desbloqueamos el teléfono para notar un patrón preocupante: hemos perdido la capacidad de estar, simplemente, sin hacer nada. Y sin embargo, cada vez más estudios sugieren que esos momentos de aparente ocio son indispensables para que el cerebro consolide ideas, resuelva problemas de forma creativa y descanse de verdad.\n\nNo se trata de satanizar la tecnología, sino de recuperar un espacio que hemos cedido casi sin darnos cuenta. Es necesario que, como sociedad, empecemos a valorar el aburrimiento productivo tanto como valoramos la productividad misma. Una caminata sin audífonos, una comida sin el teléfono sobre la mesa, diez minutos mirando por la ventana: pequeños gestos que, sumados, podrían devolvernos algo que hemos ido perdiendo poco a poco.\n\nQuienes insisten en que la tecnología no tiene por qué representar un problema tienen, hasta cierto punto, razón. El problema no es el dispositivo, sino el uso que hacemos de él cuando nunca lo soltamos. Por eso resulta urgente que cada persona, y no solo las instituciones, se haga responsable de recuperar esos espacios de silencio." },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Pregunta ejemplo", "texto": "«¿Cuál es la tesis del autor?» — A) La tecnología es completamente perjudicial y debería evitarse. B) Es necesario recuperar espacios de silencio y desconexión frente al uso constante de la tecnología. C) Los estudios científicos sobre el cerebro no son confiables." },
+        { "tipo": "p", "texto": "Paso 1 — localiza el lenguaje valorativo y los verbos de obligación: el texto dice \"es necesario\" y \"resulta urgente\", ambos indicadores directos de que el autor está tomando postura, no solo describiendo un fenómeno. Paso 2 — descarta los extremos: el propio texto aclara \"no se trata de satanizar la tecnología\", lo que descarta la opción A por ser una postura más extrema de la que el autor sostiene. La opción C no se menciona en ningún momento. Paso 3 — confirma con el cierre del texto, que resume la idea central: recuperar espacios de silencio es responsabilidad individual y urgente. La respuesta correcta es la B." }
+      ]
+    }
+  ]
+}

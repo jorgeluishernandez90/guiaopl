@@ -1,0 +1,68 @@
+{
+  "id": "a1-2",
+  "nombre": "Simulacro parcial · Comprensión lectora, ámbito literario",
+  "reactivos": [
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 1 · Cuento",
+      "lectura": "El reloj de la abuela\n\nMi abuela guardaba un reloj de pared que nunca dio la hora correcta. Se había detenido, según ella misma contaba, la tarde en que mi abuelo salió a comprar cigarros y no volvió jamás. Nadie en la familia se atrevía a repararlo. Las manecillas quedaron congeladas en las cuatro y cuarto, como dos brazos suplicantes que se negaban a soltar el último minuto compartido.\n\nCuando yo era niño, pasaba horas frente a ese reloj imaginando que, si lo miraba con suficiente atención, las manecillas volverían a moverse. Mi abuela, sentada en su mecedora, me observaba con una media sonrisa que nunca supe si era de ternura o de resignación. \"Algunas cosas\", me dijo una vez, \"se quedan quietas para que uno no las olvide\".\n\nAños después, cuando ella también se fue, encontré el reloj guardado en una caja, envuelto en un mantel bordado. Lo colgué en mi propia sala. Sigue marcando las cuatro y cuarto, y aunque sé perfectamente que no funciona, cada vez que paso frente a él bajo un poco el paso, como quien no quiere interrumpir algo que todavía respira.",
+      "base": "¿Qué tipo de narrador presenta el texto?",
+      "opciones": ["Omnisciente en tercera persona", "Protagonista en primera persona", "Testigo objetivo en tercera persona"],
+      "correcta": 1,
+      "explicacion": "El narrador usa \"yo\", \"mi abuela\", y vive él mismo la historia (de niño y de adulto): es un narrador protagonista en primera persona, no un observador externo ni alguien omnisciente sobre otros personajes."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 1 · Cuento",
+      "lectura": "El reloj de la abuela\n\nMi abuela guardaba un reloj de pared que nunca dio la hora correcta. Se había detenido, según ella misma contaba, la tarde en que mi abuelo salió a comprar cigarros y no volvió jamás. Nadie en la familia se atrevía a repararlo. Las manecillas quedaron congeladas en las cuatro y cuarto, como dos brazos suplicantes que se negaban a soltar el último minuto compartido.\n\nCuando yo era niño, pasaba horas frente a ese reloj imaginando que, si lo miraba con suficiente atención, las manecillas volverían a moverse. Mi abuela, sentada en su mecedora, me observaba con una media sonrisa que nunca supe si era de ternura o de resignación. \"Algunas cosas\", me dijo una vez, \"se quedan quietas para que uno no las olvide\".\n\nAños después, cuando ella también se fue, encontré el reloj guardado en una caja, envuelto en un mantel bordado. Lo colgué en mi propia sala. Sigue marcando las cuatro y cuarto, y aunque sé perfectamente que no funciona, cada vez que paso frente a él bajo un poco el paso, como quien no quiere interrumpir algo que todavía respira.",
+      "base": "La expresión \"como dos brazos suplicantes que se negaban a soltar el último minuto compartido\" es un ejemplo de:",
+      "opciones": ["Hipérbole", "Personificación", "Ironía"],
+      "correcta": 1,
+      "explicacion": "Se atribuye a las manecillas (objetos) una actitud humana —\"suplicar\", \"negarse a soltar\"—, lo cual es característico de la personificación, no de una exageración (hipérbole) ni de un contraste irónico."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 1 · Cuento",
+      "lectura": "El reloj de la abuela\n\nMi abuela guardaba un reloj de pared que nunca dio la hora correcta. Se había detenido, según ella misma contaba, la tarde en que mi abuelo salió a comprar cigarros y no volvió jamás. Nadie en la familia se atrevía a repararlo. Las manecillas quedaron congeladas en las cuatro y cuarto, como dos brazos suplicantes que se negaban a soltar el último minuto compartido.\n\nCuando yo era niño, pasaba horas frente a ese reloj imaginando que, si lo miraba con suficiente atención, las manecillas volverían a moverse. Mi abuela, sentada en su mecedora, me observaba con una media sonrisa que nunca supe si era de ternura o de resignación. \"Algunas cosas\", me dijo una vez, \"se quedan quietas para que uno no las olvide\".\n\nAños después, cuando ella también se fue, encontré el reloj guardado en una caja, envuelto en un mantel bordado. Lo colgué en mi propia sala. Sigue marcando las cuatro y cuarto, y aunque sé perfectamente que no funciona, cada vez que paso frente a él bajo un poco el paso, como quien no quiere interrumpir algo que todavía respira.",
+      "base": "¿Qué se puede inferir sobre el significado que el reloj detenido tiene para la familia?",
+      "opciones": [
+        "Es un objeto sin ningún valor que nadie se ha molestado en reparar por descuido",
+        "Funciona como un recordatorio emocional de una pérdida, que la familia prefiere conservar tal cual antes que 'corregir'",
+        "La abuela planeaba repararlo, pero nunca encontró a alguien capacitado para hacerlo"
+      ],
+      "correcta": 1,
+      "explicacion": "El texto nunca dice esto literalmente, pero se infiere combinando varios datos: nadie se atreve a repararlo, la frase de la abuela (\"para que uno no las olvide\") y el gesto final del narrador adulto de no querer \"interrumpir algo que todavía respira\". La opción A contradice ese peso emocional; la C no tiene ningún sustento en el texto."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 2 · Extracto de novela",
+      "lectura": "La casa al final de la calle\n\nDon Aurelio llevaba treinta años vendiendo periódicos en la misma esquina, y en todo ese tiempo nadie lo había visto sonreír más de una vez al día. Los vecinos decían que guardaba, bajo esa expresión de piedra, un secreto tan pesado que hasta caminar le costaba trabajo. Nadie sabía, sin embargo, que esa mañana, mientras acomodaba los diarios sobre su carrito, había recibido una carta que llevaba esperando media vida.\n\nLa abrió con manos temblorosas detrás del quiosco, lejos de las miradas curiosas de la clientela habitual. Sus ojos, generalmente apagados como dos monedas viejas, se encendieron de golpe al reconocer la letra del remitente. Dobló la carta con cuidado, la guardó en el bolsillo más cercano a su pecho, y por primera vez en años, silbó una melodía mientras despachaba el periódico de la mañana.\n\nNinguno de sus clientes notó el cambio. Para ellos, don Aurelio seguía siendo el mismo hombre de siempre: parco, distante, ajeno a cualquier alegría. Solo el lector de esta historia sabe lo que verdaderamente ocurría dentro de aquel pecho que, después de tantos años, había vuelto a latir con esperanza.",
+      "base": "¿Qué tipo de narrador presenta este segundo texto?",
+      "opciones": ["Protagonista en primera persona", "Omnisciente en tercera persona", "Testigo objetivo, limitado a lo observable"],
+      "correcta": 1,
+      "explicacion": "El narrador conoce lo que sienten los personajes por dentro (\"sus ojos... se encendieron\", \"lo que verdaderamente ocurría dentro de aquel pecho\") y sabe cosas que ni los propios clientes de don Aurelio conocen: es un narrador omnisciente en tercera persona."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 2 · Extracto de novela",
+      "lectura": "La casa al final de la calle\n\nDon Aurelio llevaba treinta años vendiendo periódicos en la misma esquina, y en todo ese tiempo nadie lo había visto sonreír más de una vez al día. Los vecinos decían que guardaba, bajo esa expresión de piedra, un secreto tan pesado que hasta caminar le costaba trabajo. Nadie sabía, sin embargo, que esa mañana, mientras acomodaba los diarios sobre su carrito, había recibido una carta que llevaba esperando media vida.\n\nLa abrió con manos temblorosas detrás del quiosco, lejos de las miradas curiosas de la clientela habitual. Sus ojos, generalmente apagados como dos monedas viejas, se encendieron de golpe al reconocer la letra del remitente. Dobló la carta con cuidado, la guardó en el bolsillo más cercano a su pecho, y por primera vez en años, silbó una melodía mientras despachaba el periódico de la mañana.\n\nNinguno de sus clientes notó el cambio. Para ellos, don Aurelio seguía siendo el mismo hombre de siempre: parco, distante, ajeno a cualquier alegría. Solo el lector de esta historia sabe lo que verdaderamente ocurría dentro de aquel pecho que, después de tantos años, había vuelto a latir con esperanza.",
+      "base": "La comparación \"sus ojos, generalmente apagados como dos monedas viejas\" es un ejemplo de:",
+      "opciones": ["Símil o comparación", "Metáfora", "Hipérbole"],
+      "correcta": 0,
+      "explicacion": "Usa el conector comparativo \"como\" para relacionar dos elementos (ojos / monedas viejas); si dijera \"sus ojos eran dos monedas viejas\", sin el \"como\", sería una metáfora."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 2 · Extracto de novela",
+      "lectura": "La casa al final de la calle\n\nDon Aurelio llevaba treinta años vendiendo periódicos en la misma esquina, y en todo ese tiempo nadie lo había visto sonreír más de una vez al día. Los vecinos decían que guardaba, bajo esa expresión de piedra, un secreto tan pesado que hasta caminar le costaba trabajo. Nadie sabía, sin embargo, que esa mañana, mientras acomodaba los diarios sobre su carrito, había recibido una carta que llevaba esperando media vida.\n\nLa abrió con manos temblorosas detrás del quiosco, lejos de las miradas curiosas de la clientela habitual. Sus ojos, generalmente apagados como dos monedas viejas, se encendieron de golpe al reconocer la letra del remitente. Dobló la carta con cuidado, la guardó en el bolsillo más cercano a su pecho, y por primera vez en años, silbó una melodía mientras despachaba el periódico de la mañana.\n\nNinguno de sus clientes notó el cambio. Para ellos, don Aurelio seguía siendo el mismo hombre de siempre: parco, distante, ajeno a cualquier alegría. Solo el lector de esta historia sabe lo que verdaderamente ocurría dentro de aquel pecho que, después de tantos años, había vuelto a latir con esperanza.",
+      "base": "¿Qué efecto produce en el lector el hecho de que ningún cliente de don Aurelio note el cambio en su ánimo?",
+      "opciones": [
+        "Refuerza el contraste entre la vida interior del personaje y la percepción superficial que los demás tienen de él",
+        "Sugiere que don Aurelio en realidad no cambió en absoluto esa mañana",
+        "Indica que los clientes conocían perfectamente el secreto de don Aurelio"
+      ],
+      "correcta": 0,
+      "explicacion": "El narrador subraya que 'solo el lector' conoce lo que ocurre por dentro, mientras que el entorno del personaje sigue percibiéndolo igual que siempre: ese contraste entre interioridad y apariencia externa es central en el efecto narrativo del fragmento."
+    }
+  ]
+}

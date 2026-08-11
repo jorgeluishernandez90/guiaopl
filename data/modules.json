@@ -27,24 +27,24 @@
           "nombre": "Comprensión lectora · Ámbito literario",
           "subareas": [],
           "reactivos": 12,
-          "leccion": null,
-          "quiz": null
+          "leccion": "data/lecciones/a1-2-comprension-ambito-literario.json",
+          "quiz": "data/quizzes/a1-2-comprension-ambito-literario.json"
         },
         {
           "id": "a1-3",
           "nombre": "Comprensión lectora · Ámbito de participación social",
           "subareas": [],
           "reactivos": 6,
-          "leccion": null,
-          "quiz": null
+          "leccion": "data/lecciones/a1-3-comprension-participacion-social.json",
+          "quiz": "data/quizzes/a1-3-comprension-participacion-social.json"
         },
         {
           "id": "a2-1",
           "nombre": "Redacción indirecta · Ámbito de estudio",
           "subareas": [],
           "reactivos": 15,
-          "leccion": null,
-          "quiz": null
+          "leccion": "data/lecciones/a2-1-redaccion-ambito-estudio.json",
+          "quiz": "data/quizzes/a2-1-redaccion-ambito-estudio.json"
         },
         {
           "id": "a2-2",

@@ -1,0 +1,58 @@
+{
+  "id": "a1-2",
+  "modulo": "a",
+  "nombre": "Comprensión lectora · Ámbito literario",
+  "intro": "Habilidad para identificar, interpretar y evaluar la forma y el contenido de textos literarios: cuentos, extractos de novela, poesía narrativa y otras formas de ficción. Este subtema aporta 12 de los 60 reactivos del módulo A.",
+  "subareas": [
+    {
+      "titulo": "Qué cambia frente a un texto expositivo",
+      "reactivos": 0,
+      "bloques": [
+        { "tipo": "p", "texto": "En el ámbito de estudio, el lenguaje es casi siempre denotativo: las palabras significan lo que literalmente dicen. En el ámbito literario, el lenguaje suele ser connotativo: una palabra o una imagen sugiere algo más allá de su significado directo. Por eso las preguntas cambian de naturaleza: ya no te piden solo \"qué dice el texto\", sino \"qué sugiere\", \"qué efecto produce\" o \"cómo lo dice\"." },
+        { "tipo": "tabla", "encabezados": ["", "Texto expositivo (ámbito de estudio)", "Texto literario"],
+          "filas": [
+            ["Lenguaje", "Denotativo — dice lo que significa", "Connotativo — sugiere, evoca, tiene doble sentido"],
+            ["Propósito", "Informar o explicar", "Producir un efecto estético o emocional"],
+            ["Voz", "Autor que expone directamente", "Narrador — una construcción textual distinta del autor"],
+            ["Preguntas típicas", "Idea principal, dato, inferencia lógica", "Tono, recursos literarios, tipo de narrador, atmósfera, inferencia sobre personajes"]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Elementos narrativos que el examen suele preguntar",
+      "reactivos": 0,
+      "bloques": [
+        { "tipo": "diagrama", "id": "diagrama-elementos-narrativos" },
+        { "tipo": "tabla", "encabezados": ["Tipo de narrador", "Cómo se reconoce"],
+          "filas": [
+            ["Protagonista (1a persona)", "Cuenta su propia historia: \"yo hice\", \"yo sentí\". Su conocimiento está limitado a lo que él mismo vive"],
+            ["Testigo (1a persona)", "Narra en \"yo\", pero la historia le ocurre a otro personaje; observa desde fuera"],
+            ["Omnisciente (3a persona)", "Narra en \"él/ella\" y conoce pensamientos y sentimientos de todos los personajes, incluso lo que ellos no saben entre sí"],
+            ["Testigo u objetivo (3a persona)", "Narra en \"él/ella\", pero solo describe lo observable — acciones y diálogos, sin acceso a pensamientos internos"]
+          ]
+        },
+        { "tipo": "p", "texto": "Además del narrador, conviene reconocer estos recursos literarios — son de los más preguntados porque tienen un nombre técnico exacto:" },
+        { "tipo": "tabla", "encabezados": ["Recurso", "En qué consiste", "Ejemplo breve"],
+          "filas": [
+            ["Metáfora", "Identifica dos elementos distintos sin usar un conector comparativo", "\"Sus ojos eran dos brasas\""],
+            ["Símil o comparación", "Compara dos elementos usando un conector (\"como\", \"cual\")", "\"Corría como el viento\""],
+            ["Personificación", "Atribuye cualidades humanas a algo que no lo es", "\"El silencio gritaba en la habitación vacía\""],
+            ["Hipérbole", "Exagera deliberadamente una cualidad o acción", "\"Te lo he dicho un millón de veces\""],
+            ["Ironía", "Dice algo distinto (a veces opuesto) de lo que realmente se quiere comunicar, con intención crítica o humorística", "Llamar \"puntual\" a quien siempre llega tarde"]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Ejemplo resuelto paso a paso",
+      "reactivos": 12,
+      "bloques": [
+        { "tipo": "lectura", "etiqueta": "Texto de práctica", "texto": "El reloj de la abuela\n\nMi abuela guardaba un reloj de pared que nunca dio la hora correcta. Se había detenido, según ella misma contaba, la tarde en que mi abuelo salió a comprar cigarros y no volvió jamás. Nadie en la familia se atrevía a repararlo. Las manecillas quedaron congeladas en las cuatro y cuarto, como dos brazos suplicantes que se negaban a soltar el último minuto compartido.\n\nCuando yo era niño, pasaba horas frente a ese reloj imaginando que, si lo miraba con suficiente atención, las manecillas volverían a moverse. Mi abuela, sentada en su mecedora, me observaba con una media sonrisa que nunca supe si era de ternura o de resignación. \"Algunas cosas\", me dijo una vez, \"se quedan quietas para que uno no las olvide\".\n\nAños después, cuando ella también se fue, encontré el reloj guardado en una caja, envuelto en un mantel bordado. Lo colgué en mi propia sala. Sigue marcando las cuatro y cuarto, y aunque sé perfectamente que no funciona, cada vez que paso frente a él bajo un poco el paso, como quien no quiere interrumpir algo que todavía respira." },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Pregunta ejemplo", "texto": "«¿Qué tipo de narrador presenta el texto?» — A) Narrador omnisciente en tercera persona. B) Narrador protagonista en primera persona. C) Narrador testigo objetivo, sin acceso a pensamientos." },
+        { "tipo": "p", "texto": "Paso 1 — busca las marcas gramaticales: el texto usa \"mi abuela\", \"yo pasaba horas\", \"me dijo\" — es decir, primera persona (\"yo\", \"mi\"). Esto ya descarta la opción A. Paso 2 — distingue entre protagonista y testigo: el narrador no solo observa, también vive la historia como niño («yo pasaba horas frente a ese reloj imaginando...») y sigue presente como adulto («lo colgué en mi propia sala»); es decir, la historia le ocurre a él mismo, no solo a otro personaje. Esto descarta la opción C. Paso 3 — confirma: la respuesta correcta es la B, narrador protagonista en primera persona." },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "Cuando dudes entre protagonista y testigo, pregúntate: ¿a quién le pasa la historia central? Si el \"yo\" que narra es también quien vive el conflicto central del relato, es protagonista. Si el conflicto central le ocurre a otro personaje y el \"yo\" solo lo observa, es testigo." }
+      ]
+    }
+  ]
+}

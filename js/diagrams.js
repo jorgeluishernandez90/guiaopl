@@ -156,5 +156,120 @@ const DIAGRAMS = {
       </defs>
       <text x="360" y="185" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#921257">Idea principal → argumentos → cierre</text>
     </svg>`
+  },
+
+  "diagrama-elementos-narrativos": {
+    caption: "Elementos que articulan un texto narrativo",
+    svg: `
+    <svg viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagrama de los elementos de un texto narrativo: narrador, personajes, tiempo, espacio y tono">
+      <style>
+        .e-lbl { font: 700 13px 'Space Grotesk', sans-serif; fill: #1C1420; }
+        .e-sub { font: 400 10.5px 'Inter', sans-serif; fill: #55414C; }
+      </style>
+      <circle cx="360" cy="120" r="54" fill="#FFE3F0" stroke="#D6127F" stroke-width="2"/>
+      <text x="360" y="115" text-anchor="middle" class="e-lbl">Texto</text>
+      <text x="360" y="132" text-anchor="middle" class="e-lbl">narrativo</text>
+
+      <g>
+        <circle cx="130" cy="40" r="6" fill="#921257"/>
+        <line x1="136" y1="40" x2="306" y2="95" stroke="#EBDCE4" stroke-width="2"/>
+        <text x="20" y="30" class="e-lbl">Narrador</text>
+        <text x="20" y="46" class="e-sub">¿Quién cuenta y desde dónde?</text>
+      </g>
+      <g>
+        <circle cx="590" cy="40" r="6" fill="#C4177A"/>
+        <line x1="584" y1="40" x2="414" y2="95" stroke="#EBDCE4" stroke-width="2"/>
+        <text x="480" y="30" class="e-lbl">Personajes</text>
+        <text x="480" y="46" class="e-sub">Quiénes actúan en la historia</text>
+      </g>
+      <g>
+        <circle cx="70" cy="150" r="6" fill="#D6127F"/>
+        <line x1="76" y1="150" x2="308" y2="128" stroke="#EBDCE4" stroke-width="2"/>
+        <text x="20" y="180" class="e-lbl">Tiempo</text>
+        <text x="20" y="196" class="e-sub">Cuándo y en qué orden ocurre</text>
+      </g>
+      <g>
+        <circle cx="650" cy="150" r="6" fill="#EA4FA0"/>
+        <line x1="644" y1="150" x2="412" y2="128" stroke="#EBDCE4" stroke-width="2"/>
+        <text x="500" y="180" class="e-lbl">Espacio</text>
+        <text x="500" y="196" class="e-sub">Dónde ocurre la historia</text>
+      </g>
+      <g>
+        <circle cx="360" cy="220" r="6" fill="#1C1420"/>
+        <line x1="360" y1="214" x2="360" y2="176" stroke="#EBDCE4" stroke-width="2"/>
+        <text x="360" y="236" text-anchor="middle" class="e-lbl">Tono / atmósfera</text>
+      </g>
+    </svg>`
+  },
+
+  "diagrama-estructura-argumentativa": {
+    caption: "Esqueleto de un texto argumentativo (artículo de opinión)",
+    svg: `
+    <svg viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagrama de la estructura de un texto argumentativo: tesis, argumentos, contraargumento y conclusión">
+      <style>
+        .a-lbl { font: 700 13px 'Space Grotesk', sans-serif; fill: #FFFFFF; }
+        .a-sub { font: 400 10.5px 'Inter', sans-serif; fill: #55414C; }
+      </style>
+      <rect x="20" y="20" width="150" height="50" rx="10" fill="#921257"/>
+      <text x="95" y="50" text-anchor="middle" class="a-lbl">Tesis</text>
+      <text x="95" y="88" text-anchor="middle" class="a-sub">Postura del autor</text>
+
+      <rect x="200" y="20" width="150" height="50" rx="10" fill="#C4177A"/>
+      <text x="275" y="50" text-anchor="middle" class="a-lbl">Argumentos</text>
+      <text x="275" y="88" text-anchor="middle" class="a-sub">Razones a favor</text>
+
+      <rect x="380" y="20" width="170" height="50" rx="10" fill="#EA4FA0"/>
+      <text x="465" y="44" text-anchor="middle" class="a-lbl">Contraargumento</text>
+      <text x="465" y="60" text-anchor="middle" class="a-lbl" font-size="11">(opcional)</text>
+      <text x="465" y="88" text-anchor="middle" class="a-sub">Reconoce la postura opuesta</text>
+
+      <rect x="570" y="20" width="130" height="50" rx="10" fill="#1C1420"/>
+      <text x="635" y="50" text-anchor="middle" class="a-lbl">Conclusión</text>
+      <text x="635" y="88" text-anchor="middle" class="a-sub">Refuerza la tesis</text>
+
+      <path d="M 172 45 L 198 45" stroke="#55414C" stroke-width="2" marker-end="url(#arrow2)"/>
+      <path d="M 352 45 L 378 45" stroke="#55414C" stroke-width="2" marker-end="url(#arrow2)"/>
+      <path d="M 552 45 L 568 45" stroke="#55414C" stroke-width="2" marker-end="url(#arrow2)"/>
+      <defs>
+        <marker id="arrow2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+          <path d="M0,0 L6,3 L0,6 Z" fill="#55414C"/>
+        </marker>
+      </defs>
+      <text x="360" y="130" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#921257">Rastrea adjetivos valorativos y verbos de obligación en cada bloque</text>
+    </svg>`
+  },
+
+  "diagrama-formatos-redaccion": {
+    caption: "Los 4 formatos más frecuentes de redacción indirecta",
+    svg: `
+    <svg viewBox="0 0 720 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagrama de los cuatro formatos de reactivo de redacción indirecta">
+      <style>
+        .r-lbl { font: 700 13px 'Space Grotesk', sans-serif; fill: #1C1420; }
+        .r-sub { font: 400 10.5px 'Inter', sans-serif; fill: #55414C; }
+      </style>
+      <rect x="20" y="20" width="160" height="170" rx="12" fill="#FFE3F0" stroke="#D6127F" stroke-width="1.5"/>
+      <text x="100" y="50" text-anchor="middle" class="r-lbl">Completa-</text>
+      <text x="100" y="66" text-anchor="middle" class="r-lbl">miento</text>
+      <text x="100" y="95" text-anchor="middle" class="r-sub">Elige la oración</text>
+      <text x="100" y="110" text-anchor="middle" class="r-sub">que llena el hueco</text>
+
+      <rect x="195" y="20" width="160" height="170" rx="12" fill="#FFFFFF" stroke="#EBDCE4" stroke-width="1.5"/>
+      <text x="275" y="50" text-anchor="middle" class="r-lbl">Ordena-</text>
+      <text x="275" y="66" text-anchor="middle" class="r-lbl">miento</text>
+      <text x="275" y="95" text-anchor="middle" class="r-sub">Reconstruye el</text>
+      <text x="275" y="110" text-anchor="middle" class="r-sub">orden lógico</text>
+
+      <rect x="370" y="20" width="160" height="170" rx="12" fill="#FFE3F0" stroke="#D6127F" stroke-width="1.5"/>
+      <text x="450" y="50" text-anchor="middle" class="r-lbl">Conector</text>
+      <text x="450" y="66" text-anchor="middle" class="r-lbl">adecuado</text>
+      <text x="450" y="95" text-anchor="middle" class="r-sub">Elige la palabra</text>
+      <text x="450" y="110" text-anchor="middle" class="r-sub">que enlaza ideas</text>
+
+      <rect x="545" y="20" width="155" height="170" rx="12" fill="#FFFFFF" stroke="#EBDCE4" stroke-width="1.5"/>
+      <text x="622" y="50" text-anchor="middle" class="r-lbl">Oración que</text>
+      <text x="622" y="66" text-anchor="middle" class="r-lbl">no corresponde</text>
+      <text x="622" y="95" text-anchor="middle" class="r-sub">Detecta la que</text>
+      <text x="622" y="110" text-anchor="middle" class="r-sub">rompe el tema</text>
+    </svg>`
   }
 };
