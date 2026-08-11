@@ -366,7 +366,9 @@ function paintQuiz() {
   const timerHtml = quizState.segundosRestantes != null
     ? `<span class="timer" id="quiz-timer">${Math.floor(quizState.segundosRestantes/60)}:${String(quizState.segundosRestantes%60).padStart(2,'0')}</span>` : '';
 
-  const breadcrumbHref = quizState.modo === 'simulacro-modulo' ? `#/modulo/${quizState.modId}` : `#/leccion/${quizState.temaId}`;
+  const breadcrumbHref = quizState.modo === 'simulacro-modulo' ? `#/modulo/${quizState.modId}`
+    : quizState.modo === 'simulacro-final' ? '#/'
+    : `#/leccion/${quizState.temaId}`;
 
   $app.innerHTML = `
     <div class="quiz-shell">
@@ -396,7 +398,9 @@ function paintQuiz() {
   document.getElementById('btn-siguiente').onclick = nextQuestion;
   document.getElementById('btn-salir').onclick = () => {
     if (quizState.timerInterval) clearInterval(quizState.timerInterval);
-    location.hash = quizState.modo === 'simulacro-modulo' ? `#/modulo/${quizState.modId}` : `#/leccion/${quizState.temaId}`;
+    location.hash = quizState.modo === 'simulacro-modulo' ? `#/modulo/${quizState.modId}`
+      : quizState.modo === 'simulacro-final' ? '#/'
+      : `#/leccion/${quizState.temaId}`;
   };
 }
 
@@ -433,8 +437,12 @@ function finishQuiz() {
     </li>`;
   }).join('');
 
-  const repetirHref = quizState.modo === 'simulacro-modulo' ? `#/simulacro-modulo/${quizState.modId}` : `#/quiz/${temaId}`;
-  const salirHref = quizState.modo === 'simulacro-modulo' ? `#/modulo/${quizState.modId}` : `#/leccion/${temaId}`;
+  const repetirHref = quizState.modo === 'simulacro-modulo' ? `#/simulacro-modulo/${quizState.modId}`
+    : quizState.modo === 'simulacro-final' ? '#/simulacro/final'
+    : `#/quiz/${temaId}`;
+  const salirHref = quizState.modo === 'simulacro-modulo' ? `#/modulo/${quizState.modId}`
+    : quizState.modo === 'simulacro-final' ? '#/'
+    : `#/leccion/${temaId}`;
 
   $app.innerHTML = `
     <div class="quiz-shell" style="text-align:center;">
@@ -475,6 +483,31 @@ async function renderQuizModulo(modId) {
   startTimer();
 }
 
+async function renderSimulacroFinal() {
+  $app.innerHTML = `<p>Cargando simulacro final… esto puede tardar unos segundos.</p>`;
+  const todosTemas = state.modules.modulos.flatMap(m => m.temas.filter(t => t.quiz));
+  const bancos = await Promise.all(todosTemas.map(t => loadJSON(t.quiz)));
+
+  // Respeta la proporción oficial de reactivos por tema (art. de la guía CENEVAL),
+  // tomando una muestra aleatoria del banco (ya ampliado) de cada tema.
+  const reactivos = [];
+  bancos.forEach((banco, i) => {
+    const oficial = todosTemas[i].reactivos;
+    const pool = shuffleArray(banco.reactivos);
+    reactivos.push(...pool.slice(0, Math.min(oficial, pool.length)));
+  });
+
+  quizState = {
+    temaId: 'simulacro-final', modId: null, nombre: 'Simulacro final · Examen completo',
+    reactivos: shuffleQuizSet(reactivos), idx: 0, respuestas: new Array(reactivos.length).fill(null),
+    aciertos: 0, modo: 'simulacro-final',
+    timerInterval: null, segundosRestantes: 3 * 3600 + 30 * 60, // 3h30, la duración oficial del examen
+  };
+  renderSidebar(null);
+  paintQuiz();
+  startTimer();
+}
+
 /* ---------------- Router ---------------- */
 function parseRoute() {
   const hash = location.hash.replace(/^#\/?/, '');
@@ -490,7 +523,7 @@ function renderRoute() {
   if (view === 'leccion') return renderLeccion(id);
   if (view === 'quiz') return renderQuiz(id, 'parcial');
   if (view === 'simulacro-modulo') return renderQuizModulo(id);
-  if (view === 'simulacro' && id === 'final') return renderNotFound();
+  if (view === 'simulacro' && id === 'final') return renderSimulacroFinal();
   return renderNotFound();
 }
 
