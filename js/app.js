@@ -488,18 +488,18 @@ async function renderSimulacroFinal() {
   const todosTemas = state.modules.modulos.flatMap(m => m.temas.filter(t => t.quiz));
   const bancos = await Promise.all(todosTemas.map(t => loadJSON(t.quiz)));
 
-  // Respeta la proporción oficial de reactivos por tema (art. de la guía CENEVAL),
-  // tomando una muestra aleatoria del banco (ya ampliado) de cada tema.
+  // Se conserva el orden oficial de los temas (A · Comunicación → B · Matemáticas → C · Electoral).
+  // Dentro de cada tema sí se aleatoriza qué reactivos se toman del banco, su orden y sus opciones.
   const reactivos = [];
   bancos.forEach((banco, i) => {
     const oficial = todosTemas[i].reactivos;
-    const pool = shuffleArray(banco.reactivos);
-    reactivos.push(...pool.slice(0, Math.min(oficial, pool.length)));
+    const pool = shuffleArray(banco.reactivos).slice(0, Math.min(oficial, banco.reactivos.length));
+    reactivos.push(...pool.map(shuffleReactivo));
   });
 
   quizState = {
     temaId: 'simulacro-final', modId: null, nombre: 'Simulacro final · Examen completo',
-    reactivos: shuffleQuizSet(reactivos), idx: 0, respuestas: new Array(reactivos.length).fill(null),
+    reactivos, idx: 0, respuestas: new Array(reactivos.length).fill(null),
     aciertos: 0, modo: 'simulacro-final',
     timerInterval: null, segundosRestantes: 3 * 3600 + 30 * 60, // 3h30, la duración oficial del examen
   };
