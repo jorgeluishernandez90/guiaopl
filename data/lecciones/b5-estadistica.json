@@ -1,0 +1,20 @@
+{
+  "id": "b5", "modulo": "b", "nombre": "Estadística",
+  "intro": "Medidas que resumen un conjunto de datos: tendencia central y dispersión. Aporta 6 de los 30 reactivos del módulo B.",
+  "subareas": [
+    { "titulo": "Medidas de tendencia central", "reactivos": 0, "bloques": [
+      { "tipo": "tabla", "encabezados": ["Medida", "Cómo se calcula", "Cuándo usarla"],
+        "filas": [
+          ["Media (promedio)", "Suma de todos los datos ÷ número de datos", "Cuando los datos no tienen valores extremos que distorsionen el resultado"],
+          ["Mediana", "El valor central, una vez ordenados los datos de menor a mayor", "Cuando hay valores muy altos o muy bajos que distorsionarían la media"],
+          ["Moda", "El valor que se repite con más frecuencia", "Para identificar el dato más común, incluso en variables no numéricas"]
+        ]
+      }
+    ]},
+    { "titulo": "Ejemplo resuelto paso a paso", "reactivos": 6, "bloques": [
+      { "tipo": "callout", "clase": "tip", "etiqueta": "Problema", "texto": "Un grupo de 9 personas tiene las siguientes edades: 22, 25, 25, 28, 30, 31, 25, 40, 90. Calcula la media, la mediana y la moda." },
+      { "tipo": "p", "texto": "Paso 1 — Media: suma todos los valores: 22+25+25+28+30+31+25+40+90 = 316. Divide entre 9: 316/9 ≈ 35.1. Paso 2 — Mediana: ordena los datos de menor a mayor: 22, 25, 25, 25, 28, 30, 31, 40, 90. Con 9 datos (impar), la mediana es el valor central (5º dato): 28. Paso 3 — Moda: el valor que más se repite es 25 (aparece 3 veces)." },
+      { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "Nota cómo el valor 90 (un dato extremo o 'atípico') infló la media (35.1) muy por encima de la mayoría de los datos reales del grupo, mientras que la mediana (28) refleja mejor el 'centro' real de la información. Por eso, cuando el examen menciona datos con valores muy dispersos, suele preguntar por la mediana." }
+    ]}
+  ]
+}

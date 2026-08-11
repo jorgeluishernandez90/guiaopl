@@ -1,0 +1,22 @@
+{
+  "id": "b4", "modulo": "b", "nombre": "Probabilidad",
+  "intro": "Medir qué tan posible es que ocurra un evento. Aporta 4 de los 30 reactivos del módulo B.",
+  "subareas": [
+    { "titulo": "Probabilidad clásica", "reactivos": 0, "bloques": [
+      { "tipo": "p", "texto": "La probabilidad clásica de un evento se calcula dividiendo los casos favorables entre los casos posibles, siempre que todos los resultados sean igualmente probables." },
+      { "tipo": "callout", "clase": "legal", "etiqueta": "Fórmula", "texto": "P(evento) = (casos favorables) / (casos posibles), un valor siempre entre 0 (imposible) y 1 (seguro)." },
+      { "tipo": "tabla", "encabezados": ["Tipo de eventos", "Regla"],
+        "filas": [
+          ["Independientes (uno no afecta al otro)", "P(A y B) = P(A) × P(B)"],
+          ["Complementarios (A no ocurre)", "P(no A) = 1 − P(A)"]
+        ]
+      }
+    ]},
+    { "titulo": "Ejemplo resuelto paso a paso", "reactivos": 4, "bloques": [
+      { "tipo": "callout", "clase": "tip", "etiqueta": "Problema 1", "texto": "En una bolsa hay 5 canicas rojas, 3 azules y 2 verdes. Si se saca una canica al azar, ¿cuál es la probabilidad de que sea azul?" },
+      { "tipo": "p", "texto": "Paso 1 — casos posibles: total de canicas = 5+3+2 = 10. Paso 2 — casos favorables: canicas azules = 3. Paso 3 — aplica la fórmula: P(azul) = 3/10 = 0.30, es decir 30%." },
+      { "tipo": "callout", "clase": "tip", "etiqueta": "Problema 2 · Eventos independientes", "texto": "Se lanza una moneda y un dado al mismo tiempo. ¿Cuál es la probabilidad de obtener 'águila' en la moneda Y '6' en el dado?" },
+      { "tipo": "p", "texto": "Paso 1 — son eventos independientes (el resultado de la moneda no afecta al dado). Paso 2 — calcula cada probabilidad por separado: P(águila) = 1/2; P(6) = 1/6. Paso 3 — multiplica: P(águila y 6) = 1/2 × 1/6 = 1/12." }
+    ]}
+  ]
+}

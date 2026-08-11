@@ -1,0 +1,23 @@
+{
+  "id": "b5", "nombre": "Simulacro parcial · Estadística",
+  "reactivos": [
+    { "formato": "Cuestionamiento directo", "base": "Los datos 4, 8, 6, 5, 3, 10 tienen como media:",
+      "opciones": ["6", "5", "7"], "correcta": 0,
+      "explicacion": "Suma: 4+8+6+5+3+10=36; 36÷6=6." },
+    { "formato": "Cuestionamiento directo", "base": "Ordenados los datos 12, 5, 8, 20, 9, ¿cuál es la mediana?",
+      "opciones": ["9", "8", "12"], "correcta": 0,
+      "explicacion": "Ordenados: 5, 8, 9, 12, 20. Con 5 datos, la mediana es el valor central: 9." },
+    { "formato": "Cuestionamiento directo", "base": "En el conjunto de datos 3, 7, 7, 9, 7, 2, 10, ¿cuál es la moda?",
+      "opciones": ["7", "9", "3"], "correcta": 0,
+      "explicacion": "El valor 7 aparece 3 veces, más que cualquier otro dato del conjunto." },
+    { "formato": "Cuestionamiento directo", "base": "Un conjunto de datos tiene un valor extremadamente alto respecto al resto (un dato atípico). ¿Qué medida de tendencia central se ve más afectada por ese valor?",
+      "opciones": ["La media", "La mediana", "La moda"], "correcta": 0,
+      "explicacion": "La media se calcula sumando todos los valores, por lo que un dato extremo la distorsiona; la mediana y la moda son más resistentes a valores atípicos." },
+    { "formato": "Cuestionamiento directo", "base": "Los salarios (en miles de pesos) de 6 empleados son: 12, 13, 12, 14, 13, 12. ¿Cuál es la moda?",
+      "opciones": ["12", "13", "14"], "correcta": 0,
+      "explicacion": "El valor 12 aparece 3 veces, más que 13 (2 veces) o 14 (1 vez)." },
+    { "formato": "Cuestionamiento directo", "base": "Con los datos 15, 18, 20, 22, ¿cuál es la mediana?",
+      "opciones": ["19", "20", "18"], "correcta": 0,
+      "explicacion": "Con un número par de datos (4), la mediana es el promedio de los dos valores centrales: (18+20)/2 = 19." }
+  ]
+}

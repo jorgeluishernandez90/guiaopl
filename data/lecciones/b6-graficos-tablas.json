@@ -1,0 +1,20 @@
+{
+  "id": "b6", "modulo": "b", "nombre": "Gráficos y tablas",
+  "intro": "Elegir el tipo de gráfico correcto y leer datos de tablas con precisión. Aporta 3 de los 30 reactivos del módulo B — el último tramo del examen.",
+  "subareas": [
+    { "titulo": "Qué gráfico usar según el dato", "reactivos": 0, "bloques": [
+      { "tipo": "tabla", "encabezados": ["Tipo de gráfico", "Cuándo se usa"],
+        "filas": [
+          ["Barras", "Comparar cantidades entre categorías distintas (ej. ventas por producto)"],
+          ["Circular (pastel)", "Mostrar cómo se reparte un todo en partes proporcionales (porcentajes de un total)"],
+          ["Líneas", "Mostrar la evolución de un dato a lo largo del tiempo"],
+          ["Histograma", "Mostrar la distribución de frecuencia de datos numéricos agrupados en intervalos"]
+        ]
+      }
+    ]},
+    { "titulo": "Ejemplo resuelto paso a paso", "reactivos": 3, "bloques": [
+      { "tipo": "callout", "clase": "tip", "etiqueta": "Problema", "texto": "La siguiente tabla muestra las ventas trimestrales (en miles de pesos) de una tienda: T1: 120, T2: 150, T3: 90, T4: 180. ¿En qué trimestre las ventas aumentaron más respecto al trimestre anterior, y de qué tipo de gráfico te conviene apoyarte para visualizarlo?" },
+      { "tipo": "p", "texto": "Paso 1 — calcula la variación entre trimestres consecutivos: T1→T2: 150−120=+30. T2→T3: 90−150=−60. T3→T4: 180−90=+90. Paso 2 — compara los aumentos (ignora la caída de T3, que es negativa): el mayor aumento fue de T3 a T4, con +90. Paso 3 — como se trata de una evolución a lo largo del tiempo, el gráfico más adecuado para visualizarlo es uno de líneas, que muestra claramente la tendencia y los cambios de dirección." }
+    ]}
+  ]
+}

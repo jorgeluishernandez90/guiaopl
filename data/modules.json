@@ -69,48 +69,48 @@
           "nombre": "Teoría de conjuntos",
           "subareas": [],
           "reactivos": 5,
-          "leccion": null,
-          "quiz": null
+          "leccion": "data/lecciones/b1-teoria-conjuntos.json",
+          "quiz": "data/quizzes/b1-teoria-conjuntos.json"
         },
         {
           "id": "b2",
           "nombre": "Aritmética",
           "subareas": [],
           "reactivos": 5,
-          "leccion": null,
-          "quiz": null
+          "leccion": "data/lecciones/b2-aritmetica.json",
+          "quiz": "data/quizzes/b2-aritmetica.json"
         },
         {
           "id": "b3",
           "nombre": "Álgebra",
           "subareas": [],
           "reactivos": 7,
-          "leccion": null,
-          "quiz": null
+          "leccion": "data/lecciones/b3-algebra.json",
+          "quiz": "data/quizzes/b3-algebra.json"
         },
         {
           "id": "b4",
           "nombre": "Probabilidad",
           "subareas": [],
           "reactivos": 4,
-          "leccion": null,
-          "quiz": null
+          "leccion": "data/lecciones/b4-probabilidad.json",
+          "quiz": "data/quizzes/b4-probabilidad.json"
         },
         {
           "id": "b5",
           "nombre": "Estadística",
           "subareas": [],
           "reactivos": 6,
-          "leccion": null,
-          "quiz": null
+          "leccion": "data/lecciones/b5-estadistica.json",
+          "quiz": "data/quizzes/b5-estadistica.json"
         },
         {
           "id": "b6",
           "nombre": "Gráficos y tablas",
           "subareas": [],
           "reactivos": 3,
-          "leccion": null,
-          "quiz": null
+          "leccion": "data/lecciones/b6-graficos-tablas.json",
+          "quiz": "data/quizzes/b6-graficos-tablas.json"
         }
       ]
     },

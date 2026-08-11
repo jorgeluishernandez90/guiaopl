@@ -271,5 +271,54 @@ const DIAGRAMS = {
       <text x="622" y="95" text-anchor="middle" class="r-sub">Detecta la que</text>
       <text x="622" y="110" text-anchor="middle" class="r-sub">rompe el tema</text>
     </svg>`
+  },
+
+  "diagrama-venn": {
+    caption: "Diagrama de Venn: unión e intersección de A y B",
+    svg: `
+    <svg viewBox="0 0 500 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagrama de Venn mostrando dos conjuntos A y B superpuestos">
+      <circle cx="200" cy="120" r="90" fill="#FFE3F0" stroke="#D6127F" stroke-width="2" opacity="0.85"/>
+      <circle cx="300" cy="120" r="90" fill="#E3E9FF" stroke="#921257" stroke-width="2" opacity="0.65"/>
+      <text x="140" y="70" font-family="'Space Grotesk',sans-serif" font-weight="700" font-size="16" fill="#921257">A</text>
+      <text x="360" y="70" font-family="'Space Grotesk',sans-serif" font-weight="700" font-size="16" fill="#1C1420">B</text>
+      <text x="250" y="125" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#1C1420">A ∩ B</text>
+      <text x="160" y="200" text-anchor="middle" font-family="'Inter',sans-serif" font-size="11" fill="#55414C">Solo en A</text>
+      <text x="340" y="200" text-anchor="middle" font-family="'Inter',sans-serif" font-size="11" fill="#55414C">Solo en B</text>
+      <text x="250" y="228" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="10" fill="#921257">La región sombreada total (ambos círculos) es A ∪ B</text>
+    </svg>`
+  },
+
+  "diagrama-regla-tres": {
+    caption: "Regla de tres simple directa",
+    svg: `
+    <svg viewBox="0 0 460 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Esquema de regla de tres simple directa, multiplicación en cruz">
+      <style>.rt{font:600 15px 'IBM Plex Mono',monospace;fill:#1C1420;}</style>
+      <text x="60" y="40" class="rt">a</text>
+      <text x="160" y="40" class="rt">——</text>
+      <text x="60" y="70" class="rt">b</text>
+      <text x="260" y="55" class="rt">=</text>
+      <text x="340" y="40" class="rt">x</text>
+      <text x="340" y="70" class="rt">c</text>
+      <line x1="60" y1="48" x2="140" y2="48" stroke="#1C1420" stroke-width="2"/>
+      <line x1="320" y1="48" x2="400" y2="48" stroke="#1C1420" stroke-width="2"/>
+      <path d="M 75 35 L 355 65" stroke="#D6127F" stroke-width="2" stroke-dasharray="4 3"/>
+      <path d="M 75 65 L 355 35" stroke="#921257" stroke-width="2" stroke-dasharray="4 3"/>
+      <text x="230" y="110" text-anchor="middle" font-family="'Inter',sans-serif" font-size="11" fill="#55414C">x = (c × b) ÷ a  — multiplicación en cruz</text>
+    </svg>`
+  },
+
+  "diagrama-factorizacion": {
+    caption: "Factorización de un trinomio x² + bx + c",
+    svg: `
+    <svg viewBox="0 0 460 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Esquema de factorización: buscar dos números cuya suma sea b y producto sea c">
+      <style>.f-t{font:600 16px 'IBM Plex Mono',monospace;fill:#1C1420;}.f-s{font:400 11px 'Inter',sans-serif;fill:#55414C;}</style>
+      <text x="20" y="40" class="f-t">x² + bx + c = (x + m)(x + n)</text>
+      <rect x="20" y="55" width="180" height="46" rx="8" fill="#FFE3F0" stroke="#D6127F"/>
+      <text x="110" y="75" text-anchor="middle" class="f-s" font-weight="700">m + n = b</text>
+      <text x="110" y="92" text-anchor="middle" class="f-s">(la suma)</text>
+      <rect x="240" y="55" width="180" height="46" rx="8" fill="#E3E9FF" stroke="#921257"/>
+      <text x="330" y="75" text-anchor="middle" class="f-s" font-weight="700">m × n = c</text>
+      <text x="330" y="92" text-anchor="middle" class="f-s">(el producto)</text>
+    </svg>`
   }
 };

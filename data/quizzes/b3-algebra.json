@@ -1,0 +1,26 @@
+{
+  "id": "b3", "nombre": "Simulacro parcial · Álgebra",
+  "reactivos": [
+    { "formato": "Cuestionamiento directo", "base": "Resuelve para x: 4x − 9 = 15",
+      "opciones": ["x = 6", "x = 5", "x = 24"], "correcta": 0,
+      "explicacion": "4x = 15+9 = 24; x = 24÷4 = 6." },
+    { "formato": "Cuestionamiento directo", "base": "Resuelve para x: 2(x + 3) = 16",
+      "opciones": ["x = 5", "x = 8", "x = 10"], "correcta": 0,
+      "explicacion": "Distribuye: 2x+6=16 → 2x=10 → x=5." },
+    { "formato": "Cuestionamiento directo", "base": "Resuelve para x: (x/3) + 4 = 9",
+      "opciones": ["x = 15", "x = 39", "x = 5"], "correcta": 0,
+      "explicacion": "x/3 = 5 → x = 15." },
+    { "formato": "Cuestionamiento directo", "base": "Resuelve el sistema: x + y = 14 ; x − y = 4. ¿Cuál es el valor de x?",
+      "opciones": ["9", "5", "10"], "correcta": 0,
+      "explicacion": "Suma ambas ecuaciones: 2x=18 → x=9. (Y y=5, comprobando 9+5=14, 9−5=4)." },
+    { "formato": "Cuestionamiento directo", "base": "Resuelve el sistema: 2x + y = 11 ; x − y = 1. ¿Cuál es el valor de y?",
+      "opciones": ["3", "4", "5"], "correcta": 0,
+      "explicacion": "De la segunda ecuación, x = y+1. Sustituyendo en la primera: 2(y+1)+y=11 → 3y+2=11 → y=3." },
+    { "formato": "Cuestionamiento directo", "base": "Factoriza y resuelve: x² − 7x + 12 = 0",
+      "opciones": ["x = 3 y x = 4", "x = 2 y x = 6", "x = 1 y x = 12"], "correcta": 0,
+      "explicacion": "Busca dos números que sumen −7 y multipliquen 12: son −3 y −4. (x−3)(x−4)=0 → x=3 o x=4." },
+    { "formato": "Cuestionamiento directo", "base": "Factoriza y resuelve: x² + 2x − 15 = 0",
+      "opciones": ["x = 3 y x = −5", "x = 5 y x = −3", "x = −3 y x = −5"], "correcta": 0,
+      "explicacion": "Busca dos números que sumen 2 y multipliquen −15: son 5 y −3. (x+5)(x−3)=0 → x=−5 o x=3." }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "b3", "modulo": "b", "nombre": "Álgebra",
+  "intro": "Ecuaciones lineales, sistemas de ecuaciones y factorización — el subtema que más reactivos aporta al módulo B: 7 de 30.",
+  "subareas": [
+    { "titulo": "Ecuaciones lineales", "reactivos": 3, "bloques": [
+      { "tipo": "p", "texto": "Resolver una ecuación lineal significa despejar la incógnita, aplicando la misma operación a ambos lados de la igualdad para mantener el equilibrio." },
+      { "tipo": "callout", "clase": "tip", "etiqueta": "Problema", "texto": "Resuelve: 3x + 7 = 22" },
+      { "tipo": "p", "texto": "Paso 1 — resta 7 de ambos lados: 3x = 15. Paso 2 — divide ambos lados entre 3: x = 5. Comprobación: 3(5) + 7 = 15 + 7 = 22. ✔" }
+    ]},
+    { "titulo": "Sistemas de ecuaciones (2 incógnitas)", "reactivos": 2, "bloques": [
+      { "tipo": "p", "texto": "Un sistema de dos ecuaciones con dos incógnitas se puede resolver por el método de suma/resta: se busca que una de las incógnitas se cancele al sumar o restar ambas ecuaciones." },
+      { "tipo": "callout", "clase": "tip", "etiqueta": "Problema", "texto": "Resuelve el sistema: x + y = 10 ; x − y = 2" },
+      { "tipo": "p", "texto": "Paso 1 — suma ambas ecuaciones (la 'y' se cancela): (x+y) + (x−y) = 10+2 → 2x = 12 → x = 6. Paso 2 — sustituye x=6 en la primera ecuación: 6 + y = 10 → y = 4. Solución: x = 6, y = 4." }
+    ]},
+    { "titulo": "Factorización y ecuaciones cuadráticas", "reactivos": 2, "bloques": [
+      { "tipo": "diagrama", "id": "diagrama-factorizacion" },
+      { "tipo": "callout", "clase": "tip", "etiqueta": "Problema", "texto": "Resuelve: x² − 5x + 6 = 0" },
+      { "tipo": "p", "texto": "Paso 1 — busca dos números que multiplicados den 6 y sumados den −5: son −2 y −3. Paso 2 — factoriza: (x−2)(x−3) = 0. Paso 3 — cada factor puede ser cero: x−2=0 → x=2, o x−3=0 → x=3. Las soluciones son x = 2 y x = 3." }
+    ]}
+  ]
+}

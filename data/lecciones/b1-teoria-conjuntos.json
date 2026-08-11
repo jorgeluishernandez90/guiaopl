@@ -1,0 +1,23 @@
+{
+  "id": "b1", "modulo": "b", "nombre": "Teoría de conjuntos",
+  "intro": "Base del razonamiento lógico-matemático: agrupar, comparar y operar colecciones de elementos. Aporta 5 de los 30 reactivos del módulo B.",
+  "subareas": [
+    { "titulo": "Conceptos y operaciones básicas", "reactivos": 0, "bloques": [
+      { "tipo": "p", "texto": "Un conjunto es una colección de elementos bien definidos. Se nombra con letra mayúscula y sus elementos se listan entre llaves: A = {1, 2, 3, 4}. Un elemento pertenece (∈) o no pertenece (∉) a un conjunto; un conjunto B es subconjunto de A (B ⊆ A) si todos sus elementos están también en A." },
+      { "tipo": "diagrama", "id": "diagrama-venn" },
+      { "tipo": "tabla", "encabezados": ["Operación", "Símbolo", "Significado"],
+        "filas": [
+          ["Unión", "A ∪ B", "Todos los elementos que están en A, en B, o en ambos"],
+          ["Intersección", "A ∩ B", "Solo los elementos que están en A y en B a la vez"],
+          ["Diferencia", "A − B", "Elementos que están en A pero NO en B"],
+          ["Complemento", "A'", "Elementos del universo que no están en A"]
+        ]
+      }
+    ]},
+    { "titulo": "Ejemplo resuelto paso a paso", "reactivos": 5, "bloques": [
+      { "tipo": "callout", "clase": "tip", "etiqueta": "Problema", "texto": "Si A = {2, 4, 6, 8, 10} y B = {4, 8, 12, 16}, encuentra A ∪ B, A ∩ B y A − B." },
+      { "tipo": "p", "texto": "Paso 1 — Unión (A ∪ B): junta todos los elementos de ambos conjuntos, sin repetir los que aparecen en los dos. A ∪ B = {2, 4, 6, 8, 10, 12, 16}. Paso 2 — Intersección (A ∩ B): solo los elementos que aparecen en ambas listas. Al comparar, 4 y 8 están en las dos. A ∩ B = {4, 8}. Paso 3 — Diferencia (A − B): toma los elementos de A y quita los que también están en B. De A = {2,4,6,8,10}, quitamos 4 y 8 (porque están en B). A − B = {2, 6, 10}." },
+      { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "La diferencia NO es conmutativa: A − B casi nunca es igual a B − A. Calcula siempre a partir del conjunto que aparece primero." }
+    ]}
+  ]
+}

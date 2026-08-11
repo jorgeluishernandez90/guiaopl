@@ -1,0 +1,24 @@
+{
+  "id": "b2", "modulo": "b", "nombre": "Aritmética",
+  "intro": "Operaciones básicas, fracciones, porcentajes y proporciones — la base de casi cualquier problema numérico del examen. Aporta 5 de los 30 reactivos del módulo B.",
+  "subareas": [
+    { "titulo": "Jerarquía de operaciones", "reactivos": 0, "bloques": [
+      { "tipo": "p", "texto": "Cuando una operación combina varios símbolos, el orden en que se resuelven no es libre: sigue una jerarquía fija. Un error muy común es sumar o restar antes de multiplicar o dividir." },
+      { "tipo": "tabla", "encabezados": ["Orden", "Operación"],
+        "filas": [["1º", "Paréntesis y otros signos de agrupación"], ["2º", "Potencias y raíces"], ["3º", "Multiplicaciones y divisiones (de izquierda a derecha)"], ["4º", "Sumas y restas (de izquierda a derecha)"]]
+      },
+      { "tipo": "p", "texto": "Ejemplo rápido: 3 + 4 × 2 = 3 + 8 = 11 (no 14, porque la multiplicación va antes que la suma)." }
+    ]},
+    { "titulo": "Porcentajes y proporciones (regla de tres)", "reactivos": 0, "bloques": [
+      { "tipo": "p", "texto": "Un porcentaje es una fracción con denominador 100: 25% = 25/100 = 0.25. La regla de tres simple resuelve problemas de proporcionalidad: si dos cantidades varían en la misma proporción, un valor desconocido se despeja multiplicando en cruz." },
+      { "tipo": "diagrama", "id": "diagrama-regla-tres" }
+    ]},
+    { "titulo": "Ejemplo resuelto paso a paso", "reactivos": 5, "bloques": [
+      { "tipo": "callout", "clase": "tip", "etiqueta": "Problema 1 · Porcentaje", "texto": "¿A cuánto equivale el 18% de 250?" },
+      { "tipo": "p", "texto": "Paso 1 — convierte el porcentaje a decimal: 18% = 0.18. Paso 2 — multiplica: 0.18 × 250 = 45. El 18% de 250 es 45." },
+      { "tipo": "callout", "clase": "tip", "etiqueta": "Problema 2 · Regla de tres", "texto": "Si 8 trabajadores terminan una obra en 15 días, ¿en cuántos días la terminarían 12 trabajadores (a ritmo constante)?" },
+      { "tipo": "p", "texto": "Paso 1 — identifica que es una proporción inversa: a más trabajadores, menos días. Paso 2 — multiplica primero lo que se mantiene constante (el trabajo total): 8 × 15 = 120 (trabajador-días). Paso 3 — divide entre la nueva cantidad de trabajadores: 120 ÷ 12 = 10. Con 12 trabajadores, la obra tomaría 10 días." },
+      { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "No toda regla de tres es directa. Pregúntate: si una cantidad aumenta, ¿la otra aumenta también (directa) o disminuye (inversa)? En proporción directa multiplicas en cruz; en proporción inversa, multiplicas los dos valores conocidos del mismo lado y divides." }
+    ]}
+  ]
+}
