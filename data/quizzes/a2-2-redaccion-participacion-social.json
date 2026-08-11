@@ -1,0 +1,80 @@
+{
+  "id": "a2-2",
+  "nombre": "Simulacro parcial · Redacción indirecta, ámbito de participación social",
+  "reactivos": [
+    {
+      "formato": "Completamiento",
+      "base": "Por medio de la presente, solicito a usted amablemente la reprogramación de mi cita del día 14 de este mes, debido a un imprevisto de salud familiar. ______ quedo atenta a su respuesta y agradezco de antemano su comprensión.",
+      "opciones": ["Por el contrario,", "Sin más por el momento,", "A pesar de esto,"],
+      "correcta": 1,
+      "explicacion": "El espacio cierra la carta antes de la despedida; \"sin más por el momento\" es la fórmula convencional de transición al cierre, no un conector de contraste."
+    },
+    {
+      "formato": "Completamiento",
+      "base": "Se convoca a todo el personal del área administrativa a la reunión informativa que se llevará a cabo el próximo viernes a las 10:00 horas en la sala de juntas. ______, se solicita confirmar asistencia antes del miércoles.",
+      "opciones": ["Asimismo,", "No obstante,", "Por ejemplo,"],
+      "correcta": 0,
+      "explicacion": "La segunda oración añade una instrucción adicional relacionada con la primera, sin contraste ni ejemplo; \"asimismo\" es el conector de adición adecuado."
+    },
+    {
+      "formato": "Ordenamiento",
+      "base": "Ordene los fragmentos para reconstruir una carta de agradecimiento formal.",
+      "tabla": {
+        "izquierda": [
+          "1. Sin otro particular, le reitero mi agradecimiento y quedo a sus órdenes.",
+          "2. Estimado señor director:",
+          "3. Por medio de la presente, deseo expresar mi más sincero agradecimiento por el apoyo brindado durante el proceso de capacitación.",
+          "4. Dicho apoyo fue fundamental para concluir satisfactoriamente el programa."
+        ],
+        "derecha": []
+      },
+      "opciones": ["2, 3, 4, 1", "3, 2, 4, 1", "2, 4, 3, 1"],
+      "correcta": 0,
+      "explicacion": "El orden convencional de una carta formal es: saludo (2) → planteamiento del asunto (3) → desarrollo o justificación (4) → cierre (1)."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "«Estimada coordinadora: Le escribo para solicitar información sobre el proceso de inscripción al curso de verano. El clima esta semana ha estado inusualmente cálido. Quedo atenta a sus indicaciones.» ¿Cuál oración NO corresponde al propósito comunicativo del mensaje?",
+      "opciones": ["\"Le escribo para solicitar información sobre el proceso de inscripción al curso de verano.\"", "\"El clima esta semana ha estado inusualmente cálido.\"", "\"Quedo atenta a sus indicaciones.\""],
+      "correcta": 1,
+      "explicacion": "El mensaje tiene un propósito claro (solicitar información sobre una inscripción); el comentario sobre el clima es ajeno a ese propósito y rompe la unidad temática del mensaje."
+    },
+    {
+      "formato": "Completamiento",
+      "base": "Lamento informarle que no será posible atender su solicitud en los términos planteados, ______ le ofrezco una alternativa que espero sea de su interés.",
+      "opciones": ["por lo tanto", "sin embargo", "es decir"],
+      "correcta": 1,
+      "explicacion": "Se contrasta una negativa con una alternativa que se ofrece a continuación; \"sin embargo\" expresa correctamente esa oposición matizada, propia de un rechazo cortés."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Cuál de las siguientes fórmulas es adecuada para el cierre de una carta formal dirigida a una autoridad?",
+      "opciones": ["\"Nos vemos, saludos\"", "\"Quedo a sus órdenes para cualquier aclaración\"", "\"Bye, cualquier cosa me avisas\""],
+      "correcta": 1,
+      "explicacion": "\"Quedo a sus órdenes\" corresponde al registro formal esperado en una comunicación dirigida a una autoridad; las otras dos opciones usan un registro coloquial inadecuado para ese contexto."
+    },
+    {
+      "formato": "Ordenamiento",
+      "base": "Ordene los fragmentos para reconstruir un correo interno breve.",
+      "tabla": {
+        "izquierda": [
+          "1. Quedo atento a sus comentarios antes del cierre del proyecto.",
+          "2. Asunto: revisión del informe trimestral",
+          "3. Adjunto el borrador del informe trimestral para su revisión.",
+          "4. Buenas tardes:"
+        ],
+        "derecha": []
+      },
+      "opciones": ["2, 4, 3, 1", "4, 2, 3, 1", "2, 3, 4, 1"],
+      "correcta": 0,
+      "explicacion": "En un correo, el asunto (2) encabeza el mensaje incluso antes del saludo dentro del cuerpo; sigue el saludo (4), el contenido (3) y el cierre (1)."
+    },
+    {
+      "formato": "Completamiento",
+      "base": "Le agradezco de antemano el tiempo dedicado a revisar mi solicitud. ______, cualquier duda adicional, no dude en contactarme.",
+      "opciones": ["Por otro lado,", "Asimismo,", "En cambio,"],
+      "correcta": 1,
+      "explicacion": "La segunda oración añade una disposición adicional (quedar disponible ante dudas) en el mismo sentido de cortesía que la primera; \"asimismo\" expresa correctamente esa adición."
+    }
+  ]
+}

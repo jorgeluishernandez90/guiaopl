@@ -51,8 +51,8 @@
           "nombre": "Redacción indirecta · Ámbito de participación social",
           "subareas": [],
           "reactivos": 15,
-          "leccion": null,
-          "quiz": null
+          "leccion": "data/lecciones/a2-2-redaccion-participacion-social.json",
+          "quiz": "data/quizzes/a2-2-redaccion-participacion-social.json"
         }
       ]
     },

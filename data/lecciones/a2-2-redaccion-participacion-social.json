@@ -1,0 +1,31 @@
+{
+  "id": "a2-2",
+  "modulo": "a",
+  "nombre": "Redacción indirecta · Ámbito de participación social",
+  "intro": "La misma habilidad de A2-1 (elegir texto coherente y cohesionado), aplicada ahora a textos prácticos de la vida cotidiana: cartas, solicitudes, avisos y mensajes formales. Este subtema aporta 15 de los 60 reactivos del módulo A.",
+  "subareas": [
+    {
+      "titulo": "Lo que cambia frente al ámbito de estudio",
+      "reactivos": 0,
+      "bloques": [
+        { "tipo": "p", "texto": "Coherencia y cohesión siguen siendo las propiedades evaluadas, pero aquí se suma un tercer criterio: la adecuación — que el texto use el registro (formal/informal) y la estructura convencional que exige la situación comunicativa. Un reactivo puede estar perfectamente cohesionado y aun así ser incorrecto, si el registro no corresponde al tipo de texto." },
+        { "tipo": "tabla", "encabezados": ["Tipo de texto", "Estructura convencional", "Registro esperado"],
+          "filas": [
+            ["Carta o solicitud formal", "Saludo → planteamiento del asunto → petición o argumento → despedida", "Formal: \"Por medio de la presente...\", \"Agradezco de antemano...\""],
+            ["Mensaje o correo interno", "Asunto claro → contexto breve → petición o información → cierre", "Semiformal: directo pero cortés"],
+            ["Aviso o convocatoria", "Encabezado → disposición o invitación → condiciones → datos de contacto", "Formal e impersonal: \"Se convoca...\", \"Se solicita...\""]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Ejemplo resuelto paso a paso",
+      "reactivos": 15,
+      "bloques": [
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Reactivo ejemplo · Completamiento", "texto": "«Por medio de la presente, solicito a usted amablemente la reprogramación de mi cita del día 14 de este mes, debido a un imprevisto de salud familiar. ______ quedo atenta a su respuesta y agradezco de antemano su comprensión.» ¿Qué opción completa mejor el espacio? A) Por el contrario, B) Sin más por el momento, C) A pesar de esto"},
+        { "tipo": "p", "texto": "Paso 1 — identifica la función del espacio: cierra la carta antes de la despedida final, así que necesita una fórmula de transición hacia el cierre, no un conector lógico de causa o contraste. Paso 2 — descarta \"por el contrario\" y \"a pesar de esto\": ambos anuncian una idea opuesta a la anterior, y aquí no hay ninguna oposición que introducir. Paso 3 — confirma con \"sin más por el momento\", fórmula convencional de cierre en cartas formales en español. La respuesta correcta es la B." },
+        { "tipo": "callout", "clase": "tip", "etiqueta": "Para recordar", "texto": "En textos de participación social, muchas respuestas correctas no dependen de la lógica argumentativa sino de la convención: hay fórmulas fijas (\"por medio de la presente\", \"sin más por el momento\", \"quedo a sus órdenes\") que un hablante competente reconoce de memoria." }
+      ]
+    }
+  ]
+}
