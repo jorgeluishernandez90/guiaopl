@@ -1,14 +1,61 @@
 {
-  "id": "b6", "nombre": "Simulacro parcial · Gráficos y tablas",
+  "id": "b6",
+  "nombre": "Simulacro parcial · Gráficos y tablas",
   "reactivos": [
-    { "formato": "Cuestionamiento directo", "base": "¿Qué tipo de gráfico es más adecuado para mostrar cómo se reparte el presupuesto total de una familia entre renta, comida, transporte y ahorro?",
-      "opciones": ["Gráfico circular (pastel)", "Gráfico de líneas", "Histograma"], "correcta": 0,
-      "explicacion": "Un gráfico circular muestra proporciones de un todo; es ideal para representar cómo se reparte un presupuesto total entre categorías." },
-    { "formato": "Cuestionamiento directo", "base": "Una tabla muestra la temperatura registrada cada hora durante un día completo. ¿Qué gráfico conviene más para visualizar su evolución?",
-      "opciones": ["Gráfico de líneas", "Gráfico circular", "Ninguno, los datos solo deben leerse en tabla"], "correcta": 0,
-      "explicacion": "El gráfico de líneas es el más adecuado para mostrar la evolución de un dato a lo largo del tiempo, como la temperatura hora tras hora." },
-    { "formato": "Cuestionamiento directo", "base": "Según la tabla: Producto A: 40 unidades, Producto B: 25 unidades, Producto C: 60 unidades, Producto D: 15 unidades — ¿qué producto tuvo el menor número de unidades vendidas?",
-      "opciones": ["Producto D", "Producto B", "Producto A"], "correcta": 0,
-      "explicacion": "Es lectura directa de la tabla: Producto D tiene 15 unidades, la cifra más baja de las cuatro." }
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Qué tipo de gráfico es más adecuado para mostrar cómo se reparte el presupuesto total de una familia entre renta, comida, transporte y ahorro?",
+      "opciones": [
+        "Gráfico circular (pastel)",
+        "Gráfico de líneas",
+        "Histograma"
+      ],
+      "correcta": 0,
+      "explicacion": "Un gráfico circular muestra proporciones de un todo; es ideal para representar cómo se reparte un presupuesto total entre categorías."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Una tabla muestra la temperatura registrada cada hora durante un día completo. ¿Qué gráfico conviene más para visualizar su evolución?",
+      "opciones": [
+        "Gráfico de líneas",
+        "Gráfico circular",
+        "Ninguno, los datos solo deben leerse en tabla"
+      ],
+      "correcta": 0,
+      "explicacion": "El gráfico de líneas es el más adecuado para mostrar la evolución de un dato a lo largo del tiempo, como la temperatura hora tras hora."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Según la tabla: Producto A: 40 unidades, Producto B: 25 unidades, Producto C: 60 unidades, Producto D: 15 unidades — ¿qué producto tuvo el menor número de unidades vendidas?",
+      "opciones": [
+        "Producto D",
+        "Producto B",
+        "Producto A"
+      ],
+      "correcta": 0,
+      "explicacion": "Es lectura directa de la tabla: Producto D tiene 15 unidades, la cifra más baja de las cuatro."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Qué tipo de gráfico conviene más para mostrar la distribución de calificaciones de un examen agrupadas en intervalos (0-6, 6-8, 8-10)?",
+      "opciones": [
+        "Histograma",
+        "Gráfico circular",
+        "Gráfico de líneas"
+      ],
+      "correcta": 0,
+      "explicacion": "El histograma muestra distribuciones de frecuencia de datos numéricos agrupados en intervalos."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Una tabla muestra la población de 4 ciudades en un mismo año. ¿Qué gráfico conviene más para comparar esas cantidades entre sí?",
+      "opciones": [
+        "Gráfico de barras",
+        "Gráfico de líneas",
+        "Gráfico circular"
+      ],
+      "correcta": 0,
+      "explicacion": "El gráfico de barras es ideal para comparar cantidades entre categorías distintas en un mismo momento."
+    }
   ]
 }

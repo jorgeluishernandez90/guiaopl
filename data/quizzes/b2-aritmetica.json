@@ -1,23 +1,116 @@
 {
-  "id": "b2", "nombre": "Simulacro parcial · Aritmética",
+  "id": "b2",
+  "nombre": "Simulacro parcial · Aritmética",
   "reactivos": [
-    { "formato": "Cuestionamiento directo", "base": "¿Cuál es el resultado de 5 + 3 × 4 − 2?",
-      "opciones": ["15", "30", "10"], "correcta": 0,
-      "explicacion": "Primero la multiplicación: 3×4=12. Luego, de izquierda a derecha: 5+12−2 = 15." },
-    { "formato": "Cuestionamiento directo", "base": "¿A cuánto equivale el 35% de 180?",
-      "opciones": ["63", "53", "70"], "correcta": 0,
-      "explicacion": "35% = 0.35; 0.35 × 180 = 63." },
-    { "formato": "Cuestionamiento directo", "base": "Un producto cuesta $420 después de aplicar un descuento del 20%. ¿Cuál era su precio original?",
-      "opciones": ["$525", "$504", "$500"], "correcta": 0,
-      "explicacion": "Si $420 representa el 80% del precio original (100%−20%), entonces precio original = 420 ÷ 0.80 = 525." },
-    { "formato": "Cuestionamiento directo", "base": "Si 5 máquinas producen 200 piezas en una hora (a ritmo constante), ¿cuántas piezas producirán 8 máquinas en ese mismo tiempo?",
-      "opciones": ["320", "280", "360"], "correcta": 0,
-      "explicacion": "Proporción directa: más máquinas, más piezas. 200/5 = 40 piezas por máquina; 40 × 8 = 320." },
-    { "formato": "Cuestionamiento directo", "base": "¿Cuál es el máximo común divisor (MCD) de 24 y 36?",
-      "opciones": ["12", "6", "18"], "correcta": 0,
-      "explicacion": "Los divisores comunes de 24 y 36 incluyen 1, 2, 3, 4, 6 y 12; el mayor de ellos es 12." },
-    { "formato": "Cuestionamiento directo", "base": "Si 6 obreros terminan una barda en 10 días, ¿en cuántos días la terminarían 4 obreros, a ritmo constante?",
-      "opciones": ["15", "12", "8"], "correcta": 0,
-      "explicacion": "Proporción inversa: 6×10 = 60 (obrero-días); 60 ÷ 4 = 15 días." }
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Cuál es el resultado de 5 + 3 × 4 − 2?",
+      "opciones": [
+        "15",
+        "30",
+        "10"
+      ],
+      "correcta": 0,
+      "explicacion": "Primero la multiplicación: 3×4=12. Luego, de izquierda a derecha: 5+12−2 = 15."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿A cuánto equivale el 35% de 180?",
+      "opciones": [
+        "63",
+        "53",
+        "70"
+      ],
+      "correcta": 0,
+      "explicacion": "35% = 0.35; 0.35 × 180 = 63."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Un producto cuesta $420 después de aplicar un descuento del 20%. ¿Cuál era su precio original?",
+      "opciones": [
+        "$525",
+        "$504",
+        "$500"
+      ],
+      "correcta": 0,
+      "explicacion": "Si $420 representa el 80% del precio original (100%−20%), entonces precio original = 420 ÷ 0.80 = 525."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Si 5 máquinas producen 200 piezas en una hora (a ritmo constante), ¿cuántas piezas producirán 8 máquinas en ese mismo tiempo?",
+      "opciones": [
+        "320",
+        "280",
+        "360"
+      ],
+      "correcta": 0,
+      "explicacion": "Proporción directa: más máquinas, más piezas. 200/5 = 40 piezas por máquina; 40 × 8 = 320."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Cuál es el máximo común divisor (MCD) de 24 y 36?",
+      "opciones": [
+        "12",
+        "6",
+        "18"
+      ],
+      "correcta": 0,
+      "explicacion": "Los divisores comunes de 24 y 36 incluyen 1, 2, 3, 4, 6 y 12; el mayor de ellos es 12."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Si 6 obreros terminan una barda en 10 días, ¿en cuántos días la terminarían 4 obreros, a ritmo constante?",
+      "opciones": [
+        "15",
+        "12",
+        "8"
+      ],
+      "correcta": 0,
+      "explicacion": "Proporción inversa: 6×10 = 60 (obrero-días); 60 ÷ 4 = 15 días."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Cuál es el resultado de (6+4) × 2 − 5?",
+      "opciones": [
+        "15",
+        "25",
+        "10"
+      ],
+      "correcta": 0,
+      "explicacion": "Paréntesis primero: 6+4=10; luego 10×2=20; luego 20−5=15."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Un artículo cuesta $850 y se le aplica un aumento del 12%. ¿Cuál es su nuevo precio?",
+      "opciones": [
+        "$952",
+        "$862",
+        "$900"
+      ],
+      "correcta": 0,
+      "explicacion": "12% de 850 = 102; 850+102 = 952."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Si 3 pintores pintan una casa en 8 días, ¿en cuántos días la pintarían 6 pintores, a ritmo constante?",
+      "opciones": [
+        "4",
+        "6",
+        "2"
+      ],
+      "correcta": 0,
+      "explicacion": "Proporción inversa: 3×8=24 (pintor-días); 24÷6=4 días."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Cuál es el mínimo común múltiplo (MCM) de 6 y 8?",
+      "opciones": [
+        "24",
+        "48",
+        "14"
+      ],
+      "correcta": 0,
+      "explicacion": "Los múltiplos comunes de 6 y 8 incluyen 24, 48...; el menor de ellos es 24."
+    }
   ]
 }

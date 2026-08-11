@@ -5,14 +5,22 @@
     {
       "formato": "Completamiento",
       "base": "El aprendizaje distribuido es una estrategia de estudio que consiste en repartir el repaso de un tema en varias sesiones cortas a lo largo del tiempo, en lugar de concentrarlo en una sola sesión prolongada. ______ numerosos estudios de psicología cognitiva muestran que esta estrategia mejora significativamente la retención a largo plazo en comparación con el estudio concentrado.",
-      "opciones": ["Sin embargo,", "De hecho,", "Aunque"],
+      "opciones": [
+        "Sin embargo,",
+        "De hecho,",
+        "Aunque"
+      ],
       "correcta": 1,
       "explicacion": "La segunda oración refuerza y confirma la idea de la primera (no la contradice), así que corresponde un conector de adición/confirmación como \"de hecho\", no uno de contraste."
     },
     {
       "formato": "Completamiento",
       "base": "La fotosíntesis es el proceso mediante el cual las plantas convierten la energía luminosa en energía química. ______, este proceso libera oxígeno como subproducto, un elemento esencial para la mayoría de las formas de vida en el planeta.",
-      "opciones": ["Además", "No obstante", "Por el contrario"],
+      "opciones": [
+        "Además",
+        "No obstante",
+        "Por el contrario"
+      ],
       "correcta": 0,
       "explicacion": "La segunda oración añade información adicional sobre el mismo proceso, sin contradecir la primera; \"además\" es el conector de adición adecuado, mientras que \"no obstante\" y \"por el contrario\" implican una oposición inexistente."
     },
@@ -28,28 +36,44 @@
         ],
         "derecha": []
       },
-      "opciones": ["2, 3, 4, 1", "1, 2, 3, 4", "3, 2, 4, 1"],
+      "opciones": [
+        "2, 3, 4, 1",
+        "1, 2, 3, 4",
+        "3, 2, 4, 1"
+      ],
       "correcta": 0,
       "explicacion": "El orden lógico es: observación (2) → hipótesis (3) → diseño experimental (4) → análisis de resultados (1). El conector \"finalmente\" en el fragmento 1 confirma que va al final, y \"después\" en el fragmento 4 confirma que va antes del cierre."
     },
     {
       "formato": "Cuestionamiento directo",
       "base": "En el párrafo: «El comité de investigación entregó su informe final el jueves pasado. Este documento incluye recomendaciones sobre el uso de los recursos disponibles.», la palabra subrayada \"Este\" cumple la función de:",
-      "opciones": ["Sustituir, mediante un pronombre, al sustantivo \"informe\" mencionado antes", "Introducir un ejemplo del informe mencionado", "Marcar una relación de contraste con la oración anterior"],
+      "opciones": [
+        "Sustituir, mediante un pronombre, al sustantivo \"informe\" mencionado antes",
+        "Introducir un ejemplo del informe mencionado",
+        "Marcar una relación de contraste con la oración anterior"
+      ],
       "correcta": 0,
       "explicacion": "\"Este\" es un mecanismo de referencia: sustituye a \"informe final\" para evitar repetirlo, y así logra la cohesión entre ambas oraciones."
     },
     {
       "formato": "Cuestionamiento directo",
       "base": "«El ecosistema de un arrecife de coral depende del equilibrio entre múltiples especies. Los peces herbívoros controlan el crecimiento de las algas, mientras que los corales ofrecen refugio y alimento a decenas de organismos marinos. Ayer compré un boleto de avión para visitar la costa. Cuando este equilibrio se rompe, todo el sistema puede colapsar en pocos años.» ¿Cuál oración NO corresponde al tema central del párrafo?",
-      "opciones": ["\"Los peces herbívoros controlan el crecimiento de las algas...\"", "\"Ayer compré un boleto de avión para visitar la costa.\"", "\"Cuando este equilibrio se rompe, todo el sistema puede colapsar en pocos años.\""],
+      "opciones": [
+        "\"Los peces herbívoros controlan el crecimiento de las algas...\"",
+        "\"Ayer compré un boleto de avión para visitar la costa.\"",
+        "\"Cuando este equilibrio se rompe, todo el sistema puede colapsar en pocos años.\""
+      ],
       "correcta": 1,
       "explicacion": "El párrafo trata sobre el equilibrio ecológico de un arrecife de coral; la oración sobre comprar un boleto de avión introduce un tema personal ajeno al hilo argumentativo, rompiendo la unidad temática."
     },
     {
       "formato": "Completamiento",
       "base": "Un resumen académico debe conservar las ideas principales del texto original sin incluir opiniones del autor del resumen. ______, es común que quienes están aprendiendo a resumir mezclen, sin darse cuenta, sus propias valoraciones con las ideas del texto fuente.",
-      "opciones": ["Por ejemplo,", "Sin embargo,", "Es decir,"],
+      "opciones": [
+        "Por ejemplo,",
+        "Sin embargo,",
+        "Es decir,"
+      ],
       "correcta": 1,
       "explicacion": "La segunda oración contrasta con la norma establecida en la primera (lo que \"debe\" hacerse frente a lo que ocurre \"en la práctica\"), por lo que corresponde un conector de contraste como \"sin embargo\"."
     },
@@ -64,7 +88,11 @@
         ],
         "derecha": []
       },
-      "opciones": ["3, 2, 1", "1, 3, 2", "2, 1, 3"],
+      "opciones": [
+        "3, 2, 1",
+        "1, 3, 2",
+        "2, 1, 3"
+      ],
       "correcta": 0,
       "explicacion": "El orden lógico presenta primero el fenómeno general (3), luego un matiz o problema sobre ese fenómeno (2, con \"sin embargo\"), y finalmente el propósito del ensayo (1, con \"por ello\"), que cierra la introducción."
     },
@@ -78,6 +106,47 @@
       ],
       "correcta": 0,
       "explicacion": "En \"Ana, química\" se omite el verbo \"estudió\" porque ya quedó claro por el contexto de la primera parte de la oración — eso es elipsis. Las otras dos opciones no omiten ningún elemento."
+    },
+    {
+      "formato": "Completamiento",
+      "base": "El pensamiento crítico implica evaluar la validez de un argumento antes de aceptarlo. ______, muchas personas tienden a aceptar información sin cuestionar su origen ni sus fundamentos.",
+      "opciones": [
+        "Sin embargo,",
+        "Por ejemplo,",
+        "Es decir,"
+      ],
+      "correcta": 0,
+      "explicacion": "Hay un contraste entre lo que 'debería' hacerse y lo que ocurre en la práctica; corresponde un conector de contraste."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "«El calentamiento global es un fenómeno documentado por múltiples fuentes científicas. Sus causas incluyen la emisión de gases de efecto invernadero. Mi color favorito es el azul. Sus consecuencias abarcan desde el aumento del nivel del mar hasta cambios en los patrones de lluvia.» ¿Cuál oración NO corresponde al tema del párrafo?",
+      "opciones": [
+        "\"Sus causas incluyen la emisión de gases de efecto invernadero.\"",
+        "\"Mi color favorito es el azul.\"",
+        "\"Sus consecuencias abarcan desde el aumento del nivel del mar...\""
+      ],
+      "correcta": 1,
+      "explicacion": "La oración sobre el color favorito es completamente ajena al tema del calentamiento global y rompe la unidad temática del párrafo."
+    },
+    {
+      "formato": "Ordenamiento",
+      "base": "Ordene los fragmentos para formar un párrafo coherente sobre la migración de las aves.",
+      "tabla": {
+        "izquierda": [
+          "1. Este fenómeno, conocido como migración, puede abarcar miles de kilómetros.",
+          "2. Muchas especies de aves recorren largas distancias cada año en busca de climas más favorables.",
+          "3. Los científicos aún estudian cómo estas aves logran orientarse con tanta precisión."
+        ],
+        "derecha": []
+      },
+      "opciones": [
+        "2, 1, 3",
+        "1, 2, 3",
+        "3, 2, 1"
+      ],
+      "correcta": 0,
+      "explicacion": "El orden lógico presenta primero el fenómeno general (2), luego lo nombra y detalla (1), y finalmente introduce una pregunta abierta sobre él (3)."
     }
   ]
 }

@@ -1,20 +1,94 @@
 {
-  "id": "b4", "nombre": "Simulacro parcial · Probabilidad",
+  "id": "b4",
+  "nombre": "Simulacro parcial · Probabilidad",
   "reactivos": [
-    { "formato": "Cuestionamiento directo", "base": "En una urna hay 4 pelotas rojas y 6 azules. ¿Cuál es la probabilidad de sacar una pelota roja?",
-      "opciones": ["0.4", "0.6", "0.24"], "correcta": 0,
-      "explicacion": "P(roja) = 4/(4+6) = 4/10 = 0.4." },
-    { "formato": "Cuestionamiento directo", "base": "Se lanza un dado justo de 6 caras. ¿Cuál es la probabilidad de obtener un número mayor que 4?",
-      "opciones": ["1/3", "1/2", "2/3"], "correcta": 0,
-      "explicacion": "Los números mayores que 4 son 5 y 6 (2 casos favorables) de 6 posibles: 2/6 = 1/3." },
-    { "formato": "Cuestionamiento directo", "base": "La probabilidad de que llueva mañana es 0.3. ¿Cuál es la probabilidad de que NO llueva?",
-      "opciones": ["0.7", "0.3", "1.3"], "correcta": 0,
-      "explicacion": "Evento complementario: P(no llueva) = 1 − 0.3 = 0.7." },
-    { "formato": "Cuestionamiento directo", "base": "Se lanzan dos monedas al mismo tiempo (eventos independientes). ¿Cuál es la probabilidad de que ambas caigan 'águila'?",
-      "opciones": ["1/4", "1/2", "1/8"], "correcta": 0,
-      "explicacion": "P(águila)=1/2 en cada moneda; como son independientes, se multiplican: 1/2 × 1/2 = 1/4." },
-    { "formato": "Cuestionamiento directo", "base": "En una caja hay 10 tarjetas numeradas del 1 al 10. ¿Cuál es la probabilidad de sacar un número par?",
-      "opciones": ["1/2", "2/5", "1/5"], "correcta": 0,
-      "explicacion": "Hay 5 números pares (2,4,6,8,10) de 10 posibles: 5/10 = 1/2." }
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "En una urna hay 4 pelotas rojas y 6 azules. ¿Cuál es la probabilidad de sacar una pelota roja?",
+      "opciones": [
+        "0.4",
+        "0.6",
+        "0.24"
+      ],
+      "correcta": 0,
+      "explicacion": "P(roja) = 4/(4+6) = 4/10 = 0.4."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Se lanza un dado justo de 6 caras. ¿Cuál es la probabilidad de obtener un número mayor que 4?",
+      "opciones": [
+        "1/3",
+        "1/2",
+        "2/3"
+      ],
+      "correcta": 0,
+      "explicacion": "Los números mayores que 4 son 5 y 6 (2 casos favorables) de 6 posibles: 2/6 = 1/3."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "La probabilidad de que llueva mañana es 0.3. ¿Cuál es la probabilidad de que NO llueva?",
+      "opciones": [
+        "0.7",
+        "0.3",
+        "1.3"
+      ],
+      "correcta": 0,
+      "explicacion": "Evento complementario: P(no llueva) = 1 − 0.3 = 0.7."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Se lanzan dos monedas al mismo tiempo (eventos independientes). ¿Cuál es la probabilidad de que ambas caigan 'águila'?",
+      "opciones": [
+        "1/4",
+        "1/2",
+        "1/8"
+      ],
+      "correcta": 0,
+      "explicacion": "P(águila)=1/2 en cada moneda; como son independientes, se multiplican: 1/2 × 1/2 = 1/4."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "En una caja hay 10 tarjetas numeradas del 1 al 10. ¿Cuál es la probabilidad de sacar un número par?",
+      "opciones": [
+        "1/2",
+        "2/5",
+        "1/5"
+      ],
+      "correcta": 0,
+      "explicacion": "Hay 5 números pares (2,4,6,8,10) de 10 posibles: 5/10 = 1/2."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "En una baraja de 52 cartas, ¿cuál es la probabilidad de sacar un as?",
+      "opciones": [
+        "1/13",
+        "1/4",
+        "1/52"
+      ],
+      "correcta": 0,
+      "explicacion": "Hay 4 ases de 52 cartas: 4/52 = 1/13."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "La probabilidad de aprobar un examen es 0.75. ¿Cuál es la probabilidad de no aprobarlo?",
+      "opciones": [
+        "0.25",
+        "0.75",
+        "0.50"
+      ],
+      "correcta": 0,
+      "explicacion": "Evento complementario: 1−0.75=0.25."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Se lanza un dado dos veces (eventos independientes). ¿Cuál es la probabilidad de obtener un 6 en ambos lanzamientos?",
+      "opciones": [
+        "1/36",
+        "1/6",
+        "1/12"
+      ],
+      "correcta": 0,
+      "explicacion": "P(6)=1/6 en cada lanzamiento; al ser independientes: 1/6 × 1/6 = 1/36."
+    }
   ]
 }

@@ -5,14 +5,22 @@
     {
       "formato": "Cuestionamiento directo",
       "base": "Antes de la reforma electoral de 2014, los actuales Organismos Públicos Locales se denominaban:",
-      "opciones": ["Institutos electorales estatales", "Consejos distritales", "Juntas locales ejecutivas"],
+      "opciones": [
+        "Institutos electorales estatales",
+        "Consejos distritales",
+        "Juntas locales ejecutivas"
+      ],
       "correcta": 0,
       "explicacion": "Con la reforma de 2014 se homologó su denominación a Organismos Públicos Locales (OPL), en sustitución de los antiguos institutos electorales estatales."
     },
     {
       "formato": "Completamiento",
       "base": "Los OPL son organismos públicos dotados de personalidad jurídica y patrimonio propios, que gozan de ______ en su funcionamiento e independencia en sus decisiones.",
-      "opciones": ["autonomía", "subordinación jerárquica", "representación sindical"],
+      "opciones": [
+        "autonomía",
+        "subordinación jerárquica",
+        "representación sindical"
+      ],
       "correcta": 0,
       "explicacion": "El art. 41, base V, apartado C, CPEUM reconoce a los OPL autonomía en su funcionamiento e independencia en sus decisiones, dentro de la coordinación del Sistema Electoral Nacional."
     },
@@ -30,14 +38,22 @@
     {
       "formato": "Cuestionamiento directo",
       "base": "El órgano superior de dirección de un OPL, encargado de vigilar el cumplimiento de las disposiciones constitucionales y legales en materia electoral, es:",
-      "opciones": ["El Consejo General del OPL", "La Junta General Ejecutiva del INE", "El Tribunal Electoral local"],
+      "opciones": [
+        "El Consejo General del OPL",
+        "La Junta General Ejecutiva del INE",
+        "El Tribunal Electoral local"
+      ],
       "correcta": 0,
       "explicacion": "El Consejo General es el órgano superior de dirección del propio OPL. La Junta General Ejecutiva es del INE, y el Tribunal Electoral local es un órgano jurisdiccional distinto."
     },
     {
       "formato": "Completamiento",
       "base": "El Consejo General de un OPL se integra por una consejera o consejero Presidente y ______ consejerías electorales, con derecho a voz y voto.",
-      "opciones": ["seis", "diez", "tres"],
+      "opciones": [
+        "seis",
+        "diez",
+        "tres"
+      ],
       "correcta": 0,
       "explicacion": "El Consejo General de un OPL se integra por 7 personas con voz y voto: la presidencia y seis consejerías electorales, todas designadas por el Consejo General del INE."
     },
@@ -45,17 +61,33 @@
       "formato": "Relación de elementos",
       "base": "Relacione el tipo de elección con la autoridad que realiza su cómputo.",
       "tabla": {
-        "izquierda": ["1. Diputación local", "2. Gubernatura", "3. Ayuntamiento"],
-        "derecha": ["a) Consejo General del OPL", "b) Consejo distrital", "c) Consejo municipal o distrital, según la legislación local"]
+        "izquierda": [
+          "1. Diputación local",
+          "2. Gubernatura",
+          "3. Ayuntamiento"
+        ],
+        "derecha": [
+          "a) Consejo General del OPL",
+          "b) Consejo distrital",
+          "c) Consejo municipal o distrital, según la legislación local"
+        ]
       },
-      "opciones": ["1b, 2a, 3c", "1a, 2b, 3c", "1c, 2b, 3a"],
+      "opciones": [
+        "1b, 2a, 3c",
+        "1a, 2b, 3c",
+        "1c, 2b, 3a"
+      ],
       "correcta": 0,
       "explicacion": "El cómputo de diputaciones locales lo hace el consejo distrital correspondiente; el de gubernatura (elección estatal) lo hace el Consejo General del OPL, sumando los cómputos distritales; el de ayuntamientos, el consejo municipal o distrital según la legislación de cada entidad."
     },
     {
       "formato": "Cuestionamiento directo",
       "base": "¿Quién designa a las personas integrantes del Consejo General de un OPL?",
-      "opciones": ["El Consejo General del INE", "El Congreso local de la entidad", "La gubernatura en turno"],
+      "opciones": [
+        "El Consejo General del INE",
+        "El Congreso local de la entidad",
+        "La gubernatura en turno"
+      ],
       "correcta": 0,
       "explicacion": "Desde la reforma de 2014, la designación de las consejerías de los OPL corresponde al Consejo General del INE, no a las autoridades locales."
     },
@@ -73,14 +105,22 @@
     {
       "formato": "Cuestionamiento directo",
       "base": "Las estructuras desconcentradas de un OPL para operar la jornada electoral en el ámbito territorial de la entidad son, típicamente:",
-      "opciones": ["Los consejos distritales y/o municipales", "Las Direcciones Ejecutivas del INE", "Las Salas Regionales del TEPJF"],
+      "opciones": [
+        "Los consejos distritales y/o municipales",
+        "Las Direcciones Ejecutivas del INE",
+        "Las Salas Regionales del TEPJF"
+      ],
       "correcta": 0,
       "explicacion": "Los OPL cuentan con consejos distritales y/o municipales como órganos desconcentrados, análogos a las Juntas y Consejos Distritales del INE."
     },
     {
       "formato": "Cuestionamiento directo",
       "base": "Las impugnaciones contra los resultados de una elección local organizada por un OPL se resuelven, en primera instancia, ante:",
-      "opciones": ["El Tribunal Electoral local", "La Fiscalía Especializada en Delitos Electorales", "El Consejo General del INE"],
+      "opciones": [
+        "El Tribunal Electoral local",
+        "La Fiscalía Especializada en Delitos Electorales",
+        "El Consejo General del INE"
+      ],
       "correcta": 0,
       "explicacion": "Los medios de impugnación en materia electoral local se resuelven, en primera instancia, ante el Tribunal Electoral de la entidad; solo en ciertos casos escalan a Salas Regionales o a la Sala Superior del TEPJF."
     },
@@ -88,26 +128,90 @@
       "formato": "Relación de elementos",
       "base": "Relacione la facultad de coordinación INE-OPL con su definición.",
       "tabla": {
-        "izquierda": ["1. Asunción", "2. Atracción", "3. Delegación"],
-        "derecha": ["a) El INE delega en el OPL una función que originalmente le corresponde a él", "b) El INE asume total o parcialmente una función del OPL, de oficio o a petición", "c) El INE ejerce de forma directa una función específica del OPL, a petición fundada de este"]
+        "izquierda": [
+          "1. Asunción",
+          "2. Atracción",
+          "3. Delegación"
+        ],
+        "derecha": [
+          "a) El INE delega en el OPL una función que originalmente le corresponde a él",
+          "b) El INE asume total o parcialmente una función del OPL, de oficio o a petición",
+          "c) El INE ejerce de forma directa una función específica del OPL, a petición fundada de este"
+        ]
       },
-      "opciones": ["1b, 2c, 3a", "1a, 2b, 3c", "1c, 2a, 3b"],
+      "opciones": [
+        "1b, 2c, 3a",
+        "1a, 2b, 3c",
+        "1c, 2a, 3b"
+      ],
       "correcta": 0,
       "explicacion": "Asunción: el INE toma total o parcialmente una función del OPL (1b). Atracción: el INE ejerce una función específica del OPL a petición de este (2c). Delegación: el INE entrega al OPL una función que originalmente era suya (3a)."
     },
     {
       "formato": "Cuestionamiento directo",
       "base": "¿Cuál es la duración del encargo de una consejería electoral de un OPL?",
-      "opciones": ["7 años", "3 años, sin posibilidad de continuidad", "Indefinida, mientras dure el cargo de quien la designó"],
+      "opciones": [
+        "7 años",
+        "3 años, sin posibilidad de continuidad",
+        "Indefinida, mientras dure el cargo de quien la designó"
+      ],
       "correcta": 0,
       "explicacion": "Las consejerías electorales de los OPL duran en su encargo 7 años, conforme a la LGIPE."
     },
     {
       "formato": "Cuestionamiento directo",
       "base": "El proceso de designación de las consejerías de un OPL inicia formalmente con:",
-      "opciones": ["Una convocatoria pública emitida por el Consejo General del INE", "Una propuesta directa del Congreso local de la entidad", "Un decreto de la persona titular de la gubernatura"],
+      "opciones": [
+        "Una convocatoria pública emitida por el Consejo General del INE",
+        "Una propuesta directa del Congreso local de la entidad",
+        "Un decreto de la persona titular de la gubernatura"
+      ],
       "correcta": 0,
       "explicacion": "El proceso inicia con una convocatoria pública del Consejo General del INE, que fija requisitos de elegibilidad y calendario; el Congreso local y la gubernatura no intervienen en esta designación."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "El cómputo de la elección de un ayuntamiento normalmente corresponde a:",
+      "opciones": [
+        "El consejo municipal o distrital del OPL, según la legislación de la entidad",
+        "El Consejo General del INE",
+        "La Fiscalía Especializada en Delitos Electorales"
+      ],
+      "correcta": 0,
+      "explicacion": "El cómputo de ayuntamientos se realiza en el consejo municipal o distrital del OPL, dependiendo de cómo lo defina cada legislación local."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "La autonomía de un OPL implica que:",
+      "opciones": [
+        "Goza de independencia en sus decisiones, dentro de la coordinación del Sistema Electoral Nacional",
+        "Actúa sin ninguna relación con el INE",
+        "Depende jerárquicamente del gobierno estatal"
+      ],
+      "correcta": 0,
+      "explicacion": "La autonomía del OPL es real, pero se ejerce dentro del marco de coordinación del Sistema Electoral Nacional con el INE, no en aislamiento ni bajo el gobierno estatal."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "El registro de un partido político local corresponde otorgarlo a:",
+      "opciones": [
+        "El OPL de la entidad correspondiente",
+        "El Congreso local",
+        "La Secretaría de Gobernación"
+      ],
+      "correcta": 0,
+      "explicacion": "Los partidos políticos locales se registran ante el OPL de la entidad en la que pretenden participar."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "La facultad de atracción de una función del OPL por parte del INE procede:",
+      "opciones": [
+        "A petición fundada del propio OPL",
+        "De oficio, sin que medie ninguna solicitud",
+        "Únicamente por orden judicial"
+      ],
+      "correcta": 0,
+      "explicacion": "A diferencia de la asunción (que puede ser de oficio), la atracción de una función específica procede a petición fundada del OPL."
     }
   ]
 }

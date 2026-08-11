@@ -20,7 +20,11 @@
       "lecturaTitulo": "Texto 1 · Artículo de opinión",
       "lectura": "El silencio que nos hace falta\n\nVivimos rodeados de pantallas que reclaman nuestra atención cada pocos minutos. Basta con revisar cuántas veces al día desbloqueamos el teléfono para notar un patrón preocupante: hemos perdido la capacidad de estar, simplemente, sin hacer nada. Y sin embargo, cada vez más estudios sugieren que esos momentos de aparente ocio son indispensables para que el cerebro consolide ideas, resuelva problemas de forma creativa y descanse de verdad.\n\nNo se trata de satanizar la tecnología, sino de recuperar un espacio que hemos cedido casi sin darnos cuenta. Es necesario que, como sociedad, empecemos a valorar el aburrimiento productivo tanto como valoramos la productividad misma. Una caminata sin audífonos, una comida sin el teléfono sobre la mesa, diez minutos mirando por la ventana: pequeños gestos que, sumados, podrían devolvernos algo que hemos ido perdiendo poco a poco.\n\nQuienes insisten en que la tecnología no tiene por qué representar un problema tienen, hasta cierto punto, razón. El problema no es el dispositivo, sino el uso que hacemos de él cuando nunca lo soltamos. Por eso resulta urgente que cada persona, y no solo las instituciones, se haga responsable de recuperar esos espacios de silencio.",
       "base": "El tercer párrafo, que reconoce parcialmente la razón de quienes defienden la tecnología antes de matizar esa idea, funciona en el texto como:",
-      "opciones": ["La tesis principal del artículo", "Un contraargumento que el autor reconoce antes de reforzar su propia postura", "Un dato estadístico que respalda la tesis"],
+      "opciones": [
+        "La tesis principal del artículo",
+        "Un contraargumento que el autor reconoce antes de reforzar su propia postura",
+        "Un dato estadístico que respalda la tesis"
+      ],
       "correcta": 1,
       "explicacion": "Es un recurso argumentativo típico: reconocer parcialmente la postura opuesta (\"tienen, hasta cierto punto, razón\") para luego matizarla y reforzar la propia tesis, sin que eso signifique abandonar su argumento central."
     },
@@ -55,7 +59,11 @@
       "lecturaTitulo": "Texto 2 · Aviso comunitario",
       "lectura": "AVISO A LOS RESIDENTES\n\nSe informa a todos los habitantes del conjunto habitacional que, a partir del próximo lunes, entrará en vigor el nuevo sistema de separación de residuos. Se solicita depositar los desechos orgánicos en los contenedores verdes, y los residuos reciclables (papel, cartón, plástico y vidrio) en los contenedores azules, ubicados en el área común de cada sección.\n\nEs importante destacar que el incumplimiento reiterado de esta disposición podrá derivar en un llamado de atención por parte de la administración, conforme a lo establecido en el reglamento interno. Se agradece de antemano la colaboración de todos los residentes, ya que esta medida busca reducir el volumen de basura enviado a relleno sanitario y fomentar una cultura de reciclaje dentro del conjunto.\n\nCualquier duda sobre el nuevo sistema podrá canalizarse a la oficina de administración en un horario de 9:00 a 15:00 horas, de lunes a viernes.",
       "base": "Según el texto, ¿dónde deben depositarse los residuos reciclables como papel y cartón?",
-      "opciones": ["En los contenedores verdes", "En los contenedores azules", "El texto no lo especifica"],
+      "opciones": [
+        "En los contenedores verdes",
+        "En los contenedores azules",
+        "El texto no lo especifica"
+      ],
       "correcta": 1,
       "explicacion": "Es un dato explícito: el texto indica que \"los residuos reciclables (papel, cartón, plástico y vidrio)\" van en los contenedores azules; los orgánicos van en los verdes."
     },
@@ -64,9 +72,39 @@
       "lecturaTitulo": "Texto 2 · Aviso comunitario",
       "lectura": "AVISO A LOS RESIDENTES\n\nSe informa a todos los habitantes del conjunto habitacional que, a partir del próximo lunes, entrará en vigor el nuevo sistema de separación de residuos. Se solicita depositar los desechos orgánicos en los contenedores verdes, y los residuos reciclables (papel, cartón, plástico y vidrio) en los contenedores azules, ubicados en el área común de cada sección.\n\nEs importante destacar que el incumplimiento reiterado de esta disposición podrá derivar en un llamado de atención por parte de la administración, conforme a lo establecido en el reglamento interno. Se agradece de antemano la colaboración de todos los residentes, ya que esta medida busca reducir el volumen de basura enviado a relleno sanitario y fomentar una cultura de reciclaje dentro del conjunto.\n\nCualquier duda sobre el nuevo sistema podrá canalizarse a la oficina de administración en un horario de 9:00 a 15:00 horas, de lunes a viernes.",
       "base": "El registro (nivel de formalidad) que predomina en este aviso es:",
-      "opciones": ["Coloquial y cercano, como el de una conversación entre amigos", "Formal e impersonal, propio de una comunicación institucional", "Literario, con abundantes recursos estilísticos"],
+      "opciones": [
+        "Coloquial y cercano, como el de una conversación entre amigos",
+        "Formal e impersonal, propio de una comunicación institucional",
+        "Literario, con abundantes recursos estilísticos"
+      ],
       "correcta": 1,
       "explicacion": "Expresiones como \"se informa\", \"se solicita\", \"conforme a lo establecido en el reglamento interno\" son marcas de un registro formal e impersonal, típico de la comunicación institucional, no coloquial ni literario."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 3 · Carta formal",
+      "lectura": "Estimado director:\n\nPor medio de la presente, me dirijo a usted para solicitar autorización de uso del auditorio escolar el próximo 20 de este mes, con motivo de la presentación final del taller de teatro. El evento tendría una duración aproximada de dos horas, en el horario que la dirección considere más conveniente.\n\nAgradezco de antemano su atención y quedo en espera de su respuesta.",
+      "base": "¿Cuál es el propósito comunicativo de esta carta?",
+      "opciones": [
+        "Informar de un cambio de horario ya autorizado",
+        "Solicitar formalmente el uso de un espacio para un evento escolar",
+        "Quejarse del mal uso previo del auditorio"
+      ],
+      "correcta": 1,
+      "explicacion": "La carta es una solicitud formal (\"me dirijo a usted para solicitar autorización...\"), no una queja ni un aviso de un hecho ya resuelto."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 3 · Carta formal",
+      "lectura": "Estimado director:\n\nPor medio de la presente, me dirijo a usted para solicitar autorización de uso del auditorio escolar el próximo 20 de este mes, con motivo de la presentación final del taller de teatro. El evento tendría una duración aproximada de dos horas, en el horario que la dirección considere más conveniente.\n\nAgradezco de antemano su atención y quedo en espera de su respuesta.",
+      "base": "El registro empleado en esta carta es:",
+      "opciones": [
+        "Formal",
+        "Coloquial",
+        "Literario"
+      ],
+      "correcta": 0,
+      "explicacion": "Expresiones como \"por medio de la presente\" y \"quedo en espera de su respuesta\" son propias de un registro formal."
     }
   ]
 }

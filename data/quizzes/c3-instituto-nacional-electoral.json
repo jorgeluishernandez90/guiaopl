@@ -16,14 +16,22 @@
     {
       "formato": "Completamiento",
       "base": "El máximo órgano de dirección del INE, integrado por consejeras y consejeros electorales, así como por representaciones de partidos políticos y del Poder Legislativo, es el ______.",
-      "opciones": ["Consejo General", "Servicio Profesional Electoral Nacional", "Tribunal Electoral"],
+      "opciones": [
+        "Consejo General",
+        "Servicio Profesional Electoral Nacional",
+        "Tribunal Electoral"
+      ],
       "correcta": 0,
       "explicacion": "El Consejo General es el máximo órgano de dirección del INE. El SPEN no es un órgano de dirección sino un sistema de profesionalización, y el Tribunal Electoral es un órgano jurisdiccional distinto del INE."
     },
     {
       "formato": "Cuestionamiento directo",
       "base": "¿Cuál es el órgano ejecutivo central del INE, presidido por quien ocupa la Presidencia del Consejo General?",
-      "opciones": ["La Junta General Ejecutiva", "El Consejo Local", "La Dirección Ejecutiva de Organización Electoral"],
+      "opciones": [
+        "La Junta General Ejecutiva",
+        "El Consejo Local",
+        "La Dirección Ejecutiva de Organización Electoral"
+      ],
       "correcta": 0,
       "explicacion": "La Junta General Ejecutiva es el órgano ejecutivo central del Instituto. Los Consejos Locales son órganos desconcentrados, y las Direcciones Ejecutivas son áreas técnicas, no el órgano ejecutivo central en su conjunto."
     },
@@ -31,26 +39,90 @@
       "formato": "Relación de elementos",
       "base": "Relacione el órgano del INE con su tipo (central o desconcentrado).",
       "tabla": {
-        "izquierda": ["1. Consejo General", "2. Junta Distrital", "3. Junta Local"],
-        "derecha": ["a) Desconcentrado, ámbito estatal", "b) Central", "c) Desconcentrado, ámbito distrital"]
+        "izquierda": [
+          "1. Consejo General",
+          "2. Junta Distrital",
+          "3. Junta Local"
+        ],
+        "derecha": [
+          "a) Desconcentrado, ámbito estatal",
+          "b) Central",
+          "c) Desconcentrado, ámbito distrital"
+        ]
       },
-      "opciones": ["1b, 2c, 3a", "1a, 2b, 3c", "1c, 2a, 3b"],
+      "opciones": [
+        "1b, 2c, 3a",
+        "1a, 2b, 3c",
+        "1c, 2a, 3b"
+      ],
       "correcta": 0,
       "explicacion": "El Consejo General es un órgano central; la Junta Distrital opera en el ámbito de cada uno de los 300 distritos; la Junta Local opera en el ámbito de cada una de las 32 entidades federativas."
     },
     {
       "formato": "Cuestionamiento directo",
       "base": "Una persona nombrada Titular de Órgano Desconcentrado conserva, para efectos legales, la personalidad jurídica de:",
-      "opciones": ["Un organismo distinto e independiente del INE", "El propio INE, del cual el órgano desconcentrado forma parte", "El OPL de la entidad donde presta sus servicios"],
+      "opciones": [
+        "Un organismo distinto e independiente del INE",
+        "El propio INE, del cual el órgano desconcentrado forma parte",
+        "El OPL de la entidad donde presta sus servicios"
+      ],
       "correcta": 1,
       "explicacion": "A diferencia de un organismo descentralizado, un órgano desconcentrado no tiene personalidad jurídica propia: forma parte de la estructura del INE y actúa con autonomía técnica y de gestión dentro de esa misma personalidad jurídica."
     },
     {
       "formato": "Cuestionamiento directo",
       "base": "El sistema que regula el ingreso, la formación, la evaluación del desempeño y la permanencia del personal de las áreas ejecutivas y técnicas del INE y de los OPL es:",
-      "opciones": ["El Servicio Profesional Electoral Nacional", "La Junta General Ejecutiva", "El Consejo General"],
+      "opciones": [
+        "El Servicio Profesional Electoral Nacional",
+        "La Junta General Ejecutiva",
+        "El Consejo General"
+      ],
       "correcta": 0,
       "explicacion": "El SPEN es precisamente el sistema de profesionalización al que ingresarás mediante este concurso público, regulado por su Estatuto."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "La Junta General Ejecutiva del INE es presidida por:",
+      "opciones": [
+        "La persona titular de la Presidencia del Consejo General",
+        "La Secretaría Ejecutiva de cada Junta Local",
+        "La consejería de mayor antigüedad"
+      ],
+      "correcta": 0,
+      "explicacion": "Conforme a la LGIPE, la Presidencia del Consejo General preside también la Junta General Ejecutiva."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Los órganos desconcentrados del INE operan en los ámbitos:",
+      "opciones": [
+        "Estatal y distrital",
+        "Municipal y estatal únicamente",
+        "Nacional exclusivamente"
+      ],
+      "correcta": 0,
+      "explicacion": "Las Juntas y Consejos del INE se desconcentran en el ámbito estatal (Locales) y distrital (Distritales)."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "El SPEN regula, entre otros aspectos:",
+      "opciones": [
+        "El ingreso, la formación y la evaluación del desempeño del personal ejecutivo y técnico",
+        "Únicamente el pago de sueldos del personal sindicalizado",
+        "La designación de las gubernaturas estatales"
+      ],
+      "correcta": 0,
+      "explicacion": "El SPEN profesionaliza el ingreso, formación, promoción y evaluación del personal de las áreas ejecutivas y técnicas del INE y los OPL."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "A diferencia de un organismo descentralizado, un órgano desconcentrado del INE:",
+      "opciones": [
+        "No tiene personalidad jurídica propia, distinta de la del INE",
+        "Tiene presupuesto totalmente independiente del INE",
+        "No está sujeto a ninguna supervisión central"
+      ],
+      "correcta": 0,
+      "explicacion": "El órgano desconcentrado conserva la personalidad jurídica del INE, aunque opera con autonomía técnica y de gestión."
     }
   ]
 }

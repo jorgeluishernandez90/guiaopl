@@ -1,20 +1,105 @@
 {
-  "id": "b1", "nombre": "Simulacro parcial · Teoría de conjuntos",
+  "id": "b1",
+  "nombre": "Simulacro parcial · Teoría de conjuntos",
   "reactivos": [
-    { "formato": "Cuestionamiento directo", "base": "Si A = {1, 3, 5, 7} y B = {3, 7, 9}, ¿cuál es A ∩ B?",
-      "opciones": ["{3, 7}", "{1, 3, 5, 7, 9}", "{1, 5, 9}"], "correcta": 0,
-      "explicacion": "La intersección solo incluye los elementos presentes en ambos conjuntos: 3 y 7 aparecen en A y en B." },
-    { "formato": "Cuestionamiento directo", "base": "Si A = {2, 4, 6} y B = {1, 2, 3, 4, 5, 6, 7}, ¿qué relación existe entre A y B?",
-      "opciones": ["A ⊆ B (A es subconjunto de B)", "B ⊆ A (B es subconjunto de A)", "A y B no tienen ninguna relación"], "correcta": 0,
-      "explicacion": "Todos los elementos de A (2, 4, 6) están también en B, por lo que A es subconjunto de B." },
-    { "formato": "Cuestionamiento directo", "base": "Si A = {10, 20, 30, 40} y B = {20, 40}, ¿cuál es A − B?",
-      "opciones": ["{10, 30}", "{20, 40}", "{10, 20, 30, 40}"], "correcta": 0,
-      "explicacion": "A − B conserva los elementos de A que no están en B; se eliminan 20 y 40, quedando {10, 30}." },
-    { "formato": "Completamiento", "base": "Si el conjunto universo es U = {1,2,3,4,5,6,7,8,9,10} y A = {2,4,6,8,10}, el complemento A' es ______.",
-      "opciones": ["{1, 3, 5, 7, 9}", "{2, 4, 6, 8, 10}", "El conjunto vacío"], "correcta": 0,
-      "explicacion": "El complemento incluye todos los elementos del universo que NO están en A; son los números impares del 1 al 10." },
-    { "formato": "Cuestionamiento directo", "base": "En un grupo de 30 personas, 18 hablan inglés, 12 hablan francés y 5 hablan ambos idiomas. ¿Cuántas personas hablan al menos uno de los dos idiomas?",
-      "opciones": ["25", "30", "35"], "correcta": 0,
-      "explicacion": "Unión: |A∪B| = |A| + |B| − |A∩B| = 18 + 12 − 5 = 25. Se resta la intersección porque, de lo contrario, esas 5 personas se contarían dos veces." }
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Si A = {1, 3, 5, 7} y B = {3, 7, 9}, ¿cuál es A ∩ B?",
+      "opciones": [
+        "{3, 7}",
+        "{1, 3, 5, 7, 9}",
+        "{1, 5, 9}"
+      ],
+      "correcta": 0,
+      "explicacion": "La intersección solo incluye los elementos presentes en ambos conjuntos: 3 y 7 aparecen en A y en B."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Si A = {2, 4, 6} y B = {1, 2, 3, 4, 5, 6, 7}, ¿qué relación existe entre A y B?",
+      "opciones": [
+        "A ⊆ B (A es subconjunto de B)",
+        "B ⊆ A (B es subconjunto de A)",
+        "A y B no tienen ninguna relación"
+      ],
+      "correcta": 0,
+      "explicacion": "Todos los elementos de A (2, 4, 6) están también en B, por lo que A es subconjunto de B."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Si A = {10, 20, 30, 40} y B = {20, 40}, ¿cuál es A − B?",
+      "opciones": [
+        "{10, 30}",
+        "{20, 40}",
+        "{10, 20, 30, 40}"
+      ],
+      "correcta": 0,
+      "explicacion": "A − B conserva los elementos de A que no están en B; se eliminan 20 y 40, quedando {10, 30}."
+    },
+    {
+      "formato": "Completamiento",
+      "base": "Si el conjunto universo es U = {1,2,3,4,5,6,7,8,9,10} y A = {2,4,6,8,10}, el complemento A' es ______.",
+      "opciones": [
+        "{1, 3, 5, 7, 9}",
+        "{2, 4, 6, 8, 10}",
+        "El conjunto vacío"
+      ],
+      "correcta": 0,
+      "explicacion": "El complemento incluye todos los elementos del universo que NO están en A; son los números impares del 1 al 10."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "En un grupo de 30 personas, 18 hablan inglés, 12 hablan francés y 5 hablan ambos idiomas. ¿Cuántas personas hablan al menos uno de los dos idiomas?",
+      "opciones": [
+        "25",
+        "30",
+        "35"
+      ],
+      "correcta": 0,
+      "explicacion": "Unión: |A∪B| = |A| + |B| − |A∩B| = 18 + 12 − 5 = 25. Se resta la intersección porque, de lo contrario, esas 5 personas se contarían dos veces."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Si A = {5, 10, 15, 20} y B = {10, 20, 30}, ¿cuál es A ∪ B?",
+      "opciones": [
+        "{5, 10, 15, 20, 30}",
+        "{10, 20}",
+        "{5, 15, 30}"
+      ],
+      "correcta": 0,
+      "explicacion": "La unión reúne todos los elementos de ambos conjuntos sin repetir los comunes (10 y 20)."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Si U = {1,2,3,4,5,6} y A = {1,2,3}, ¿cuál es el complemento A'?",
+      "opciones": [
+        "{4, 5, 6}",
+        "{1, 2, 3}",
+        "El conjunto vacío"
+      ],
+      "correcta": 0,
+      "explicacion": "El complemento incluye los elementos del universo que no pertenecen a A."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "En una encuesta, 40 personas practican natación, 25 practican ciclismo y 10 practican ambos deportes. ¿Cuántas personas practican al menos uno de los dos?",
+      "opciones": [
+        "55",
+        "65",
+        "50"
+      ],
+      "correcta": 0,
+      "explicacion": "|A∪B| = 40+25−10 = 55."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Si B = {2, 4, 6} y A = {1, 2, 3, 4, 5, 6}, ¿qué relación existe entre B y A?",
+      "opciones": [
+        "B es subconjunto de A",
+        "A es subconjunto de B",
+        "No existe ninguna relación"
+      ],
+      "correcta": 0,
+      "explicacion": "Todos los elementos de B están contenidos en A."
+    }
   ]
 }

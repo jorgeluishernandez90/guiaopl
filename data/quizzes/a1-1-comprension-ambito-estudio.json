@@ -20,7 +20,11 @@
       "lecturaTitulo": "Texto 1",
       "lectura": "La domesticación del maíz\n\nHace unos nueve mil años, en el valle del río Balsas, al suroeste de lo que hoy es México, comunidades humanas comenzaron a seleccionar semillas de una gramínea silvestre llamada teocintle. Esta planta tenía muy poco parecido con el maíz actual: sus mazorcas medían apenas unos centímetros y contenían no más de una docena de granos, cada uno protegido por una cubierta dura casi imposible de masticar.\n\nEl proceso de domesticación no fue un solo hallazgo afortunado, sino miles de decisiones repetidas durante generaciones. Cada comunidad conservaba las semillas de las plantas con mazorcas más grandes, granos más blandos o mayor resistencia a las plagas, y las sembraba de nuevo al año siguiente. Esta selección artificial, sostenida durante milenios, transformó gradualmente al teocintle en un cultivo con mazorcas mucho más grandes y granos comestibles sin necesidad de un procesamiento extremo.\n\nLo notable de este proceso es que ocurrió sin que nadie comprendiera los mecanismos genéticos involucrados. Quienes domesticaron el maíz no conocían el concepto de gen ni de herencia en el sentido biológico moderno; actuaban guiados por la observación práctica de qué plantas convenía volver a sembrar. En consecuencia, la domesticación del maíz es, ante todo, un testimonio de conocimiento empírico acumulado, transmitido de una generación a otra mucho antes de que existiera la genética como disciplina científica.",
       "base": "Según el primer párrafo, ¿cuántos granos contenían, como máximo, las mazorcas del teocintle silvestre?",
-      "opciones": ["Alrededor de una docena", "Varios cientos", "El texto no lo menciona"],
+      "opciones": [
+        "Alrededor de una docena",
+        "Varios cientos",
+        "El texto no lo menciona"
+      ],
       "correcta": 0,
       "explicacion": "Es un dato explícito: el texto dice literalmente que las mazorcas \"contenían no más de una docena de granos\"."
     },
@@ -42,7 +46,11 @@
       "lecturaTitulo": "Texto 1",
       "lectura": "La domesticación del maíz\n\nHace unos nueve mil años, en el valle del río Balsas, al suroeste de lo que hoy es México, comunidades humanas comenzaron a seleccionar semillas de una gramínea silvestre llamada teocintle. Esta planta tenía muy poco parecido con el maíz actual: sus mazorcas medían apenas unos centímetros y contenían no más de una docena de granos, cada uno protegido por una cubierta dura casi imposible de masticar.\n\nEl proceso de domesticación no fue un solo hallazgo afortunado, sino miles de decisiones repetidas durante generaciones. Cada comunidad conservaba las semillas de las plantas con mazorcas más grandes, granos más blandos o mayor resistencia a las plagas, y las sembraba de nuevo al año siguiente. Esta selección artificial, sostenida durante milenios, transformó gradualmente al teocintle en un cultivo con mazorcas mucho más grandes y granos comestibles sin necesidad de un procesamiento extremo.\n\nLo notable de este proceso es que ocurrió sin que nadie comprendiera los mecanismos genéticos involucrados. Quienes domesticaron el maíz no conocían el concepto de gen ni de herencia en el sentido biológico moderno; actuaban guiados por la observación práctica de qué plantas convenía volver a sembrar. En consecuencia, la domesticación del maíz es, ante todo, un testimonio de conocimiento empírico acumulado, transmitido de una generación a otra mucho antes de que existiera la genética como disciplina científica.",
       "base": "En el segundo párrafo, la palabra \"gradualmente\" tiene, en el contexto del texto, un significado más cercano a:",
-      "opciones": ["De manera súbita e inesperada", "De manera progresiva y lenta", "De manera aleatoria y sin ningún criterio"],
+      "opciones": [
+        "De manera súbita e inesperada",
+        "De manera progresiva y lenta",
+        "De manera aleatoria y sin ningún criterio"
+      ],
       "correcta": 1,
       "explicacion": "El párrafo describe un proceso sostenido \"durante milenios\" mediante decisiones repetidas cada año; \"gradualmente\" refuerza esa idea de progresión lenta, no de algo súbito ni azaroso."
     },
@@ -71,6 +79,45 @@
       ],
       "correcta": 1,
       "explicacion": "El texto tiene una estructura explicativa clásica: define un concepto, describe su funcionamiento y cierra señalando su relevancia más amplia. No busca persuadir ni narrar una experiencia personal."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 3",
+      "lectura": "La memoria a corto plazo\n\nLa memoria a corto plazo es la capacidad del cerebro para retener una cantidad limitada de información durante un periodo breve, generalmente entre quince y treinta segundos. A diferencia de la memoria a largo plazo, no requiere de un almacenamiento permanente ni de una consolidación estructural profunda.\n\nInvestigaciones clásicas de psicología cognitiva sugieren que esta memoria puede retener, en promedio, entre cinco y nueve elementos simultáneamente, un rango conocido popularmente como el 'número mágico'. Sin embargo, esta capacidad puede ampliarse mediante una técnica llamada agrupamiento, que consiste en organizar la información en bloques con sentido, en lugar de elementos aislados.",
+      "base": "¿Cuál es la idea principal del segundo párrafo?",
+      "opciones": [
+        "La memoria a corto plazo tiene una capacidad limitada, aunque puede ampliarse mediante el agrupamiento de información",
+        "La memoria a corto plazo es idéntica en capacidad a la memoria a largo plazo",
+        "El agrupamiento de información reduce la capacidad de retención del cerebro"
+      ],
+      "correcta": 0,
+      "explicacion": "El párrafo explica el límite de elementos retenibles y, a la vez, una técnica (agrupamiento) que amplía esa capacidad; las otras opciones contradicen el texto."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 3",
+      "lectura": "La memoria a corto plazo\n\nLa memoria a corto plazo es la capacidad del cerebro para retener una cantidad limitada de información durante un periodo breve, generalmente entre quince y treinta segundos. A diferencia de la memoria a largo plazo, no requiere de un almacenamiento permanente ni de una consolidación estructural profunda.\n\nInvestigaciones clásicas de psicología cognitiva sugieren que esta memoria puede retener, en promedio, entre cinco y nueve elementos simultáneamente, un rango conocido popularmente como el 'número mágico'. Sin embargo, esta capacidad puede ampliarse mediante una técnica llamada agrupamiento, que consiste en organizar la información en bloques con sentido, en lugar de elementos aislados.",
+      "base": "Según el texto, ¿cuánto tiempo retiene información, generalmente, la memoria a corto plazo?",
+      "opciones": [
+        "Entre quince y treinta segundos",
+        "Entre cinco y nueve minutos",
+        "De forma permanente"
+      ],
+      "correcta": 0,
+      "explicacion": "Es un dato explícito del primer párrafo."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "lecturaTitulo": "Texto 3",
+      "lectura": "La memoria a corto plazo\n\nLa memoria a corto plazo es la capacidad del cerebro para retener una cantidad limitada de información durante un periodo breve, generalmente entre quince y treinta segundos. A diferencia de la memoria a largo plazo, no requiere de un almacenamiento permanente ni de una consolidación estructural profunda.\n\nInvestigaciones clásicas de psicología cognitiva sugieren que esta memoria puede retener, en promedio, entre cinco y nueve elementos simultáneamente, un rango conocido popularmente como el 'número mágico'. Sin embargo, esta capacidad puede ampliarse mediante una técnica llamada agrupamiento, que consiste en organizar la información en bloques con sentido, en lugar de elementos aislados.",
+      "base": "En el texto, la palabra \"consolidación\" se refiere más cercanamente a:",
+      "opciones": [
+        "El proceso de fijar información de manera duradera en la memoria",
+        "La eliminación de información innecesaria del cerebro",
+        "La medición exacta del número de elementos retenidos"
+      ],
+      "correcta": 0,
+      "explicacion": "El texto contrasta la memoria a corto plazo (sin consolidación estructural profunda) con la de largo plazo, que sí implica fijar la información de forma duradera."
     }
   ]
 }

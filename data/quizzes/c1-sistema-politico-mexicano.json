@@ -50,8 +50,16 @@
       "formato": "Relación de elementos",
       "base": "Relacione el derecho político-electoral con su descripción.",
       "tabla": {
-        "izquierda": ["1. Votar", "2. Ser votado", "3. Asociación política"],
-        "derecha": ["a) Afiliarse libre e individualmente a un partido", "b) Elegir a las personas que ocuparán cargos de elección popular", "c) Ser postulado a un cargo de elección popular cumpliendo los requisitos de ley"]
+        "izquierda": [
+          "1. Votar",
+          "2. Ser votado",
+          "3. Asociación política"
+        ],
+        "derecha": [
+          "a) Afiliarse libre e individualmente a un partido",
+          "b) Elegir a las personas que ocuparán cargos de elección popular",
+          "c) Ser postulado a un cargo de elección popular cumpliendo los requisitos de ley"
+        ]
       },
       "opciones": [
         "1b, 2c, 3a",
@@ -87,19 +95,79 @@
       "formato": "Relación de elementos",
       "base": "Relacione el tipo de democracia con su descripción.",
       "tabla": {
-        "izquierda": ["1. Representativa", "2. Directa", "3. Participativa"],
-        "derecha": ["a) Mecanismos de intervención ciudadana continua entre elecciones", "b) La ciudadanía elige representantes que deciden en su nombre", "c) La ciudadanía decide de manera inmediata sobre un asunto concreto"]
+        "izquierda": [
+          "1. Representativa",
+          "2. Directa",
+          "3. Participativa"
+        ],
+        "derecha": [
+          "a) Mecanismos de intervención ciudadana continua entre elecciones",
+          "b) La ciudadanía elige representantes que deciden en su nombre",
+          "c) La ciudadanía decide de manera inmediata sobre un asunto concreto"
+        ]
       },
-      "opciones": ["1b, 2c, 3a", "1a, 2b, 3c", "1c, 2a, 3b"],
+      "opciones": [
+        "1b, 2c, 3a",
+        "1a, 2b, 3c",
+        "1c, 2a, 3b"
+      ],
       "correcta": 0,
       "explicacion": "México es, en diseño constitucional, una democracia representativa (1b) que incorpora mecanismos de democracia directa como la consulta popular (2c); la democracia participativa (3a) abre espacios de intervención ciudadana continua."
     },
     {
       "formato": "Cuestionamiento directo",
       "base": "¿Qué autoridad tiene a su cargo la organización de la consulta popular y de la revocación de mandato en el ámbito federal?",
-      "opciones": ["El Instituto Nacional Electoral", "La Suprema Corte de Justicia de la Nación", "El Instituto Nacional de Estadística y Geografía"],
+      "opciones": [
+        "El Instituto Nacional Electoral",
+        "La Suprema Corte de Justicia de la Nación",
+        "El Instituto Nacional de Estadística y Geografía"
+      ],
       "correcta": 0,
       "explicacion": "El INE, como autoridad electoral nacional, organiza ambos mecanismos de democracia directa, conforme a la Ley Federal de Consulta Popular y la Ley Federal de Revocación de Mandato."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "Según el artículo 34 constitucional, ¿cuáles son los requisitos para ser ciudadano mexicano?",
+      "opciones": [
+        "Ser mexicano, mayor de 18 años y tener un modo honesto de vivir",
+        "Tener estudios superiores concluidos",
+        "Pertenecer a un partido político registrado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 34 exige nacionalidad mexicana, mayoría de edad (18 años) y modo honesto de vivir; no exige estudios ni militancia partidista."
+    },
+    {
+      "formato": "Completamiento",
+      "base": "El artículo 40 constitucional define a México como una república representativa, democrática, laica y ______.",
+      "opciones": [
+        "federal",
+        "unitaria",
+        "confederada"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 40 CPEUM establece expresamente el carácter federal de la república mexicana."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "¿Qué caracteriza a una coalición electoral?",
+      "opciones": [
+        "Es una alianza temporal entre partidos para postular candidaturas comunes en un proceso electoral",
+        "Es la fusión permanente de dos o más partidos en uno solo",
+        "Solo puede formarse entre partidos de registro local"
+      ],
+      "correcta": 0,
+      "explicacion": "Una coalición es temporal y se limita a un proceso electoral; no fusiona permanentemente a los partidos ni se restringe al ámbito local."
+    },
+    {
+      "formato": "Cuestionamiento directo",
+      "base": "La revocación de mandato, en el ámbito federal, permite a la ciudadanía decidir sobre:",
+      "opciones": [
+        "Si la persona titular del Poder Ejecutivo Federal concluye o no su encargo antes del término para el que fue electa",
+        "La destitución automática de cualquier funcionario público electo",
+        "La duración del periodo legislativo en curso"
+      ],
+      "correcta": 0,
+      "explicacion": "La revocación de mandato, regulada por su ley federal, aplica específicamente a la Presidencia de la República, no a cualquier cargo."
     }
   ]
 }
