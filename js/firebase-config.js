@@ -6,12 +6,12 @@
 //   2. Firestore Database (modo producción, con las reglas de abajo)
 
 const firebaseConfig = {
-  apiKey: "TU_API_KEY",
-  authDomain: "tu-proyecto.firebaseapp.com",
-  projectId: "tu-proyecto",
-  storageBucket: "tu-proyecto.appspot.com",
-  messagingSenderId: "000000000000",
-  appId: "1:000000000000:web:xxxxxxxxxxxxxxxxxxxxxx"
+  apiKey: "AIzaSyC9_6ed1Ry1fZ-eJVEhgG1eMdQwOyoxn9A",
+  authDomain: "guiaopl26.firebaseapp.com",
+  projectId: "guiaopl26",
+  storageBucket: "guiaopl26.firebasestorage.app",
+  messagingSenderId: "644606811349",
+  appId: "1:644606811349:web:19c975b20e94fc375d165c
 };
 
 /*
