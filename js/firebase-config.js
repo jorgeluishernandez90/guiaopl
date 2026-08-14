@@ -11,7 +11,7 @@ const firebaseConfig = {
   projectId: "guiaopl26",
   storageBucket: "guiaopl26.firebasestorage.app",
   messagingSenderId: "644606811349",
-  appId: "1:644606811349:web:19c975b20e94fc375d165c
+  appId: "1:644606811349:web:19c975b20e94fc375d165c"
 };
 
 /*
