@@ -170,7 +170,7 @@ function renderHome() {
   $app.innerHTML = `
     <section class="hero diamond-field">
       <div class="eyebrow">Concurso Público 2026 · Ingreso OPLE</div>
-      <h1>Guía de estudio para Titular de Órgano Desconcentrado</h1>
+      <h1>Guía de estudio SPEN · OPLE</h1>
       <p>Repasa los tres módulos del Examen de Conocimientos del SPEN y practica con reactivos en el mismo formato del examen real: cuestionamiento directo, completamiento, ordenamiento y relación de elementos.</p>
       <div class="stat-row">
         <div class="stat"><b>${state.modules.exam.totalReactivos}</b><span>Reactivos totales</span></div>
